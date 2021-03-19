@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🙏 Node",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/back",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "start:dev"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "😈 Jest",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/back",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "test"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
