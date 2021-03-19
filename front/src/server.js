@@ -47,6 +47,8 @@ export function makeServer({ environment = "test" } = {}) {
             server.create("highscore", "withUser", { score: 5, generations: [1, 2] })
             // @ts-ignore
             server.create("pokemon", { number: 25, generations: 1, name: { fr: "Pikachu", en: "Pikachu" } })
+            // @ts-ignore
+            server.create("pokemon", { number: 26, generations: 1, name: { fr: "Pikachu2", en: "Pikachu2" } })
         },
         routes() {
             this.namespace = "api"
@@ -55,15 +57,29 @@ export function makeServer({ environment = "test" } = {}) {
             this.get("/users/:id")
             this.post("/users")
             this.delete("/users/:id")
-            //TODO
             this.post("/users/login", schema => {
                 // @ts-ignore
-                return schema.users.all()
+                return {
+                    "data": {
+                        "type": "users",
+                        "id": "1",
+                        "attributes": {
+                            token: "mytoken"
+                        }
+                    }
+                }
             })
-            //TODO
             this.post("/users/register", schema => {
                 // @ts-ignore
-                return schema.users.all()
+                return {
+                    "data": {
+                        "type": "users",
+                        "id": "1",
+                        "attributes": {
+                            token: "mytoken"
+                        }
+                    }
+                }
             })
 
             this.get("/highscores")
@@ -72,10 +88,9 @@ export function makeServer({ environment = "test" } = {}) {
             this.delete("/highscores/:id")
 
             this.get("/pokemons")
-            //TODO
             this.get("/pokemons/random", schema => {
                 // @ts-ignore
-                return schema.users.all()
+                return schema.pokemons.findBy({})
             })
             this.get("/pokemons/:id")
             this.post("/pokemons")

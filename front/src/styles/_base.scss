@@ -1,0 +1,26 @@
+html {
+  background-color: #eeeef1;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(#7d1827 5%, red 48%, black 48%, black 51%, white 51%, #cadbd1 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  body {
+    max-width: 100vw;
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    a:focus {
+      text-decoration: none;
+      user-select: none;
+      outline: none;
+    }
+    textarea {
+      resize: vertical;
+    }
+  }
+}

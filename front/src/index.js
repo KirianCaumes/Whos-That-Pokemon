@@ -21,7 +21,10 @@ const client = new ApiClient({
                 },
                 password: {
                     type: "string"
-                }
+                },
+                token: {
+                    type: "string"
+                },
             },
             relationships: {
                 highscores: {
@@ -53,7 +56,7 @@ const client = new ApiClient({
                     type: "number"
                 },
                 name: {
-                    type: "object" // TODO object
+                    type: "object"
                 },
                 generation: {
                     type: "number"
