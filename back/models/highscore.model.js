@@ -12,7 +12,7 @@ const HighScoreSchema = new Schema(
             required: true,
         },
         generations: {
-            type: Number,
+            type: [Number],
             required: true,
         },
     },

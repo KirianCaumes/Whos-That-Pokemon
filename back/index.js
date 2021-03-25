@@ -19,12 +19,14 @@ app.use(express.json({ type: 'application/vnd.api+json' }))
 const registry = new API.ResourceTypeRegistry(
     {
         "users": {},
-        "companies": {}
+        "highscores": {},
+        "pokemons": {}
     },
     {
         "dbAdapter": new API.dbAdapters.Mongoose({
             "User": require('./models/user.model'),
-            "Company": require('./models/company.model')
+            "HighScore": require('./models/highscore.model'),
+            "Pokemon": require('./models/pokemon.model'),
         }),
         "urlTemplates": {
             "self": "/api/{type}/{id}"
@@ -42,16 +44,16 @@ const expressStrategy = new API.httpStrategies.Express(
 app.get("/", expressStrategy.docsRequest)
 
 // Add routes for basic list, read, create, update, delete operations
-app.get("/api/:type(users|companies)", checkToken, expressStrategy.apiRequest)
-app.get("/api/:type(users|companies)/:id", checkToken, expressStrategy.apiRequest)
-app.post("/api/:type(users|companies)", checkToken, expressStrategy.apiRequest)
-app.patch("/api/:type(users|companies)/:id", checkToken, expressStrategy.apiRequest)
-app.delete("/api/:type(users|companies)/:id", checkToken, expressStrategy.apiRequest)
+app.get("/api/:type(users|pokemons|highscores)", checkToken, expressStrategy.apiRequest)
+app.get("/api/:type(users|pokemons|highscores)/:id", checkToken, expressStrategy.apiRequest)
+app.post("/api/:type(users|pokemons|highscores)", checkToken, expressStrategy.apiRequest)
+app.patch("/api/:type(users|pokemons|highscores)/:id", checkToken, expressStrategy.apiRequest)
+app.delete("/api/:type(users|pokemons|highscores)/:id", checkToken, expressStrategy.apiRequest)
 
 // Add routes for adding to, removing from, or updating resource relationships
-app.post("/api/:type(users|companies)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
-app.patch("/api/:type(users|companies)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
-app.delete("/api/:type(users|companies)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
+app.post("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
+app.patch("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
+app.delete("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
 
 //About tokens
 //TODO

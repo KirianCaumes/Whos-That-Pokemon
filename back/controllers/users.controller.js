@@ -16,7 +16,7 @@ module.exports = class UsersController {
             //TODO
             const payload = await UserModel.findOne({
                 email: req.body.data.attributes.email,
-                // password: req.body.data.attributes.password, //TODO add password with bcrypt
+                password: req.body.data.attributes.password, //TODO add password with bcrypt
             })
 
             if (!payload)
