@@ -55,9 +55,9 @@ app.post("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship"
 app.patch("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
 app.delete("/api/:type(users|pokemons|highscores)/:id/relationships/:relationship", checkToken, expressStrategy.apiRequest)
 
-//About tokens
-//TODO
-app.post("/api/tokens", UsersController.generateTokens)
+//USERS 
+app.post("/api/users/login", UsersController.loginUsers)
+app.post("/api/users/register", UsersController.registerUsers)
 
 /** Connect to db */
 mongoose.connect(process.env.DB_URI_TEST, { user: process.env.DB_USER, pass: process.env.DB_PASSWORD, useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false, bufferCommands: true })
