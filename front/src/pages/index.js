@@ -1,6 +1,6 @@
 
 import React from "react"
-import { AppProps } from "app"// eslint-disable-line
+import { AppProps } from "App"// eslint-disable-line
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCheck, faCog, faEye, faPlay, faStar, faStop, faSync } from "@fortawesome/free-solid-svg-icons"
 import classNames from "classnames"
@@ -60,7 +60,7 @@ export default function Index({ example }) {
 
     return (
         <>
-            <main className="app-index">
+            <main className="app-index game-board">
                 <div className="card">
                     <div className="card-image">
                         <div>
