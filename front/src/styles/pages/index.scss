@@ -38,13 +38,12 @@
           //   filter: brightness(0);
           //   transition: 0.5s;
           margin-left: 16%;
-          z-index: 100;
+          z-index: 1;
           display: none;
           max-height: 520px;
           width: 275px;
           display: block;
         }
-        //TODO
         .app-pokeloader {
           margin: 0 250px;
           @include until($tablet) {

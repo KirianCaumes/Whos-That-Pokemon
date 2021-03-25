@@ -1,5 +1,6 @@
 // @ts-ignore
 import { createServer, Model, JSONAPISerializer, belongsTo, Factory, trait, hasMany } from "miragejs"
+import faker from "faker"
 
 export function makeServer({ environment = "test" } = {}) {
     const server = createServer({
@@ -21,7 +22,10 @@ export function makeServer({ environment = "test" } = {}) {
                 withHighScores: trait({
                     afterCreate(user, server) {
                         server.createList('highscore', 10, {
-                            user: user, score: 5, generations: [1, 2]
+                            user: user,
+                            score: faker.random.number({ min: 0, max: 10 }),
+                            generations: [1, 2],
+                            createdAt: new Date()
                         })
                     }
                 })
@@ -44,11 +48,11 @@ export function makeServer({ environment = "test" } = {}) {
             // @ts-ignore
             server.create("user", "withHighScores", { name: "UserTwo", password: "PasswordTwo" })
             // @ts-ignore
-            server.create("highscore", "withUser", { score: 5, generations: [1, 2] })
+            server.create("highscore", "withUser", { score: 5, generations: [1, 2], createdAt: new Date() })
             // @ts-ignore
-            server.create("pokemon", { number: 25, generations: 1, name: { fr: "Pikachu", en: "Pikachu" } })
+            server.create("pokemon", { number: 25, generation: 1, name: { fr: "Pikachu", en: "Pikachuen" } })
             // @ts-ignore
-            server.create("pokemon", { number: 26, generations: 1, name: { fr: "Pikachu2", en: "Pikachu2" } })
+            server.create("pokemon", { number: 26, generation: 1, name: { fr: "Pikachu2", en: "Pikachuen2" } })
         },
         routes() {
             this.namespace = "api"
@@ -88,7 +92,8 @@ export function makeServer({ environment = "test" } = {}) {
             this.delete("/highscores/:id")
 
             this.get("/pokemons")
-            this.get("/pokemons/random", schema => {
+            this.get("/pokemons/random", (schema, request) => {
+                // console.log(request.queryParams)
                 // @ts-ignore
                 return schema.pokemons.findBy({})
             })

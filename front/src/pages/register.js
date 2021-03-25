@@ -31,10 +31,16 @@ export default function Register({ signIn, signOut }) {
 
     //When form is submitted
     const onSubmit = useCallback(async () => {
-        setStatus(Status.PENDING)
-        const token = /** @type {any} */(await register({ username, password }))?.data?.token
-        signIn(token)
-        history.push('/')
+        const { data, error } = await register({ username, password })
+
+        if (!error) {
+            signIn(/** @type {any} */(data)?.token)
+            history.push('/')
+        } else {
+            console.error(error)
+            if (error.title !== "Aborted")
+                setStatus(Status.REJECTED)
+        }
     }, [username, password, register, signIn])
 
     return (

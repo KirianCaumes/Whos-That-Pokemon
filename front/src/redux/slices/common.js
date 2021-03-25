@@ -18,26 +18,12 @@ const commonMiddleware = [
 /** 
  * Payload Url
  * @typedef {string} PayloadUrl Current Url
- * 
- * Payload Modal
- * @typedef {object} PayloadModal
- * @property {boolean} show Is modal displayed
- * @property {string=} title Title
- * @property {string=} subTitle Subtitle
- * @property {function=} callback Callback when clicking "Yes" button
- * @property {ReactElement=} content JSX content
  */
 
 /**
  * Common State
  * @typedef {object} CommonState
  * @property {string} selectedKeyURL Current URL in application
- * @property {object} modal Modal
- * @property {boolean} modal.show Is modal displayed
- * @property {string=} modal.title Title
- * @property {string=} modal.subTitle Subtitle
- * @property {function=} modal.callback Callback when clicking "Yes" button
- * @property {ReactElement=} modal.content JSX content
 */
 /**
  * Common Slice
@@ -48,13 +34,6 @@ const commonSlice = createSlice({
     /** @type {CommonState} */
     initialState: {
         selectedKeyURL: '/',
-        modal: {
-            show: false,
-            title: '',
-            subTitle: '',
-            callback: () => null,
-            content: <></>
-        }
     },
     reducers: {
         /**
@@ -64,21 +43,14 @@ const commonSlice = createSlice({
         setUrl: (state, action) => {
             state.selectedKeyURL = action.payload
         },
-        /**
-         * Set Modal
-         * @param {PayloadAction<PayloadModal>} action
-         */
-        setModal: (state, action) => {
-            state.modal = action.payload
-        },
     },
 })
 
-const { setUrl, setModal } = commonSlice.actions
+const { setUrl } = commonSlice.actions
 const commonReducer = commonSlice.reducer
 
 export {
-    setUrl, setModal, //Reducers, used to call actions
+    setUrl, //Reducers, used to call actions
     commonReducer, //All reducers, used to create store
     commonMiddleware //Middleware
 }
