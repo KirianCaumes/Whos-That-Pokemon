@@ -58,7 +58,7 @@ app.delete("/api/:type(users|companies)/:id/relationships/:relationship", checkT
 app.post("/api/tokens", UsersController.generateTokens)
 
 /** Connect to db */
-mongoose.connect(process.env.DB_URI, { user: process.env.DB_USER, pass: process.env.DB_PASSWORD, useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false, bufferCommands: true })
+mongoose.connect(process.env.DB_URI_TEST, { user: process.env.DB_USER, pass: process.env.DB_PASSWORD, useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false, bufferCommands: true })
 
 if (process.env.NODE_ENV !== "test")
     app.listen(port, () =>

@@ -7,10 +7,14 @@ const PokemonSchema = new Schema(
             type: Number,
             required: true,
         },
-        nom: {
-            type: String,
-            required: true,
-        },
+        name: [{
+            fr: {
+                type: String,
+            },
+            en: {
+                type: String,
+            },
+        }],
         generation: {
             type: String,
             required: true,
