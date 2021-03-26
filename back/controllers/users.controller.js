@@ -15,7 +15,6 @@ module.exports = class UsersController {
      */
     static async loginUsers(req, res) {
         try {
-
             //TODO
             const payload = await UserModel.findOne({
                 username: req.body.data.attributes.username,
