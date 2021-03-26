@@ -1,0 +1,30 @@
+/***************************
+****** Dependencies 📚 *****
+***************************/
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/functions.sass";
+@import "~bulma/sass/utilities/derived-variables.sass";
+@import "~bulma/sass/utilities/mixins.sass";
+
+/***************************
+******** Theme 🎨 **********
+***************************/
+@import "./_variables.scss";
+@import "./_helpers.scss";
+@import "./_base.scss";
+
+//Dependencies: We Import bulma after variables to add new colors
+@import "~bulma/bulma.sass";
+@import "~bulma-extensions/dist/css/bulma-extensions.min.css";
+
+/***************************
+********** Pages 📖 ********
+***************************/
+@import "pages/index.scss";
+@import "pages/login.scss";
+@import "pages/register.scss";
+
+/***************************
+******* Components 🧱 *****
+***************************/
+@import "components/commons/pokeloader.scss";
