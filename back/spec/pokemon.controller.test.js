@@ -5,7 +5,7 @@ const faker = require('faker')
 const jwt = require('jwt-simple')
 const { populatedb } = require('../utils/populatedb')
 
-describe('Company Controller', () => {
+describe('Pokemon Controller', () => {
     /** @type {string} Id of the item created */
     let id
 
