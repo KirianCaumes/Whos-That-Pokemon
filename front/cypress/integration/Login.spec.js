@@ -1,14 +1,4 @@
 /// <reference types="Cypress" />
-import { makeServer } from '../../src/server';
-
-let server
-
-beforeEach(() => {
-    server = makeServer({ environment: 'development' });
-})
-// afterEach(() => {
-//     server.shutdown()
-// })
 
 describe('login works', () => {
     it('the user log in', () => {
@@ -17,8 +7,6 @@ describe('login works', () => {
         cy.get('[data-test-cypress="password"]').type('testPassword');
 
         cy.get('[data-test-cypress="submit"]').click();
-
-        console.log(Cypress.config());
 
         cy.url().should('eq', 'http://localhost:3000/', () => {
             expect(localStorage.getItem('whosthatpokemon_token').length).toBeGreaterThanOrEqual(1)

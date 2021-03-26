@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "miragejs": "^0.1.41"
   }
 }

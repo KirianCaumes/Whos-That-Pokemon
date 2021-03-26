@@ -10,6 +10,10 @@ import { ApiClient, ApiProvider } from 'jsonapi-react'
 // if (process.env.NODE_ENV === 'development')
 //     makeServer({ environment: process.env.NODE_ENV })
 
+// @ts-ignore
+if (window.Cypress)
+    makeServer({ environment: "development" })
+
 const client = new ApiClient({
     url: '/api',
     // headers: {

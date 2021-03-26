@@ -1,18 +1,9 @@
 /// <reference types="Cypress" />
-import { makeServer } from '../../src/server';
 
-let server
-
-beforeEach(() => {
-    server = makeServer({ environment: 'test' });
-})
-afterEach(() => {
-    server.shutdown()
-})
 beforeEach(() => {
     // @ts-ignore
     cy.login()
-});
+})
 
 describe('Score table is showing', () => {
     it('redirects to protected route', () => {

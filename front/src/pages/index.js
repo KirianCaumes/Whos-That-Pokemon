@@ -97,7 +97,6 @@ export default function Index({ example }) {
     /** @type {[Highscore[], Dispatch<SetStateAction<Highscore[]>>]} Highscores */
     const [highscores, setHighScores] = useState([])
 
-
     /** @type {[ModalType, function(ModalType):any]} Modal */
     const [modal, setModal] = useState({ isDisplay: !true })
     /** @type {[ModalType, Dispatch<SetStateAction<ModalType>>]} Modal Settings */
