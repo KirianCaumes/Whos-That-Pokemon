@@ -14,7 +14,7 @@ import { ApiClient, ApiProvider } from 'jsonapi-react'
 if (window.Cypress)
     makeServer({ environment: "development" })
 
-const client = new ApiClient({
+export const client = new ApiClient({
     url: '/api',
     // headers: {
     //     "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}`
@@ -75,11 +75,13 @@ const client = new ApiClient({
 })
 
 ReactDOM.render(
-    <ApiProvider client={client}>
-        <Provider store={store}>
-            {/* @ts-ignore */}
-            <App />
-        </Provider>
-    </ApiProvider>,
-    document.getElementById('root')
+    <React.StrictMode>
+        <ApiProvider client={client}>
+            <Provider store={store}>
+                {/* @ts-ignore */}
+                <App />
+            </Provider>
+        </ApiProvider>
+    </React.StrictMode>,
+    document.getElementById('root') || document.createElement('div')
 )

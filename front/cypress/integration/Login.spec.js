@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="jest" />
 
 describe('login works', () => {
     it('the user log in', () => {

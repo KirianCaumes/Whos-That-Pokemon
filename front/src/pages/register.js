@@ -21,6 +21,8 @@ export default function Register({ signIn, signOut }) {
     const [username, setUsername] = useState()
     /** @type {[string, function(string):any]} Password */
     const [password, setPassword] = useState()
+    /** @type {[string, function(string):any]} Error */
+    const [error, setError] = useState()
 
     /** Register user */
     const [register] = useMutation('users/register')
@@ -39,8 +41,10 @@ export default function Register({ signIn, signOut }) {
             history.push('/')
         } else {
             console.error(error)
-            if (error.title !== "Aborted")
+            if (error.title !== "Aborted") {
                 setStatus(Status.REJECTED)
+                setError(error?.detail)
+            }
         }
     }, [username, password, register, signIn])
 
@@ -86,6 +90,7 @@ export default function Register({ signIn, signOut }) {
                                             onChange={ev => setPassword(ev.target.value)}
                                         />
                                     </div>
+                                    <p className="help is-danger">{error}</p>
                                 </div>
                                 <div className="flex-row flex-space-between">
                                     <button

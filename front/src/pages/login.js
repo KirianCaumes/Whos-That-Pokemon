@@ -21,6 +21,8 @@ export default function Login({ signIn, signOut }) {
     const [username, setUsername] = useState()
     /** @type {[string, function(string):any]} Password */
     const [password, setPassword] = useState()
+    /** @type {[string, function(string):any]} Error */
+    const [error, setError] = useState()
 
     /** Login user */
     const [login] = useMutation('users/login')
@@ -41,8 +43,10 @@ export default function Login({ signIn, signOut }) {
             history.push('/')
         } else {
             console.error(error)
-            if (error.title !== "Aborted")
+            if (error.title !== "Aborted") {
                 setStatus(Status.REJECTED)
+                setError(error?.detail)
+            }
         }
     }, [username, password, login, signIn])
 
@@ -90,6 +94,7 @@ export default function Login({ signIn, signOut }) {
                                             onChange={ev => setPassword(ev.target.value)}
                                         />
                                     </div>
+                                    <p className="help is-danger">{error}</p>
                                 </div>
                                 <div className="flex-row flex-space-between">
                                     <button
