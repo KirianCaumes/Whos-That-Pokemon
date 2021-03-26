@@ -264,7 +264,7 @@ export default function Index({ example }) {
 
     return (
         <>
-            <main className="app-index">
+            <main className="app-index game-board">
                 <div className="card">
                     <div className="card-image">
                         <div>

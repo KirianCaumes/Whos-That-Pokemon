@@ -1,6 +1,6 @@
 
 import React, { useCallback, useEffect, useState } from "react"
-import { AppProps } from "app"// eslint-disable-line
+import { AppProps } from "App"// eslint-disable-line
 import { useMutation } from "jsonapi-react"
 // @ts-ignore
 import { Columns, Heading, Box } from 'react-bulma-components'
@@ -65,7 +65,8 @@ export default function Login({ signIn, signOut }) {
                                         <input
                                             required
                                             minLength={3}
-                                            className="input"
+                                            className="input "
+                                            data-test-cypress="username"
                                             type="text"
                                             placeholder="Your name"
                                             defaultValue={username}
@@ -79,7 +80,8 @@ export default function Login({ signIn, signOut }) {
                                         <input
                                             required
                                             minLength={3}
-                                            className="input"
+                                            className="input password"
+                                            data-test-cypress="password"
                                             type="password"
                                             placeholder="Your password"
                                             autoComplete="new-password"
@@ -89,7 +91,8 @@ export default function Login({ signIn, signOut }) {
                                     </div>
                                 </div>
                                 <button
-                                    className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
+                                    className={classNames("button", "is-primary",{ "is-loading": status === Status.PENDING })}
+                                    data-test-cypress="submit"
                                     type="submit"
                                 >
                                     <span className="icon is-medium">
