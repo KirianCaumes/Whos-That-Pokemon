@@ -2,8 +2,10 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const API = require('json-api')
+const HighScore = require('./models/highscore.model')
 const UsersController = require('./controllers/users.controller')
 const checkToken = require('./middleware/token.middleware')
+var fs = require('fs')
 
 /** Import env variables */
 require('dotenv').config({ path: process.env.NODE_ENV === "test" ? ".env.test" : undefined })
@@ -66,5 +68,11 @@ if (process.env.NODE_ENV !== "test")
     app.listen(port, () =>
         console.log(`Example app listening at http://localhost:${port}`)
     )
+
+
+const pokemonData = JSON.parse(fs.readFileSync('pokemons.json', 'utf-8'));
+
+console.log(pokemonData)
+
 
 module.exports = app
