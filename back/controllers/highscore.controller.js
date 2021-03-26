@@ -12,17 +12,17 @@ module.exports = class HighScoreController {
     static async createHighscore(req, res) {
         try {
             //Get user
-            const user = jwt.decode(req.header('Authorization')?.split('Bearer ')[1], process.env.SECRET_KEY)
+            const user = jwt.decode(req.header('Authorization')?.split('Bearer ')[1], process.env.SECRET_KEY)?.user
 
             const highscore = new Highscore({
                 user: user.id,
-                score: req.body.score,
-                generations: req.body.generations,
+                score: req.body?.data?.attributes?.score,
+                generations: req.body?.data?.attributes?.generations,
             })
 
             const result = await highscore.save()
 
-            res.send({
+            res.status(201).send({
                 "data": {
                     "type": "highscores",
                     "id": result.id,

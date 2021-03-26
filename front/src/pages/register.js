@@ -9,6 +9,7 @@ import classNames from "classnames"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons"
 import { history } from "utils/history"
+import { Link } from "react-router-dom"
 
 /**
  * @param {AppProps} props
@@ -86,15 +87,20 @@ export default function Register({ signIn, signOut }) {
                                         />
                                     </div>
                                 </div>
-                                <button
-                                    className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
-                                    type="submit"
-                                >
-                                    <span className="icon is-medium">
-                                        <FontAwesomeIcon icon={faSignInAlt} />
-                                    </span>
-                                    <span>Register</span>
-                                </button>
+                                <div className="flex-row flex-space-between">
+                                    <button
+                                        className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
+                                        type="submit"
+                                    >
+                                        <span className="icon is-medium">
+                                            <FontAwesomeIcon icon={faSignInAlt} />
+                                        </span>
+                                        <span>Register</span>
+                                    </button>
+                                    <Link to="/login" style={{ marginTop: '10px' }}>
+                                        Login
+                                    </Link>
+                                </div>
                             </form>
                         </Box>
                     </Columns.Column>

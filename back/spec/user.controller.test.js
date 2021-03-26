@@ -1,40 +1,23 @@
 const request = require('supertest')
 const app = require('../index')
-const CompanyModel = require('../models/company.model')
-const UserModel = require('../models/user.model')
+const HighscoreModel = require('../models/highscore.model')
 const faker = require('faker')
-const jwt = require('jwt-simple')
+const UserModel = require('../models/user.model')
+const PokemonModel = require('../models/pokemon.model')
+const { getToken } = require('./helpers/getToken')
 
-describe('Use Controller', () => {
-    /** @type {string} Id of the item crneated */
+describe('User Controller', () => {
+    /** @type {string} Id of the item created */
     let id
-
     /** @type {string} Token */
-    const token = jwt.encode({
-        nbf: Math.round(Date.now() / 1000),
-        exp: Math.round(Date.now() / 1000) + 86400
-    }, process.env.SECRET_KEY)
+    let token
 
     const user = {
         data: {
             type: "users",
             attributes: {
-                firstName: faker.name.firstName(),
-                lastName: faker.name.lastName(),
-                email: faker.internet.email(),
-                userType: faker.random.arrayElement(['employee', 'client']),
-                employeeDashboard: faker.random.boolean(),
-                clientDashboard: faker.random.boolean(),
-                admin: faker.random.boolean()
-            }
-        }
-    }
-
-    const company = {
-        data: {
-            type: "companies",
-            attributes: {
-                name: faker.company.companyName()
+                username: faker.name.firstName(),
+                password: faker.internet.password(),
             }
         }
     }
@@ -124,48 +107,78 @@ describe('Use Controller', () => {
         done()
     })
 
-    test('It should post with company', async (done) => {
-        const companyId = (
-            await request(app)
-                .post('/api/companies')
-                .send(company)
-                .set("Content-Type", "application/vnd.api+json")
-                .set("Authorization", `Bearer ${token}`)
-        ).body?.data?.id
-
-        const userId = (
-            await request(app)
-                .post('/api/users')
-                .send({
-                    data: {
-                        ...user.data,
-                        relationships: {
-                            companyId: {
-                                data: {
-                                    id: companyId,
-                                    type: "companies"
-                                }
-                            }
-                        }
-                    }
-                })
-                .set("Content-Type", "application/vnd.api+json")
-                .set("Authorization", `Bearer ${token}`)
-        ).body?.data?.id
-
+    test('It should register', async (done) => {
         const res = await request(app)
-            .get(`/api/users/${userId}?include=companyId`)
-            .set("Authorization", `Bearer ${token}`)
+            .post('/api/users/register')
+            .send(user)
+            .set("Content-Type", "application/vnd.api+json")
 
         expect(res.status).toEqual(200)
-        expect(res.body?.data?.id).toBeDefined()
-        expect(res.body?.data?.relationships?.companyId?.data?.id).toEqual(companyId)
-        expect(res.body?.included?.[0]?.id).toEqual(companyId)
+        expect(res.body?.data?.attributes?.token).toBeDefined()
+        done()
+    })
+
+    test('It should not register ', async (done) => {
+        const res = await request(app)
+            .post('/api/users/register')
+            .send()
+            .set("Content-Type", "application/vnd.api+json")
+
+        expect(res.status).toEqual(401)
+        done()
+    })
+
+    test('It should login', async (done) => {
+        const res = await request(app)
+            .post('/api/users/login')
+            .send(user)
+            .set("Content-Type", "application/vnd.api+json")
+
+        expect(res.status).toEqual(200)
+        expect(res.body?.data?.attributes?.token).toBeDefined()
+        done()
+    })
+
+    test('It should not login with wrong email', async (done) => {
+        const res = await request(app)
+            .post('/api/users/login')
+            .send({
+                data: {
+                    ...user.data,
+                    attributes: {
+                        ...user.data.attributes,
+                        username: "wrong@mail.com"
+                    }
+                }
+            })
+            .set("Content-Type", "application/vnd.api+json")
+
+        expect(res.status).toEqual(404)
+        done()
+    })
+
+    test('It should not login with wrong password', async (done) => {
+        const res = await request(app)
+            .post('/api/users/login')
+            .send({
+                data: {
+                    ...user.data,
+                    attributes: {
+                        ...user.data.attributes,
+                        password: "wrong password",
+                    }
+                }
+            })
+            .set("Content-Type", "application/vnd.api+json")
+
+        expect(res.status).toEqual(404)
         done()
     })
 
     beforeAll(async () => {
+        await HighscoreModel.deleteMany({})
         await UserModel.deleteMany({})
-        await CompanyModel.deleteMany({})
+        await PokemonModel.deleteMany({})
+        token = (await getToken()).token
     })
 })

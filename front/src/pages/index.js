@@ -62,7 +62,7 @@ const INIT_SETTINGS = { lang: "fr", generations: [1, 2, 3, 4, 5, 6] }
 /**
  * @typedef {object} Highscore
  * @property {object} user
- * @property {string} user.name
+ * @property {string} user.username
  * @property {Date} createdAt
  * @property {number} score
  * @property {number[]} generations
@@ -125,10 +125,13 @@ export default function Index({ example }) {
         setValue("")
         setStatus(Status.PENDING)
 
-        getPokemonRandomRequest.current = client.fetch([
-            "pokemons",
-            `random?${settings.generations.map(gen => `generations[]=${gen}`).join('&')}`
-        ])
+        getPokemonRandomRequest.current = client.fetch(
+            [
+                "pokemons",
+                `random?${settings.generations.map(gen => `generations[]=${gen}`).join('&')}`
+            ],
+            { headers: { "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}` } }
+        )
         const { data, error } = await getPokemonRandomRequest.current
 
         if (!error) {
@@ -186,11 +189,14 @@ export default function Index({ example }) {
                 </p>
             </>,
             onClickYes: async () => {
-                const { error } = await client.mutate(['highscores'], {
-                    // userId: 1,
-                    score: score,
-                    generations: settings.generations
-                })
+                const { error } = await client.mutate(
+                    ['highscores'],
+                    {
+                        score: score,
+                        generations: settings.generations
+                    },
+                    { headers: { "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}` } }
+                )
 
                 if (error) {
                     console.error(error)
@@ -209,6 +215,7 @@ export default function Index({ example }) {
         })
     }, [showResponse, timer, score, refresh, client, settings])
 
+
     /** Start game */
     const play = useCallback(() => {
         setIsGameRunning(true)
@@ -217,20 +224,16 @@ export default function Index({ example }) {
         // @ts-ignore
         getPokemonRandomRequest.current?.abort()
         refresh()
-        clearInterval(timer.current)
-        timer.current = setInterval(() => {
-            if (status !== Status.PENDING) { //Pokemon is load
-                setSecondsLeft(time => time - 1)
-                setTimeout(() => inputRef.current.focus(), 1)
-            }
-        }, 1000)
-    }, [timer, refresh, status])
+    }, [refresh])
 
+    /** Show highscores */
     const showHighScore = useCallback(async () => {
         setModalHighScores({ isDisplay: true })
-        getHighScoresRequest.current = client.fetch(["highscores?include=user&page[offset]=0&page[limit]=10&sort=score"])
+        getHighScoresRequest.current = client.fetch(
+            ["highscores?include=user&page[offset]=0&page[limit]=10&sort=-score"],
+            { headers: { "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}` } }
+        )
         const { data, error } = await getHighScoresRequest.current
-        console.log(data)
 
         if (!error) {
             setHighScores(/** @type {any} */(data))
@@ -246,30 +249,41 @@ export default function Index({ example }) {
     /** Previous value of refresh */
     const prevRefresh = usePrevious(refresh)
 
-    // Life cycle
+    /** Launch timer on game start */
     useEffect(() => {
-        // On component mount
-        // console.log("cc", prevRefresh?.toString(), refresh?.toString())
-        if (prevRefresh?.toString() !== refresh?.toString())
-            refresh()
-    }, [prevRefresh, refresh])
+        clearInterval(timer.current)
+        if (isGameRunning)
+            timer.current = setInterval(() => {
+                if (status !== Status.PENDING) { //Pokemon is load
+                    setSecondsLeft(time => time - 1)
+                    setTimeout(() => inputRef.current.focus(), 1)
+                }
+            }, 1000)
+    }, [isGameRunning, timer, status])
 
-    useEffect(() => {
-        return () => {
-            // On component unmount
-            // @ts-ignore
-            getPokemonRandomRequest.current?.abort()
-            // @ts-ignore
-            getHighScoresRequest.current?.abort()
-
-        }
-    }, [])
-
-    // Stop game in remaining time
+    // Stop game if no remaining time
     useEffect(() => {
         if (prevSecondsLeft > 0 && secondsLeft === 0)
             stop()
     }, [secondsLeft, prevSecondsLeft, stop])
+
+    // Life cycle
+    useEffect(() => {
+        // On component mount
+        if (prevRefresh?.toString() !== refresh?.toString())
+            refresh()
+    }, [prevRefresh, refresh])
+
+    // Life cycle
+    useEffect(() => {
+        // On component unmount
+        return () => {
+            // @ts-ignore
+            getPokemonRandomRequest.current?.abort()
+            // @ts-ignore
+            getHighScoresRequest.current?.abort()
+        }
+    }, [])
 
 
     return (
@@ -501,7 +515,7 @@ export default function Index({ example }) {
                         {highscores.map((x, i) => (
                             <tr key={i}>
                                 <td>{i + 1}</td>
-                                <td>{x.user?.name}</td>{/* TODO */}
+                                <td>{x.user?.username}</td>
                                 <td>{(() => {
                                     try {
                                         return new Date(x?.createdAt)?.toISOString()?.split('T')?.[0]

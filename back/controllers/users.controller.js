@@ -20,7 +20,7 @@ module.exports = class UsersController {
 
             const validate = await bcrypt.compare(
                 req.body?.data?.attributes?.password,
-                payload?.password
+                payload?.password ?? ""
             )
 
             if (!payload || !validate)
@@ -36,12 +36,14 @@ module.exports = class UsersController {
                 })
 
             const token = jwt.encode({
-                ...payload,
+                user: {
+                    id: payload.id,
+                },
                 nbf: Math.floor(Date.now() / 1000),
                 exp: Math.floor(Date.now() / 1000) + EXP_SECONDS
             }, process.env.SECRET_KEY)
 
-            return res.status(201).send({
+            return res.status(200).send({
                 "data": {
                     "type": "users",
                     "id": payload.id,
@@ -70,54 +72,67 @@ module.exports = class UsersController {
      * @param {Response} res 
      */
     static async registerUsers(req, res) {
-        //  Now find the user by their username address
-        const userDb = await UserModel.findOne({
-            username: req.body?.data?.attributes?.username,
-        });
-
-        if (userDb)
-            return res.status(400).send({
-                "errors": [
-                    {
-                        "status": "400",
-                        "source": {},
-                        "title": "User already exist",
-                        "detail": "User already exist",
-                    }
-                ]
+        try {
+            //  Now find the user by their username address
+            const userDb = await UserModel.findOne({
+                username: req.body?.data?.attributes?.username,
             });
 
-        // salt password
-        const salt = await bcrypt.genSalt(10);
+            if (userDb)
+                return res.status(401).send({
+                    "errors": [
+                        {
+                            "status": "401",
+                            "source": {},
+                            "title": "User already exist",
+                            "detail": "User already exist",
+                        }
+                    ]
+                });
 
-        const hash_password = await bcrypt.hash(
-            req.body?.data?.attributes?.password,
-            salt
-        );
-        // Insert the new user if they do not exist yet
-        const user = new UserModel({
-            username: req.body?.data?.attributes?.username,
-            password: hash_password
-        });
+            // salt password
+            const salt = await bcrypt.genSalt(10);
 
-        await user.save();
+            const hash_password = await bcrypt.hash(
+                req.body?.data?.attributes?.password,
+                salt
+            );
+            // Insert the new user if they do not exist yet
+            const user = new UserModel({
+                username: req.body?.data?.attributes?.username,
+                password: hash_password
+            });
 
-        const exp = Math.round(Date.now() / 1000) + EXP_SECONDS
+            await user.save();
 
-        const token = jwt.encode({
-            ...user,
-            nbf: Math.round(Date.now() / 1000),
-            exp: exp
-        }, process.env.SECRET_KEY)
+            const token = jwt.encode({
+                user: {
+                    id: user.id,
+                },
+                nbf: Math.round(Date.now() / 1000),
+                exp: Math.round(Date.now() / 1000) + EXP_SECONDS
+            }, process.env.SECRET_KEY)
 
-        res.send({
-            "data": {
-                "type": "users",
-                "id": user.id,
-                "attributes": {
-                    token: token,
+            res.send({
+                "data": {
+                    "type": "users",
+                    "id": user.id,
+                    "attributes": {
+                        token: token,
+                    }
                 }
-            }
-        });
+            });
+        } catch (error) {
+            return res.status(401).send({
+                "errors": [
+                    {
+                        "status": "401",
+                        "source": {},
+                        "title": error.message,
+                        "detail": error.message,
+                    }
+                ]
+            })
+        }
     }
 }

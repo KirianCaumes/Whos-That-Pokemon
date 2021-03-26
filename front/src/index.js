@@ -12,14 +12,14 @@ if (process.env.NODE_ENV === 'development')
 
 const client = new ApiClient({
     url: '/api',
-    headers: {
-        "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}`
-    },
+    // headers: {
+    //     "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}`
+    // },
     schema: {
         users: {
             type: "users",
             fields: {
-                name: {
+                username: {
                     type: "string"
                 },
                 password: {

@@ -2,18 +2,15 @@ const request = require('supertest')
 const app = require('../index')
 const PokemonModel = require('../models/pokemon.model')
 const faker = require('faker')
-const jwt = require('jwt-simple')
-const { populatedb } = require('../utils/populatedb')
+const HighscoreModel = require('../models/highscore.model')
+const UserModel = require('../models/user.model')
+const { getToken } = require('./helpers/getToken')
 
 describe('Pokemon Controller', () => {
     /** @type {string} Id of the item created */
     let id
-
     /** @type {string} Token */
-    const token = jwt.encode({
-        nbf: Math.floor(Date.now() / 1000),
-        exp: Math.floor(Date.now() / 1000) + 86400
-    }, process.env.SECRET_KEY)
+    let token
 
     const pokemon = {
         data: {
@@ -133,7 +130,9 @@ describe('Pokemon Controller', () => {
     })
 
     beforeAll(async () => {
-        // await populatedb()
+        await HighscoreModel.deleteMany({})
+        await UserModel.deleteMany({})
         await PokemonModel.deleteMany({})
+        token = (await getToken()).token
     })
 })

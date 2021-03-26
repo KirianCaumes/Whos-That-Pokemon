@@ -2,27 +2,25 @@ const request = require('supertest')
 const app = require('../index')
 const HighscoreModel = require('../models/highscore.model')
 const faker = require('faker')
-const jwt = require('jwt-simple')
+const UserModel = require('../models/user.model')
+const PokemonModel = require('../models/pokemon.model')
+const { getToken } = require('./helpers/getToken')
 
 describe('Highscore Controller', () => {
     /** @type {string} Id of the item created */
     let id
-
     /** @type {string} Token */
-    const token = jwt.encode({
-        nbf: Math.floor(Date.now() / 1000),
-        exp: Math.floor(Date.now() / 1000) + 86400
-    }, process.env.SECRET_KEY)
+    let token
 
     const highscore = {
         data: {
             type: "highscores",
             attributes: {
-                name: {
-                    fr: faker.lorem.word()
-                },
-                number: faker.random.number({ min: 1000, max: 2000 }),
-                generation: 1
+                score: faker.random.number({ min: 0, max: 15 }),
+                generations: [
+                    faker.random.number({ min: 0, max: 10 }),
+                    faker.random.number({ min: 0, max: 10 })
+                ]
             }
         }
     }
@@ -58,25 +56,6 @@ describe('Highscore Controller', () => {
 
         expect(res.status).toEqual(200)
         expect(res.body?.data?.length).toBeGreaterThanOrEqual(1)
-        done()
-    })
-
-    test('It should get random', async (done) => {
-        const res = await request(app)
-            .get('/api/highscores/random?generations[]=1')
-            .set("Authorization", `Bearer ${token}`)
-
-        expect(res.status).toEqual(200)
-        expect(res.body?.data?.attributes?.generation).toBe(1)
-        done()
-    })
-
-    test('It should not get random', async (done) => {
-        const res = await request(app)
-            .get('/api/highscores/random')
-            .set("Authorization", `Bearer ${token}`)
-
-        expect(res.status).toEqual(400)
         done()
     })
 
@@ -133,5 +112,8 @@ describe('Highscore Controller', () => {
 
     beforeAll(async () => {
         await HighscoreModel.deleteMany({})
+        await UserModel.deleteMany({})
+        await PokemonModel.deleteMany({})
+        token = (await getToken()).token
     })
 })

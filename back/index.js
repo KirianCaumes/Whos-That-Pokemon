@@ -20,7 +20,12 @@ app.use(express.json({ type: 'application/vnd.api+json' }))
 
 const registry = new API.ResourceTypeRegistry(
     {
-        "users": {},
+        "users": {
+            beforeRender: function (resource) {
+                resource.removeAttr("password")
+                return resource
+            }
+        },
         "highscores": {},
         "pokemons": {}
     },
@@ -59,7 +64,7 @@ app.post("/api/highscores", checkToken, HighScoreController.createHighscore)
 // Add routes for basic list, read, create, update, delete operations
 app.get("/api/:type(users|pokemons|highscores)", expressStrategy.apiRequest)
 app.get("/api/:type(users|pokemons|highscores)/:id", expressStrategy.apiRequest)
-app.post("/api/:type(users|pokemons|highscores)", expressStrategy.apiRequest)
+app.post("/api/:type(users|pokemons)", expressStrategy.apiRequest)
 app.patch("/api/:type(users|pokemons|highscores)/:id", expressStrategy.apiRequest)
 app.delete("/api/:type(users|pokemons|highscores)/:id", expressStrategy.apiRequest)
 

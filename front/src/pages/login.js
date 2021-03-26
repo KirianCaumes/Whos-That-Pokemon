@@ -9,6 +9,7 @@ import classNames from "classnames"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons"
 import { history } from "utils/history"
+import { Link } from "react-router-dom"
 
 /**
  * @param {AppProps} props
@@ -90,16 +91,21 @@ export default function Login({ signIn, signOut }) {
                                         />
                                     </div>
                                 </div>
-                                <button
-                                    className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
-                                    data-test-cypress="submit"
-                                    type="submit"
-                                >
-                                    <span className="icon is-medium">
-                                        <FontAwesomeIcon icon={faSignInAlt} />
-                                    </span>
-                                    <span>Login</span>
-                                </button>
+                                <div className="flex-row flex-space-between">
+                                    <button
+                                        className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
+                                        data-test-cypress="submit"
+                                        type="submit"
+                                    >
+                                        <span className="icon is-medium">
+                                            <FontAwesomeIcon icon={faSignInAlt} />
+                                        </span>
+                                        <span>Login</span>
+                                    </button>
+                                    <Link to="/register" style={{ marginTop: '10px' }}>
+                                        Register
+                                    </Link>
+                                </div>
                             </form>
                         </Box>
                     </Columns.Column>
