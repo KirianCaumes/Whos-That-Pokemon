@@ -57,34 +57,38 @@ export function makeServer({ environment = "test" } = {}) {
         routes() {
             this.namespace = "api"
 
-            this.get("/users")
-            this.get("/users/:id")
-            this.post("/users")
-            this.delete("/users/:id")
-            this.post("/users/login", schema => {
-                // @ts-ignore
-                return {
-                    "data": {
-                        "type": "users",
-                        "id": "1",
-                        "attributes": {
-                            token: "mytoken"
-                        }
-                    }
-                }
-            })
-            this.post("/users/register", schema => {
-                // @ts-ignore
-                return {
-                    "data": {
-                        "type": "users",
-                        "id": "1",
-                        "attributes": {
-                            token: "mytoken"
-                        }
-                    }
-                }
-            })
+            // this.get("/users")
+            // this.get("/users/:id")
+            // this.post("/users")
+            // this.delete("/users/:id")
+            // this.post("/users/login", schema => {
+            //     // @ts-ignore
+            //     return {
+            //         "data": {
+            //             "type": "users",
+            //             "id": "1",
+            //             "attributes": {
+            //                 token: "mytoken"
+            //             }
+            //         }
+            //     }
+            // })
+            // this.post("/users/register", schema => {
+            //     // @ts-ignore
+            //     return {
+            //         "data": {
+            //             "type": "users",
+            //             "id": "1",
+            //             "attributes": {
+            //                 token: "mytoken"
+            //             }
+            //         }
+            //     }
+            // })
+            this.passthrough("/users")
+            this.passthrough("/users/:id")
+            this.passthrough("/users/login")
+            this.passthrough("/users/register")
 
             // this.get("/highscores")
             // this.get("/highscores/:id")

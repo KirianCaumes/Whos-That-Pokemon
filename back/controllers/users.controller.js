@@ -1,6 +1,5 @@
 const { Request, Response } = require("express")
 const jwt = require('jwt-simple')
-// const Joi = require('joi')
 const UserModel = require("../models/user.model")
 const bcrypt = require('bcrypt')
 
@@ -15,56 +14,42 @@ module.exports = class UsersController {
      */
     static async loginUsers(req, res) {
         try {
-
-            //TODO
             const payload = await UserModel.findOne({
                 username: req.body.data.attributes.username,
             })
 
-            // @ts-ignore
-            const validate = await bcrypt.compare(req.body.data.attributes.password, payload.password);
-            if (validate) {
-                if (!payload)
-                    return res.status(404).send({
-                        "errors": [
-                            {
-                                "status": "404",
-                                "source": {},
-                                "title": "User not found",
-                                "detail": "User was not found."
-                            }
-                        ]
-                    })
+            const validate = await bcrypt.compare(
+                req.body?.data?.attributes?.password,
+                payload?.password
+            )
 
-                const exp = Math.floor(Date.now() / 1000) + EXP_SECONDS
-
-                const token = jwt.encode({
-                    ...payload,
-                    nbf: Math.floor(Date.now() / 1000),
-                    exp: exp
-                }, process.env.SECRET_KEY)
-
-                return res.status(201).send({
-                    "data": {
-                        "type": "users",
-                        "id": payload.id,
-                        "attributes": {
-                            token: token,
-                        }
-                    }
-                })
-            } else {
-                return res.status(201).send({
+            if (!payload || !validate)
+                return res.status(404).send({
                     "errors": [
                         {
-                            "status": "401",
+                            "status": "404",
                             "source": {},
-                            "title": "Password not correct",
-                            "detail": "Password not correct",
+                            "title": "User not found",
+                            "detail": "User was not found."
                         }
                     ]
                 })
-            }
+
+            const token = jwt.encode({
+                ...payload,
+                nbf: Math.floor(Date.now() / 1000),
+                exp: Math.floor(Date.now() / 1000) + EXP_SECONDS
+            }, process.env.SECRET_KEY)
+
+            return res.status(201).send({
+                "data": {
+                    "type": "users",
+                    "id": payload.id,
+                    "attributes": {
+                        token: token,
+                    }
+                }
+            })
         } catch (error) {
             return res.status(401).send({
                 "errors": [
@@ -86,49 +71,53 @@ module.exports = class UsersController {
      */
     static async registerUsers(req, res) {
         //  Now find the user by their username address
-        let user = await UserModel.findOne({
-            username: req.body.username,
+        const userDb = await UserModel.findOne({
+            username: req.body?.data?.attributes?.username,
         });
-        if (user) {
+
+        if (userDb)
             return res.status(400).send({
                 "errors": [
                     {
-                        "status": "401",
+                        "status": "400",
                         "source": {},
-                        "title": "Not found",
-                        "detail": "Not found",
+                        "title": "User already exist",
+                        "detail": "User already exist",
                     }
                 ]
             });
-        } else {
-            // salt password
-            const salt = await bcrypt.genSalt(10);
-            let hash_password = await bcrypt.hash(req.body.password, salt);
-            // Insert the new user if they do not exist yet
-            user = new UserModel({
-                username: req.body.username,
-                password: hash_password
-            });
-            await user.save();
 
-            const exp = Math.round(Date.now() / 1000) + EXP_SECONDS
+        // salt password
+        const salt = await bcrypt.genSalt(10);
 
-            const token = jwt.encode({
-                ...user,
-                nbf: Math.round(Date.now() / 1000),
-                exp: exp
-            }, process.env.SECRET_KEY)
+        const hash_password = await bcrypt.hash(
+            req.body?.data?.attributes?.password,
+            salt
+        );
+        // Insert the new user if they do not exist yet
+        const user = new UserModel({
+            username: req.body?.data?.attributes?.username,
+            password: hash_password
+        });
 
-            res.send({
-                "data": {
-                    "type": "users",
-                    "id": user.id,
-                    "attributes": {
-                        token: token,
-                    }
+        await user.save();
+
+        const exp = Math.round(Date.now() / 1000) + EXP_SECONDS
+
+        const token = jwt.encode({
+            ...user,
+            nbf: Math.round(Date.now() / 1000),
+            exp: exp
+        }, process.env.SECRET_KEY)
+
+        res.send({
+            "data": {
+                "type": "users",
+                "id": user.id,
+                "attributes": {
+                    token: token,
                 }
             }
-            );
-        }
+        });
     }
 }

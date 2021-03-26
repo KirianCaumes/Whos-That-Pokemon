@@ -9,7 +9,7 @@ const jwt = require('jwt-simple')
  */
 module.exports = function checkToken(req, res, next) {
     try {
-        const token = req.header('Authorization')?.split('Bearer ')[1]
+        const token = req.header('Authorization')?.split('Bearer ')?.[1]
 
         //Validate token
         jwt.decode(token, process.env.SECRET_KEY)
