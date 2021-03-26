@@ -7,9 +7,8 @@ import store from 'redux/store'
 import { makeServer } from './server'
 import { ApiClient, ApiProvider } from 'jsonapi-react'
 
-console.log(process.env)
-if (process.env.NODE_ENV === 'development')
-    makeServer({ environment: process.env.NODE_ENV })
+// if (process.env.NODE_ENV === 'development')
+//     makeServer({ environment: process.env.NODE_ENV })
 
 const client = new ApiClient({
     url: '/api',

@@ -30,6 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:cypress": "cypress open --config pageLoadTimeout=30000,baseUrl=http://localhost:3000/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

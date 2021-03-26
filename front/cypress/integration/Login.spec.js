@@ -1,17 +1,27 @@
 /// <reference types="Cypress" />
+import { makeServer } from '../../src/server';
+
+let server
+
+beforeEach(() => {
+    server = makeServer({ environment: 'development' });
+})
+// afterEach(() => {
+//     server.shutdown()
+// })
 
 describe('login works', () => {
     it('the user log in', () => {
-      cy.visit('/login');
-      cy.get('[data-test-cypress="username"]').type('test');
-      cy.get('[data-test-cypress="password"]').type('testPassword');
-  
-      cy.get('[data-test-cypress="submit"]').click();
+        cy.visit('/login');
+        cy.get('[data-test-cypress="username"]').type('test');
+        cy.get('[data-test-cypress="password"]').type('testPassword');
 
-      console.log(Cypress.config());
-  
-      cy.url().should('eq', 'http://localhost:3000/', () => {
-        expect(localStorage.getItem('whosthatpokemon_token').length).toBeGreaterThanOrEqual(1)
-      });
+        cy.get('[data-test-cypress="submit"]').click();
+
+        console.log(Cypress.config());
+
+        cy.url().should('eq', 'http://localhost:3000/', () => {
+            expect(localStorage.getItem('whosthatpokemon_token').length).toBeGreaterThanOrEqual(1)
+        });
     });
-  });
+});

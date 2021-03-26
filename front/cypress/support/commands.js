@@ -61,6 +61,6 @@ Cypress.Commands.add('login', () => {
     cy.visit('/login');
     cy.get('[data-test-cypress="username"]').type('test');
     cy.get('[data-test-cypress="password"]').type('testPassword');
-    
+
     cy.get('[data-test-cypress="submit"]').click();
-  });
+});

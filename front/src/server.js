@@ -57,60 +57,60 @@ export function makeServer({ environment = "test" } = {}) {
         routes() {
             this.namespace = "api"
 
-            // this.get("/users")
-            // this.get("/users/:id")
-            // this.post("/users")
-            // this.delete("/users/:id")
-            // this.post("/users/login", schema => {
-            //     // @ts-ignore
-            //     return {
-            //         "data": {
-            //             "type": "users",
-            //             "id": "1",
-            //             "attributes": {
-            //                 token: "mytoken"
-            //             }
-            //         }
-            //     }
-            // })
-            // this.post("/users/register", schema => {
-            //     // @ts-ignore
-            //     return {
-            //         "data": {
-            //             "type": "users",
-            //             "id": "1",
-            //             "attributes": {
-            //                 token: "mytoken"
-            //             }
-            //         }
-            //     }
-            // })
-            this.passthrough("/users")
-            this.passthrough("/users/:id")
-            this.passthrough("/users/login")
-            this.passthrough("/users/register")
+            this.get("/users")
+            this.get("/users/:id")
+            this.post("/users")
+            this.delete("/users/:id")
+            this.post("/users/login", schema => {
+                // @ts-ignore
+                return {
+                    "data": {
+                        "type": "users",
+                        "id": "1",
+                        "attributes": {
+                            token: "mytoken"
+                        }
+                    }
+                }
+            })
+            this.post("/users/register", schema => {
+                // @ts-ignore
+                return {
+                    "data": {
+                        "type": "users",
+                        "id": "1",
+                        "attributes": {
+                            token: "mytoken"
+                        }
+                    }
+                }
+            })
+            // this.passthrough("/users")
+            // this.passthrough("/users/:id")
+            // this.passthrough("/users/login")
+            // this.passthrough("/users/register")
 
-            // this.get("/highscores")
-            // this.get("/highscores/:id")
-            // this.post("/highscores")
-            // this.delete("/highscores/:id")
+            this.get("/highscores")
+            this.get("/highscores/:id")
+            this.post("/highscores")
+            this.delete("/highscores/:id")
 
-            this.passthrough("/highscores")
-            this.passthrough("/highscores/:id")
+            // this.passthrough("/highscores")
+            // this.passthrough("/highscores/:id")
 
-            // this.get("/pokemons")
-            // this.get("/pokemons/random", (schema, request) => {
-            //     // console.log(request.queryParams)
-            //     // @ts-ignore
-            //     return schema.pokemons.findBy({})
-            // })
-            // this.get("/pokemons/:id")
-            // this.post("/pokemons")
-            // this.delete("/pokemons/:id")
+            this.get("/pokemons")
+            this.get("/pokemons/random", (schema, request) => {
+                // console.log(request.queryParams)
+                // @ts-ignore
+                return schema.pokemons.findBy({})
+            })
+            this.get("/pokemons/:id")
+            this.post("/pokemons")
+            this.delete("/pokemons/:id")
 
-            this.passthrough("/pokemons")
-            this.passthrough("/pokemons/:id")
-            this.passthrough("/pokemons/random")
+            // this.passthrough("/pokemons")
+            // this.passthrough("/pokemons/:id")
+            // this.passthrough("/pokemons/random")
         }
     })
 
