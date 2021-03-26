@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'styles/index.scss'
-import App from 'App'
+import App from 'app'
 import { Provider } from 'react-redux'
 import store from 'redux/store'
 import { makeServer } from './server'
@@ -12,6 +12,9 @@ if (process.env.NODE_ENV === 'development')
 
 const client = new ApiClient({
     url: '/api',
+    headers: {
+        "Authorization": `Bearer ${localStorage.getItem(`${process.env.REACT_APP_BASE_STORAGE_KEY}_token`)}`
+    },
     schema: {
         users: {
             type: "users",

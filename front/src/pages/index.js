@@ -63,7 +63,7 @@ const INIT_SETTINGS = { lang: "fr", generations: [1, 2, 3, 4, 5, 6] }
  * @typedef {object} Highscore
  * @property {object} user
  * @property {string} user.name
- * @property {Date} created-at
+ * @property {Date} createdAt
  * @property {number} score
  * @property {number[]} generations
  */
@@ -113,9 +113,6 @@ export default function Index({ example }) {
     const getPokemonRandomRequest = useRef()
     /** @type {MutableRefObject<Promise<IResult<StringMap | StringMap[]>>>} */
     const getHighScoresRequest = useRef()
-
-    /** Previous value of seconds left */
-    const prevSecondsLeft = usePrevious(secondsLeft)
 
     /** Api Client */
     const client = useClient()
@@ -233,6 +230,7 @@ export default function Index({ example }) {
         setModalHighScores({ isDisplay: true })
         getHighScoresRequest.current = client.fetch(["highscores?include=user&page[offset]=0&page[limit]=10&sort=score"])
         const { data, error } = await getHighScoresRequest.current
+        console.log(data)
 
         if (!error) {
             setHighScores(/** @type {any} */(data))
@@ -243,24 +241,36 @@ export default function Index({ example }) {
         }
     }, [client])
 
+    /** Previous value of seconds left */
+    const prevSecondsLeft = usePrevious(secondsLeft)
+    /** Previous value of refresh */
+    const prevRefresh = usePrevious(refresh)
+
     // Life cycle
     useEffect(() => {
         // On component mount
-        refresh()
+        // console.log("cc", prevRefresh?.toString(), refresh?.toString())
+        if (prevRefresh?.toString() !== refresh?.toString())
+            refresh()
+    }, [prevRefresh, refresh])
+
+    useEffect(() => {
         return () => {
             // On component unmount
             // @ts-ignore
             getPokemonRandomRequest.current?.abort()
             // @ts-ignore
             getHighScoresRequest.current?.abort()
+
         }
-    }, [refresh])
+    }, [])
 
     // Stop game in remaining time
     useEffect(() => {
         if (prevSecondsLeft > 0 && secondsLeft === 0)
             stop()
     }, [secondsLeft, prevSecondsLeft, stop])
+
 
     return (
         <>
@@ -492,7 +502,13 @@ export default function Index({ example }) {
                             <tr key={i}>
                                 <td>{i + 1}</td>
                                 <td>{x.user?.name}</td>{/* TODO */}
-                                <td>{new Date(x["created-at"])?.toISOString()?.split('T')?.[0]}</td>
+                                <td>{(() => {
+                                    try {
+                                        return new Date(x?.createdAt)?.toISOString()?.split('T')?.[0]
+                                    } catch (error) {
+                                        return null
+                                    }
+                                })()}</td>
                                 <td>{x.score}</td>
                                 <td>{x.generations.join(', ')}</td>
                             </tr>

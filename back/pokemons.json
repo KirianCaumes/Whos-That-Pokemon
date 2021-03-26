@@ -1,6 +1,6 @@
 [
     {
-        "numero": 1,
+        "number": 1,
         "name": {
             "de": "Bisasam",
             "en": "Bulbasaur",
@@ -13,7 +13,7 @@
         "generation": 1
     },
     {
-        "numero": 2,
+        "number": 2,
         "name": {
             "de": "Bisaknosp",
             "en": "Ivysaur",
@@ -26,7 +26,7 @@
         "generation": 1
     },
     {
-        "numero": 3,
+        "number": 3,
         "name": {
             "de": "Bisaflor",
             "en": "Venusaur",
@@ -39,7 +39,7 @@
         "generation": 1
     },
     {
-        "numero": 4,
+        "number": 4,
         "name": {
             "de": "Glumanda",
             "en": "Charmander",
@@ -52,7 +52,7 @@
         "generation": 1
     },
     {
-        "numero": 5,
+        "number": 5,
         "name": {
             "de": "Glutexo",
             "en": "Charmeleon",
@@ -65,7 +65,7 @@
         "generation": 1
     },
     {
-        "numero": 6,
+        "number": 6,
         "name": {
             "de": "Glurak",
             "en": "Charizard",
@@ -78,7 +78,7 @@
         "generation": 1
     },
     {
-        "numero": 7,
+        "number": 7,
         "name": {
             "de": "Schiggy",
             "en": "Squirtle",
@@ -91,7 +91,7 @@
         "generation": 1
     },
     {
-        "numero": 8,
+        "number": 8,
         "name": {
             "de": "Schillok",
             "en": "Wartortle",
@@ -104,7 +104,7 @@
         "generation": 1
     },
     {
-        "numero": 9,
+        "number": 9,
         "name": {
             "de": "Turtok",
             "en": "Blastoise",
@@ -117,7 +117,7 @@
         "generation": 1
     },
     {
-        "numero": 10,
+        "number": 10,
         "name": {
             "de": "Raupy",
             "en": "Caterpie",
@@ -130,7 +130,7 @@
         "generation": 1
     },
     {
-        "numero": 11,
+        "number": 11,
         "name": {
             "de": "Safcon",
             "en": "Metapod",
@@ -143,7 +143,7 @@
         "generation": 1
     },
     {
-        "numero": 12,
+        "number": 12,
         "name": {
             "de": "Smettbo",
             "en": "Butterfree",
@@ -156,7 +156,7 @@
         "generation": 1
     },
     {
-        "numero": 13,
+        "number": 13,
         "name": {
             "de": "Hornliu",
             "en": "Weedle",
@@ -169,7 +169,7 @@
         "generation": 1
     },
     {
-        "numero": 14,
+        "number": 14,
         "name": {
             "de": "Kokuna",
             "en": "Kakuna",
@@ -182,7 +182,7 @@
         "generation": 1
     },
     {
-        "numero": 15,
+        "number": 15,
         "name": {
             "de": "Bibor",
             "en": "Beedrill",
@@ -195,7 +195,7 @@
         "generation": 1
     },
     {
-        "numero": 16,
+        "number": 16,
         "name": {
             "de": "Taubsi",
             "en": "Pidgey",
@@ -208,7 +208,7 @@
         "generation": 1
     },
     {
-        "numero": 17,
+        "number": 17,
         "name": {
             "de": "Tauboga",
             "en": "Pidgeotto",
@@ -221,7 +221,7 @@
         "generation": 1
     },
     {
-        "numero": 18,
+        "number": 18,
         "name": {
             "de": "Tauboss",
             "en": "Pidgeot",
@@ -234,7 +234,7 @@
         "generation": 1
     },
     {
-        "numero": 19,
+        "number": 19,
         "name": {
             "de": "Rattfratz",
             "en": "Rattata",
@@ -247,7 +247,7 @@
         "generation": 1
     },
     {
-        "numero": 20,
+        "number": 20,
         "name": {
             "de": "Rattikarl",
             "en": "Raticate",
@@ -260,7 +260,7 @@
         "generation": 1
     },
     {
-        "numero": 21,
+        "number": 21,
         "name": {
             "de": "Habitak",
             "en": "Spearow",
@@ -273,7 +273,7 @@
         "generation": 1
     },
     {
-        "numero": 22,
+        "number": 22,
         "name": {
             "de": "Ibitak",
             "en": "Fearow",
@@ -286,7 +286,7 @@
         "generation": 1
     },
     {
-        "numero": 23,
+        "number": 23,
         "name": {
             "de": "Rettan",
             "en": "Ekans",
@@ -299,7 +299,7 @@
         "generation": 1
     },
     {
-        "numero": 24,
+        "number": 24,
         "name": {
             "de": "Arbok",
             "en": "Arbok",
@@ -312,7 +312,7 @@
         "generation": 1
     },
     {
-        "numero": 25,
+        "number": 25,
         "name": {
             "de": "Pikachu",
             "en": "Pikachu",
@@ -325,7 +325,7 @@
         "generation": 1
     },
     {
-        "numero": 26,
+        "number": 26,
         "name": {
             "de": "Raichu",
             "en": "Raichu",
@@ -338,7 +338,7 @@
         "generation": 1
     },
     {
-        "numero": 27,
+        "number": 27,
         "name": {
             "de": "Sandan",
             "en": "Sandshrew",
@@ -351,7 +351,7 @@
         "generation": 1
     },
     {
-        "numero": 28,
+        "number": 28,
         "name": {
             "de": "Sandamer",
             "en": "Sandslash",
@@ -364,7 +364,7 @@
         "generation": 1
     },
     {
-        "numero": 29,
+        "number": 29,
         "name": {
             "de": "Nidoran♀",
             "en": "Nidoran♀",
@@ -377,7 +377,7 @@
         "generation": 1
     },
     {
-        "numero": 30,
+        "number": 30,
         "name": {
             "de": "Nidorina",
             "en": "Nidorina",
@@ -390,7 +390,7 @@
         "generation": 1
     },
     {
-        "numero": 31,
+        "number": 31,
         "name": {
             "de": "Nidoqueen",
             "en": "Nidoqueen",
@@ -403,7 +403,7 @@
         "generation": 1
     },
     {
-        "numero": 32,
+        "number": 32,
         "name": {
             "de": "Nidoran♂",
             "en": "Nidoran♂",
@@ -416,7 +416,7 @@
         "generation": 1
     },
     {
-        "numero": 33,
+        "number": 33,
         "name": {
             "de": "Nidorino",
             "en": "Nidorino",
@@ -429,7 +429,7 @@
         "generation": 1
     },
     {
-        "numero": 34,
+        "number": 34,
         "name": {
             "de": "Nidoking",
             "en": "Nidoking",
@@ -442,7 +442,7 @@
         "generation": 1
     },
     {
-        "numero": 35,
+        "number": 35,
         "name": {
             "de": "Piepi",
             "en": "Clefairy",
@@ -455,7 +455,7 @@
         "generation": 1
     },
     {
-        "numero": 36,
+        "number": 36,
         "name": {
             "de": "Pixi",
             "en": "Clefable",
@@ -468,7 +468,7 @@
         "generation": 1
     },
     {
-        "numero": 37,
+        "number": 37,
         "name": {
             "de": "Vulpix",
             "en": "Vulpix",
@@ -481,7 +481,7 @@
         "generation": 1
     },
     {
-        "numero": 38,
+        "number": 38,
         "name": {
             "de": "Vulnona",
             "en": "Ninetales",
@@ -494,7 +494,7 @@
         "generation": 1
     },
     {
-        "numero": 39,
+        "number": 39,
         "name": {
             "de": "Pummeluff",
             "en": "Jigglypuff",
@@ -507,7 +507,7 @@
         "generation": 1
     },
     {
-        "numero": 40,
+        "number": 40,
         "name": {
             "de": "Knuddeluff",
             "en": "Wigglytuff",
@@ -520,7 +520,7 @@
         "generation": 1
     },
     {
-        "numero": 41,
+        "number": 41,
         "name": {
             "de": "Zubat",
             "en": "Zubat",
@@ -533,7 +533,7 @@
         "generation": 1
     },
     {
-        "numero": 42,
+        "number": 42,
         "name": {
             "de": "Golbat",
             "en": "Golbat",
@@ -546,7 +546,7 @@
         "generation": 1
     },
     {
-        "numero": 43,
+        "number": 43,
         "name": {
             "de": "Myrapla",
             "en": "Oddish",
@@ -559,7 +559,7 @@
         "generation": 1
     },
     {
-        "numero": 44,
+        "number": 44,
         "name": {
             "de": "Duflor",
             "en": "Gloom",
@@ -572,7 +572,7 @@
         "generation": 1
     },
     {
-        "numero": 45,
+        "number": 45,
         "name": {
             "de": "Giflor",
             "en": "Vileplume",
@@ -585,7 +585,7 @@
         "generation": 1
     },
     {
-        "numero": 46,
+        "number": 46,
         "name": {
             "de": "Paras",
             "en": "Paras",
@@ -598,7 +598,7 @@
         "generation": 1
     },
     {
-        "numero": 47,
+        "number": 47,
         "name": {
             "de": "Parasek",
             "en": "Parasect",
@@ -611,7 +611,7 @@
         "generation": 1
     },
     {
-        "numero": 48,
+        "number": 48,
         "name": {
             "de": "Bluzuk",
             "en": "Venonat",
@@ -624,7 +624,7 @@
         "generation": 1
     },
     {
-        "numero": 49,
+        "number": 49,
         "name": {
             "de": "Omot",
             "en": "Venomoth",
@@ -637,7 +637,7 @@
         "generation": 1
     },
     {
-        "numero": 50,
+        "number": 50,
         "name": {
             "de": "Digda",
             "en": "Diglett",
@@ -650,7 +650,7 @@
         "generation": 1
     },
     {
-        "numero": 51,
+        "number": 51,
         "name": {
             "de": "Digdri",
             "en": "Dugtrio",
@@ -663,7 +663,7 @@
         "generation": 1
     },
     {
-        "numero": 52,
+        "number": 52,
         "name": {
             "de": "Mauzi",
             "en": "Meowth",
@@ -676,7 +676,7 @@
         "generation": 1
     },
     {
-        "numero": 53,
+        "number": 53,
         "name": {
             "de": "Snobilikat",
             "en": "Persian",
@@ -689,7 +689,7 @@
         "generation": 1
     },
     {
-        "numero": 54,
+        "number": 54,
         "name": {
             "de": "Enton",
             "en": "Psyduck",
@@ -702,7 +702,7 @@
         "generation": 1
     },
     {
-        "numero": 55,
+        "number": 55,
         "name": {
             "de": "Entoron",
             "en": "Golduck",
@@ -715,7 +715,7 @@
         "generation": 1
     },
     {
-        "numero": 56,
+        "number": 56,
         "name": {
             "de": "Menki",
             "en": "Mankey",
@@ -728,7 +728,7 @@
         "generation": 1
     },
     {
-        "numero": 57,
+        "number": 57,
         "name": {
             "de": "Rasaff",
             "en": "Primeape",
@@ -741,7 +741,7 @@
         "generation": 1
     },
     {
-        "numero": 58,
+        "number": 58,
         "name": {
             "de": "Fukano",
             "en": "Growlithe",
@@ -754,7 +754,7 @@
         "generation": 1
     },
     {
-        "numero": 59,
+        "number": 59,
         "name": {
             "de": "Arkani",
             "en": "Arcanine",
@@ -767,7 +767,7 @@
         "generation": 1
     },
     {
-        "numero": 60,
+        "number": 60,
         "name": {
             "de": "Quapsel",
             "en": "Poliwag",
@@ -780,7 +780,7 @@
         "generation": 1
     },
     {
-        "numero": 61,
+        "number": 61,
         "name": {
             "de": "Quaputzi",
             "en": "Poliwhirl",
@@ -793,7 +793,7 @@
         "generation": 1
     },
     {
-        "numero": 62,
+        "number": 62,
         "name": {
             "de": "Quappo",
             "en": "Poliwrath",
@@ -806,7 +806,7 @@
         "generation": 1
     },
     {
-        "numero": 63,
+        "number": 63,
         "name": {
             "de": "Abra",
             "en": "Abra",
@@ -819,7 +819,7 @@
         "generation": 1
     },
     {
-        "numero": 64,
+        "number": 64,
         "name": {
             "de": "Kadabra",
             "en": "Kadabra",
@@ -832,7 +832,7 @@
         "generation": 1
     },
     {
-        "numero": 65,
+        "number": 65,
         "name": {
             "de": "Simsala",
             "en": "Alakazam",
@@ -845,7 +845,7 @@
         "generation": 1
     },
     {
-        "numero": 66,
+        "number": 66,
         "name": {
             "de": "Machollo",
             "en": "Machop",
@@ -858,7 +858,7 @@
         "generation": 1
     },
     {
-        "numero": 67,
+        "number": 67,
         "name": {
             "de": "Maschock",
             "en": "Machoke",
@@ -871,7 +871,7 @@
         "generation": 1
     },
     {
-        "numero": 68,
+        "number": 68,
         "name": {
             "de": "Machomei",
             "en": "Machamp",
@@ -884,7 +884,7 @@
         "generation": 1
     },
     {
-        "numero": 69,
+        "number": 69,
         "name": {
             "de": "Knofensa",
             "en": "Bellsprout",
@@ -897,7 +897,7 @@
         "generation": 1
     },
     {
-        "numero": 70,
+        "number": 70,
         "name": {
             "de": "Ultrigaria",
             "en": "Weepinbell",
@@ -910,7 +910,7 @@
         "generation": 1
     },
     {
-        "numero": 71,
+        "number": 71,
         "name": {
             "de": "Sarzenia",
             "en": "Victreebel",
@@ -923,7 +923,7 @@
         "generation": 1
     },
     {
-        "numero": 72,
+        "number": 72,
         "name": {
             "de": "Tentacha",
             "en": "Tentacool",
@@ -936,7 +936,7 @@
         "generation": 1
     },
     {
-        "numero": 73,
+        "number": 73,
         "name": {
             "de": "Tentoxa",
             "en": "Tentacruel",
@@ -949,7 +949,7 @@
         "generation": 1
     },
     {
-        "numero": 74,
+        "number": 74,
         "name": {
             "de": "Kleinstein",
             "en": "Geodude",
@@ -962,7 +962,7 @@
         "generation": 1
     },
     {
-        "numero": 75,
+        "number": 75,
         "name": {
             "de": "Georok",
             "en": "Graveler",
@@ -975,7 +975,7 @@
         "generation": 1
     },
     {
-        "numero": 76,
+        "number": 76,
         "name": {
             "de": "Geowaz",
             "en": "Golem",
@@ -988,7 +988,7 @@
         "generation": 1
     },
     {
-        "numero": 77,
+        "number": 77,
         "name": {
             "de": "Ponita",
             "en": "Ponyta",
@@ -1001,7 +1001,7 @@
         "generation": 1
     },
     {
-        "numero": 78,
+        "number": 78,
         "name": {
             "de": "Gallopa",
             "en": "Rapidash",
@@ -1014,7 +1014,7 @@
         "generation": 1
     },
     {
-        "numero": 79,
+        "number": 79,
         "name": {
             "de": "Flegmon",
             "en": "Slowpoke",
@@ -1027,7 +1027,7 @@
         "generation": 1
     },
     {
-        "numero": 80,
+        "number": 80,
         "name": {
             "de": "Lahmus",
             "en": "Slowbro",
@@ -1040,7 +1040,7 @@
         "generation": 1
     },
     {
-        "numero": 81,
+        "number": 81,
         "name": {
             "de": "Magnetilo",
             "en": "Magnemite",
@@ -1053,7 +1053,7 @@
         "generation": 1
     },
     {
-        "numero": 82,
+        "number": 82,
         "name": {
             "de": "Magneton",
             "en": "Magneton",
@@ -1066,7 +1066,7 @@
         "generation": 1
     },
     {
-        "numero": 83,
+        "number": 83,
         "name": {
             "de": "Porenta",
             "en": "Farfetch’d",
@@ -1079,7 +1079,7 @@
         "generation": 1
     },
     {
-        "numero": 84,
+        "number": 84,
         "name": {
             "de": "Dodu",
             "en": "Doduo",
@@ -1092,7 +1092,7 @@
         "generation": 1
     },
     {
-        "numero": 85,
+        "number": 85,
         "name": {
             "de": "Dodri",
             "en": "Dodrio",
@@ -1105,7 +1105,7 @@
         "generation": 1
     },
     {
-        "numero": 86,
+        "number": 86,
         "name": {
             "de": "Jurob",
             "en": "Seel",
@@ -1118,7 +1118,7 @@
         "generation": 1
     },
     {
-        "numero": 87,
+        "number": 87,
         "name": {
             "de": "Jugong",
             "en": "Dewgong",
@@ -1131,7 +1131,7 @@
         "generation": 1
     },
     {
-        "numero": 88,
+        "number": 88,
         "name": {
             "de": "Sleima",
             "en": "Grimer",
@@ -1144,7 +1144,7 @@
         "generation": 1
     },
     {
-        "numero": 89,
+        "number": 89,
         "name": {
             "de": "Sleimok",
             "en": "Muk",
@@ -1157,7 +1157,7 @@
         "generation": 1
     },
     {
-        "numero": 90,
+        "number": 90,
         "name": {
             "de": "Muschas",
             "en": "Shellder",
@@ -1170,7 +1170,7 @@
         "generation": 1
     },
     {
-        "numero": 91,
+        "number": 91,
         "name": {
             "de": "Austos",
             "en": "Cloyster",
@@ -1183,7 +1183,7 @@
         "generation": 1
     },
     {
-        "numero": 92,
+        "number": 92,
         "name": {
             "de": "Nebulak",
             "en": "Gastly",
@@ -1196,7 +1196,7 @@
         "generation": 1
     },
     {
-        "numero": 93,
+        "number": 93,
         "name": {
             "de": "Alpollo",
             "en": "Haunter",
@@ -1209,7 +1209,7 @@
         "generation": 1
     },
     {
-        "numero": 94,
+        "number": 94,
         "name": {
             "de": "Gengar",
             "en": "Gengar",
@@ -1222,7 +1222,7 @@
         "generation": 1
     },
     {
-        "numero": 95,
+        "number": 95,
         "name": {
             "de": "Onix",
             "en": "Onix",
@@ -1235,7 +1235,7 @@
         "generation": 1
     },
     {
-        "numero": 96,
+        "number": 96,
         "name": {
             "de": "Traumato",
             "en": "Drowzee",
@@ -1248,7 +1248,7 @@
         "generation": 1
     },
     {
-        "numero": 97,
+        "number": 97,
         "name": {
             "de": "Hypno",
             "en": "Hypno",
@@ -1261,7 +1261,7 @@
         "generation": 1
     },
     {
-        "numero": 98,
+        "number": 98,
         "name": {
             "de": "Krabby",
             "en": "Krabby",
@@ -1274,7 +1274,7 @@
         "generation": 1
     },
     {
-        "numero": 99,
+        "number": 99,
         "name": {
             "de": "Kingler",
             "en": "Kingler",
@@ -1287,7 +1287,7 @@
         "generation": 1
     },
     {
-        "numero": 100,
+        "number": 100,
         "name": {
             "de": "Voltobal",
             "en": "Voltorb",
@@ -1300,7 +1300,7 @@
         "generation": 1
     },
     {
-        "numero": 101,
+        "number": 101,
         "name": {
             "de": "Lektrobal",
             "en": "Electrode",
@@ -1313,7 +1313,7 @@
         "generation": 1
     },
     {
-        "numero": 102,
+        "number": 102,
         "name": {
             "de": "Owei",
             "en": "Exeggcute",
@@ -1326,7 +1326,7 @@
         "generation": 1
     },
     {
-        "numero": 103,
+        "number": 103,
         "name": {
             "de": "Kokowei",
             "en": "Exeggutor",
@@ -1339,7 +1339,7 @@
         "generation": 1
     },
     {
-        "numero": 104,
+        "number": 104,
         "name": {
             "de": "Tragosso",
             "en": "Cubone",
@@ -1352,7 +1352,7 @@
         "generation": 1
     },
     {
-        "numero": 105,
+        "number": 105,
         "name": {
             "de": "Knogga",
             "en": "Marowak",
@@ -1365,7 +1365,7 @@
         "generation": 1
     },
     {
-        "numero": 106,
+        "number": 106,
         "name": {
             "de": "Kicklee",
             "en": "Hitmonlee",
@@ -1378,7 +1378,7 @@
         "generation": 1
     },
     {
-        "numero": 107,
+        "number": 107,
         "name": {
             "de": "Nockchan",
             "en": "Hitmonchan",
@@ -1391,7 +1391,7 @@
         "generation": 1
     },
     {
-        "numero": 108,
+        "number": 108,
         "name": {
             "de": "Schlurp",
             "en": "Lickitung",
@@ -1404,7 +1404,7 @@
         "generation": 1
     },
     {
-        "numero": 109,
+        "number": 109,
         "name": {
             "de": "Smogon",
             "en": "Koffing",
@@ -1417,7 +1417,7 @@
         "generation": 1
     },
     {
-        "numero": 110,
+        "number": 110,
         "name": {
             "de": "Smogmog",
             "en": "Weezing",
@@ -1430,7 +1430,7 @@
         "generation": 1
     },
     {
-        "numero": 111,
+        "number": 111,
         "name": {
             "de": "Rihorn",
             "en": "Rhyhorn",
@@ -1443,7 +1443,7 @@
         "generation": 1
     },
     {
-        "numero": 112,
+        "number": 112,
         "name": {
             "de": "Rizeros",
             "en": "Rhydon",
@@ -1456,7 +1456,7 @@
         "generation": 1
     },
     {
-        "numero": 113,
+        "number": 113,
         "name": {
             "de": "Chaneira",
             "en": "Chansey",
@@ -1469,7 +1469,7 @@
         "generation": 1
     },
     {
-        "numero": 114,
+        "number": 114,
         "name": {
             "de": "Tangela",
             "en": "Tangela",
@@ -1482,7 +1482,7 @@
         "generation": 1
     },
     {
-        "numero": 115,
+        "number": 115,
         "name": {
             "de": "Kangama",
             "en": "Kangaskhan",
@@ -1495,7 +1495,7 @@
         "generation": 1
     },
     {
-        "numero": 116,
+        "number": 116,
         "name": {
             "de": "Seeper",
             "en": "Horsea",
@@ -1508,7 +1508,7 @@
         "generation": 1
     },
     {
-        "numero": 117,
+        "number": 117,
         "name": {
             "de": "Seemon",
             "en": "Seadra",
@@ -1521,7 +1521,7 @@
         "generation": 1
     },
     {
-        "numero": 118,
+        "number": 118,
         "name": {
             "de": "Goldini",
             "en": "Goldeen",
@@ -1534,7 +1534,7 @@
         "generation": 1
     },
     {
-        "numero": 119,
+        "number": 119,
         "name": {
             "de": "Golking",
             "en": "Seaking",
@@ -1547,7 +1547,7 @@
         "generation": 1
     },
     {
-        "numero": 120,
+        "number": 120,
         "name": {
             "de": "Sterndu",
             "en": "Staryu",
@@ -1560,7 +1560,7 @@
         "generation": 1
     },
     {
-        "numero": 121,
+        "number": 121,
         "name": {
             "de": "Starmie",
             "en": "Starmie",
@@ -1573,7 +1573,7 @@
         "generation": 1
     },
     {
-        "numero": 122,
+        "number": 122,
         "name": {
             "de": "Pantimos",
             "en": "Mr. Mime",
@@ -1586,7 +1586,7 @@
         "generation": 1
     },
     {
-        "numero": 123,
+        "number": 123,
         "name": {
             "de": "Sichlor",
             "en": "Scyther",
@@ -1599,7 +1599,7 @@
         "generation": 1
     },
     {
-        "numero": 124,
+        "number": 124,
         "name": {
             "de": "Rossana",
             "en": "Jynx",
@@ -1612,7 +1612,7 @@
         "generation": 1
     },
     {
-        "numero": 125,
+        "number": 125,
         "name": {
             "de": "Elektek",
             "en": "Electabuzz",
@@ -1625,7 +1625,7 @@
         "generation": 1
     },
     {
-        "numero": 126,
+        "number": 126,
         "name": {
             "de": "Magmar",
             "en": "Magmar",
@@ -1638,7 +1638,7 @@
         "generation": 1
     },
     {
-        "numero": 127,
+        "number": 127,
         "name": {
             "de": "Pinsir",
             "en": "Pinsir",
@@ -1651,7 +1651,7 @@
         "generation": 1
     },
     {
-        "numero": 128,
+        "number": 128,
         "name": {
             "de": "Tauros",
             "en": "Tauros",
@@ -1664,7 +1664,7 @@
         "generation": 1
     },
     {
-        "numero": 129,
+        "number": 129,
         "name": {
             "de": "Karpador",
             "en": "Magikarp",
@@ -1677,7 +1677,7 @@
         "generation": 1
     },
     {
-        "numero": 130,
+        "number": 130,
         "name": {
             "de": "Garados",
             "en": "Gyarados",
@@ -1690,7 +1690,7 @@
         "generation": 1
     },
     {
-        "numero": 131,
+        "number": 131,
         "name": {
             "de": "Lapras",
             "en": "Lapras",
@@ -1703,7 +1703,7 @@
         "generation": 1
     },
     {
-        "numero": 132,
+        "number": 132,
         "name": {
             "de": "Ditto",
             "en": "Ditto",
@@ -1716,7 +1716,7 @@
         "generation": 1
     },
     {
-        "numero": 133,
+        "number": 133,
         "name": {
             "de": "Evoli",
             "en": "Eevee",
@@ -1729,7 +1729,7 @@
         "generation": 1
     },
     {
-        "numero": 134,
+        "number": 134,
         "name": {
             "de": "Aquana",
             "en": "Vaporeon",
@@ -1742,7 +1742,7 @@
         "generation": 1
     },
     {
-        "numero": 135,
+        "number": 135,
         "name": {
             "de": "Blitza",
             "en": "Jolteon",
@@ -1755,7 +1755,7 @@
         "generation": 1
     },
     {
-        "numero": 136,
+        "number": 136,
         "name": {
             "de": "Flamara",
             "en": "Flareon",
@@ -1768,7 +1768,7 @@
         "generation": 1
     },
     {
-        "numero": 137,
+        "number": 137,
         "name": {
             "de": "Porygon",
             "en": "Porygon",
@@ -1781,7 +1781,7 @@
         "generation": 1
     },
     {
-        "numero": 138,
+        "number": 138,
         "name": {
             "de": "Amonitas",
             "en": "Omanyte",
@@ -1794,7 +1794,7 @@
         "generation": 1
     },
     {
-        "numero": 139,
+        "number": 139,
         "name": {
             "de": "Amoroso",
             "en": "Omastar",
@@ -1807,7 +1807,7 @@
         "generation": 1
     },
     {
-        "numero": 140,
+        "number": 140,
         "name": {
             "de": "Kabuto",
             "en": "Kabuto",
@@ -1820,7 +1820,7 @@
         "generation": 1
     },
     {
-        "numero": 141,
+        "number": 141,
         "name": {
             "de": "Kabutops",
             "en": "Kabutops",
@@ -1833,7 +1833,7 @@
         "generation": 1
     },
     {
-        "numero": 142,
+        "number": 142,
         "name": {
             "de": "Aerodactyl",
             "en": "Aerodactyl",
@@ -1846,7 +1846,7 @@
         "generation": 1
     },
     {
-        "numero": 143,
+        "number": 143,
         "name": {
             "de": "Relaxo",
             "en": "Snorlax",
@@ -1859,7 +1859,7 @@
         "generation": 1
     },
     {
-        "numero": 144,
+        "number": 144,
         "name": {
             "de": "Arktos",
             "en": "Articuno",
@@ -1872,7 +1872,7 @@
         "generation": 1
     },
     {
-        "numero": 145,
+        "number": 145,
         "name": {
             "de": "Zapdos",
             "en": "Zapdos",
@@ -1885,7 +1885,7 @@
         "generation": 1
     },
     {
-        "numero": 146,
+        "number": 146,
         "name": {
             "de": "Lavados",
             "en": "Moltres",
@@ -1898,7 +1898,7 @@
         "generation": 1
     },
     {
-        "numero": 147,
+        "number": 147,
         "name": {
             "de": "Dratini",
             "en": "Dratini",
@@ -1911,7 +1911,7 @@
         "generation": 1
     },
     {
-        "numero": 148,
+        "number": 148,
         "name": {
             "de": "Dragonir",
             "en": "Dragonair",
@@ -1924,7 +1924,7 @@
         "generation": 1
     },
     {
-        "numero": 149,
+        "number": 149,
         "name": {
             "de": "Dragoran",
             "en": "Dragonite",
@@ -1937,7 +1937,7 @@
         "generation": 1
     },
     {
-        "numero": 150,
+        "number": 150,
         "name": {
             "de": "Mewtu",
             "en": "Mewtwo",
@@ -1950,7 +1950,7 @@
         "generation": 1
     },
     {
-        "numero": 151,
+        "number": 151,
         "name": {
             "de": "Mew",
             "en": "Mew",
@@ -1963,7 +1963,7 @@
         "generation": 1
     },
     {
-        "numero": 152,
+        "number": 152,
         "name": {
             "de": "Endivie",
             "en": "Chikorita",
@@ -1976,7 +1976,7 @@
         "generation": 2
     },
     {
-        "numero": 153,
+        "number": 153,
         "name": {
             "de": "Lorblatt",
             "en": "Bayleef",
@@ -1989,7 +1989,7 @@
         "generation": 2
     },
     {
-        "numero": 154,
+        "number": 154,
         "name": {
             "de": "Meganie",
             "en": "Meganium",
@@ -2002,7 +2002,7 @@
         "generation": 2
     },
     {
-        "numero": 155,
+        "number": 155,
         "name": {
             "de": "Feurigel",
             "en": "Cyndaquil",
@@ -2015,7 +2015,7 @@
         "generation": 2
     },
     {
-        "numero": 156,
+        "number": 156,
         "name": {
             "de": "Igelavar",
             "en": "Quilava",
@@ -2028,7 +2028,7 @@
         "generation": 2
     },
     {
-        "numero": 157,
+        "number": 157,
         "name": {
             "de": "Tornupto",
             "en": "Typhlosion",
@@ -2041,7 +2041,7 @@
         "generation": 2
     },
     {
-        "numero": 158,
+        "number": 158,
         "name": {
             "de": "Karnimani",
             "en": "Totodile",
@@ -2054,7 +2054,7 @@
         "generation": 2
     },
     {
-        "numero": 159,
+        "number": 159,
         "name": {
             "de": "Tyracroc",
             "en": "Croconaw",
@@ -2067,7 +2067,7 @@
         "generation": 2
     },
     {
-        "numero": 160,
+        "number": 160,
         "name": {
             "de": "Impergator",
             "en": "Feraligatr",
@@ -2080,7 +2080,7 @@
         "generation": 2
     },
     {
-        "numero": 161,
+        "number": 161,
         "name": {
             "de": "Wiesor",
             "en": "Sentret",
@@ -2093,7 +2093,7 @@
         "generation": 2
     },
     {
-        "numero": 162,
+        "number": 162,
         "name": {
             "de": "Wiesenior",
             "en": "Furret",
@@ -2106,7 +2106,7 @@
         "generation": 2
     },
     {
-        "numero": 163,
+        "number": 163,
         "name": {
             "de": "Hoothoot",
             "en": "Hoothoot",
@@ -2119,7 +2119,7 @@
         "generation": 2
     },
     {
-        "numero": 164,
+        "number": 164,
         "name": {
             "de": "Noctuh",
             "en": "Noctowl",
@@ -2132,7 +2132,7 @@
         "generation": 2
     },
     {
-        "numero": 165,
+        "number": 165,
         "name": {
             "de": "Ledyba",
             "en": "Ledyba",
@@ -2145,7 +2145,7 @@
         "generation": 2
     },
     {
-        "numero": 166,
+        "number": 166,
         "name": {
             "de": "Ledian",
             "en": "Ledian",
@@ -2158,7 +2158,7 @@
         "generation": 2
     },
     {
-        "numero": 167,
+        "number": 167,
         "name": {
             "de": "Webarak",
             "en": "Spinarak",
@@ -2171,7 +2171,7 @@
         "generation": 2
     },
     {
-        "numero": 168,
+        "number": 168,
         "name": {
             "de": "Ariados",
             "en": "Ariados",
@@ -2184,7 +2184,7 @@
         "generation": 2
     },
     {
-        "numero": 169,
+        "number": 169,
         "name": {
             "de": "Iksbat",
             "en": "Crobat",
@@ -2197,7 +2197,7 @@
         "generation": 2
     },
     {
-        "numero": 170,
+        "number": 170,
         "name": {
             "de": "Lampi",
             "en": "Chinchou",
@@ -2210,7 +2210,7 @@
         "generation": 2
     },
     {
-        "numero": 171,
+        "number": 171,
         "name": {
             "de": "Lanturn",
             "en": "Lanturn",
@@ -2223,7 +2223,7 @@
         "generation": 2
     },
     {
-        "numero": 172,
+        "number": 172,
         "name": {
             "de": "Pichu",
             "en": "Pichu",
@@ -2236,7 +2236,7 @@
         "generation": 2
     },
     {
-        "numero": 173,
+        "number": 173,
         "name": {
             "de": "Pii",
             "en": "Cleffa",
@@ -2249,7 +2249,7 @@
         "generation": 2
     },
     {
-        "numero": 174,
+        "number": 174,
         "name": {
             "de": "Fluffeluff",
             "en": "Igglybuff",
@@ -2262,7 +2262,7 @@
         "generation": 2
     },
     {
-        "numero": 175,
+        "number": 175,
         "name": {
             "de": "Togepi",
             "en": "Togepi",
@@ -2275,7 +2275,7 @@
         "generation": 2
     },
     {
-        "numero": 176,
+        "number": 176,
         "name": {
             "de": "Togetic",
             "en": "Togetic",
@@ -2288,7 +2288,7 @@
         "generation": 2
     },
     {
-        "numero": 177,
+        "number": 177,
         "name": {
             "de": "Natu",
             "en": "Natu",
@@ -2301,7 +2301,7 @@
         "generation": 2
     },
     {
-        "numero": 178,
+        "number": 178,
         "name": {
             "de": "Xatu",
             "en": "Xatu",
@@ -2314,7 +2314,7 @@
         "generation": 2
     },
     {
-        "numero": 179,
+        "number": 179,
         "name": {
             "de": "Voltilamm",
             "en": "Mareep",
@@ -2327,7 +2327,7 @@
         "generation": 2
     },
     {
-        "numero": 180,
+        "number": 180,
         "name": {
             "de": "Waaty",
             "en": "Flaaffy",
@@ -2340,7 +2340,7 @@
         "generation": 2
     },
     {
-        "numero": 181,
+        "number": 181,
         "name": {
             "de": "Ampharos",
             "en": "Ampharos",
@@ -2353,7 +2353,7 @@
         "generation": 2
     },
     {
-        "numero": 182,
+        "number": 182,
         "name": {
             "de": "Blubella",
             "en": "Bellossom",
@@ -2366,7 +2366,7 @@
         "generation": 2
     },
     {
-        "numero": 183,
+        "number": 183,
         "name": {
             "de": "Marill",
             "en": "Marill",
@@ -2379,7 +2379,7 @@
         "generation": 2
     },
     {
-        "numero": 184,
+        "number": 184,
         "name": {
             "de": "Azumarill",
             "en": "Azumarill",
@@ -2392,7 +2392,7 @@
         "generation": 2
     },
     {
-        "numero": 185,
+        "number": 185,
         "name": {
             "de": "Mogelbaum",
             "en": "Sudowoodo",
@@ -2405,7 +2405,7 @@
         "generation": 2
     },
     {
-        "numero": 186,
+        "number": 186,
         "name": {
             "de": "Quaxo",
             "en": "Politoed",
@@ -2418,7 +2418,7 @@
         "generation": 2
     },
     {
-        "numero": 187,
+        "number": 187,
         "name": {
             "de": "Hoppspross",
             "en": "Hoppip",
@@ -2431,7 +2431,7 @@
         "generation": 2
     },
     {
-        "numero": 188,
+        "number": 188,
         "name": {
             "de": "Hubelupf",
             "en": "Skiploom",
@@ -2444,7 +2444,7 @@
         "generation": 2
     },
     {
-        "numero": 189,
+        "number": 189,
         "name": {
             "de": "Papungha",
             "en": "Jumpluff",
@@ -2457,7 +2457,7 @@
         "generation": 2
     },
     {
-        "numero": 190,
+        "number": 190,
         "name": {
             "de": "Griffel",
             "en": "Aipom",
@@ -2470,7 +2470,7 @@
         "generation": 2
     },
     {
-        "numero": 191,
+        "number": 191,
         "name": {
             "de": "Sonnkern",
             "en": "Sunkern",
@@ -2483,7 +2483,7 @@
         "generation": 2
     },
     {
-        "numero": 192,
+        "number": 192,
         "name": {
             "de": "Sonnflora",
             "en": "Sunflora",
@@ -2496,7 +2496,7 @@
         "generation": 2
     },
     {
-        "numero": 193,
+        "number": 193,
         "name": {
             "de": "Yanma",
             "en": "Yanma",
@@ -2509,7 +2509,7 @@
         "generation": 2
     },
     {
-        "numero": 194,
+        "number": 194,
         "name": {
             "de": "Felino",
             "en": "Wooper",
@@ -2522,7 +2522,7 @@
         "generation": 2
     },
     {
-        "numero": 195,
+        "number": 195,
         "name": {
             "de": "Morlord",
             "en": "Quagsire",
@@ -2535,7 +2535,7 @@
         "generation": 2
     },
     {
-        "numero": 196,
+        "number": 196,
         "name": {
             "de": "Psiana",
             "en": "Espeon",
@@ -2548,7 +2548,7 @@
         "generation": 2
     },
     {
-        "numero": 197,
+        "number": 197,
         "name": {
             "de": "Nachtara",
             "en": "Umbreon",
@@ -2561,7 +2561,7 @@
         "generation": 2
     },
     {
-        "numero": 198,
+        "number": 198,
         "name": {
             "de": "Kramurx",
             "en": "Murkrow",
@@ -2574,7 +2574,7 @@
         "generation": 2
     },
     {
-        "numero": 199,
+        "number": 199,
         "name": {
             "de": "Laschoking",
             "en": "Slowking",
@@ -2587,7 +2587,7 @@
         "generation": 2
     },
     {
-        "numero": 200,
+        "number": 200,
         "name": {
             "de": "Traunfugil",
             "en": "Misdreavus",
@@ -2600,7 +2600,7 @@
         "generation": 2
     },
     {
-        "numero": 201,
+        "number": 201,
         "name": {
             "de": "Icognito",
             "en": "Unown",
@@ -2613,7 +2613,7 @@
         "generation": 2
     },
     {
-        "numero": 202,
+        "number": 202,
         "name": {
             "de": "Woingenau",
             "en": "Wobbuffet",
@@ -2626,7 +2626,7 @@
         "generation": 2
     },
     {
-        "numero": 203,
+        "number": 203,
         "name": {
             "de": "Girafarig",
             "en": "Girafarig",
@@ -2639,7 +2639,7 @@
         "generation": 2
     },
     {
-        "numero": 204,
+        "number": 204,
         "name": {
             "de": "Tannza",
             "en": "Pineco",
@@ -2652,7 +2652,7 @@
         "generation": 2
     },
     {
-        "numero": 205,
+        "number": 205,
         "name": {
             "de": "Forstellka",
             "en": "Forretress",
@@ -2665,7 +2665,7 @@
         "generation": 2
     },
     {
-        "numero": 206,
+        "number": 206,
         "name": {
             "de": "Dummisel",
             "en": "Dunsparce",
@@ -2678,7 +2678,7 @@
         "generation": 2
     },
     {
-        "numero": 207,
+        "number": 207,
         "name": {
             "de": "Skorgla",
             "en": "Gligar",
@@ -2691,7 +2691,7 @@
         "generation": 2
     },
     {
-        "numero": 208,
+        "number": 208,
         "name": {
             "de": "Stahlos",
             "en": "Steelix",
@@ -2704,7 +2704,7 @@
         "generation": 2
     },
     {
-        "numero": 209,
+        "number": 209,
         "name": {
             "de": "Snubbull",
             "en": "Snubbull",
@@ -2717,7 +2717,7 @@
         "generation": 2
     },
     {
-        "numero": 210,
+        "number": 210,
         "name": {
             "de": "Granbull",
             "en": "Granbull",
@@ -2730,7 +2730,7 @@
         "generation": 2
     },
     {
-        "numero": 211,
+        "number": 211,
         "name": {
             "de": "Baldorfish",
             "en": "Qwilfish",
@@ -2743,7 +2743,7 @@
         "generation": 2
     },
     {
-        "numero": 212,
+        "number": 212,
         "name": {
             "de": "Scherox",
             "en": "Scizor",
@@ -2756,7 +2756,7 @@
         "generation": 2
     },
     {
-        "numero": 213,
+        "number": 213,
         "name": {
             "de": "Pottrott",
             "en": "Shuckle",
@@ -2769,7 +2769,7 @@
         "generation": 2
     },
     {
-        "numero": 214,
+        "number": 214,
         "name": {
             "de": "Skaraborn",
             "en": "Heracross",
@@ -2782,7 +2782,7 @@
         "generation": 2
     },
     {
-        "numero": 215,
+        "number": 215,
         "name": {
             "de": "Sniebel",
             "en": "Sneasel",
@@ -2795,7 +2795,7 @@
         "generation": 2
     },
     {
-        "numero": 216,
+        "number": 216,
         "name": {
             "de": "Teddiursa",
             "en": "Teddiursa",
@@ -2808,7 +2808,7 @@
         "generation": 2
     },
     {
-        "numero": 217,
+        "number": 217,
         "name": {
             "de": "Ursaring",
             "en": "Ursaring",
@@ -2821,7 +2821,7 @@
         "generation": 2
     },
     {
-        "numero": 218,
+        "number": 218,
         "name": {
             "de": "Schneckmag",
             "en": "Slugma",
@@ -2834,7 +2834,7 @@
         "generation": 2
     },
     {
-        "numero": 219,
+        "number": 219,
         "name": {
             "de": "Magcargo",
             "en": "Magcargo",
@@ -2847,7 +2847,7 @@
         "generation": 2
     },
     {
-        "numero": 220,
+        "number": 220,
         "name": {
             "de": "Quiekel",
             "en": "Swinub",
@@ -2860,7 +2860,7 @@
         "generation": 2
     },
     {
-        "numero": 221,
+        "number": 221,
         "name": {
             "de": "Keifel",
             "en": "Piloswine",
@@ -2873,7 +2873,7 @@
         "generation": 2
     },
     {
-        "numero": 222,
+        "number": 222,
         "name": {
             "de": "Corasonn",
             "en": "Corsola",
@@ -2886,7 +2886,7 @@
         "generation": 2
     },
     {
-        "numero": 223,
+        "number": 223,
         "name": {
             "de": "Remoraid",
             "en": "Remoraid",
@@ -2899,7 +2899,7 @@
         "generation": 2
     },
     {
-        "numero": 224,
+        "number": 224,
         "name": {
             "de": "Octillery",
             "en": "Octillery",
@@ -2912,7 +2912,7 @@
         "generation": 2
     },
     {
-        "numero": 225,
+        "number": 225,
         "name": {
             "de": "Botogel",
             "en": "Delibird",
@@ -2925,7 +2925,7 @@
         "generation": 2
     },
     {
-        "numero": 226,
+        "number": 226,
         "name": {
             "de": "Mantax",
             "en": "Mantine",
@@ -2938,7 +2938,7 @@
         "generation": 2
     },
     {
-        "numero": 227,
+        "number": 227,
         "name": {
             "de": "Panzaeron",
             "en": "Skarmory",
@@ -2951,7 +2951,7 @@
         "generation": 2
     },
     {
-        "numero": 228,
+        "number": 228,
         "name": {
             "de": "Hunduster",
             "en": "Houndour",
@@ -2964,7 +2964,7 @@
         "generation": 2
     },
     {
-        "numero": 229,
+        "number": 229,
         "name": {
             "de": "Hundemon",
             "en": "Houndoom",
@@ -2977,7 +2977,7 @@
         "generation": 2
     },
     {
-        "numero": 230,
+        "number": 230,
         "name": {
             "de": "Seedraking",
             "en": "Kingdra",
@@ -2990,7 +2990,7 @@
         "generation": 2
     },
     {
-        "numero": 231,
+        "number": 231,
         "name": {
             "de": "Phanpy",
             "en": "Phanpy",
@@ -3003,7 +3003,7 @@
         "generation": 2
     },
     {
-        "numero": 232,
+        "number": 232,
         "name": {
             "de": "Donphan",
             "en": "Donphan",
@@ -3016,7 +3016,7 @@
         "generation": 2
     },
     {
-        "numero": 233,
+        "number": 233,
         "name": {
             "de": "Porygon2",
             "en": "Porygon2",
@@ -3029,7 +3029,7 @@
         "generation": 2
     },
     {
-        "numero": 234,
+        "number": 234,
         "name": {
             "de": "Damhirplex",
             "en": "Stantler",
@@ -3042,7 +3042,7 @@
         "generation": 2
     },
     {
-        "numero": 235,
+        "number": 235,
         "name": {
             "de": "Farbeagle",
             "en": "Smeargle",
@@ -3055,7 +3055,7 @@
         "generation": 2
     },
     {
-        "numero": 236,
+        "number": 236,
         "name": {
             "de": "Rabauz",
             "en": "Tyrogue",
@@ -3068,7 +3068,7 @@
         "generation": 2
     },
     {
-        "numero": 237,
+        "number": 237,
         "name": {
             "de": "Kapoera",
             "en": "Hitmontop",
@@ -3081,7 +3081,7 @@
         "generation": 2
     },
     {
-        "numero": 238,
+        "number": 238,
         "name": {
             "de": "Kussilla",
             "en": "Smoochum",
@@ -3094,7 +3094,7 @@
         "generation": 2
     },
     {
-        "numero": 239,
+        "number": 239,
         "name": {
             "de": "Elekid",
             "en": "Elekid",
@@ -3107,7 +3107,7 @@
         "generation": 2
     },
     {
-        "numero": 240,
+        "number": 240,
         "name": {
             "de": "Magby",
             "en": "Magby",
@@ -3120,7 +3120,7 @@
         "generation": 2
     },
     {
-        "numero": 241,
+        "number": 241,
         "name": {
             "de": "Miltank",
             "en": "Miltank",
@@ -3133,7 +3133,7 @@
         "generation": 2
     },
     {
-        "numero": 242,
+        "number": 242,
         "name": {
             "de": "Heiteira",
             "en": "Blissey",
@@ -3146,7 +3146,7 @@
         "generation": 2
     },
     {
-        "numero": 243,
+        "number": 243,
         "name": {
             "de": "Raikou",
             "en": "Raikou",
@@ -3159,7 +3159,7 @@
         "generation": 2
     },
     {
-        "numero": 244,
+        "number": 244,
         "name": {
             "de": "Entei",
             "en": "Entei",
@@ -3172,7 +3172,7 @@
         "generation": 2
     },
     {
-        "numero": 245,
+        "number": 245,
         "name": {
             "de": "Suicune",
             "en": "Suicune",
@@ -3185,7 +3185,7 @@
         "generation": 2
     },
     {
-        "numero": 246,
+        "number": 246,
         "name": {
             "de": "Larvitar",
             "en": "Larvitar",
@@ -3198,7 +3198,7 @@
         "generation": 2
     },
     {
-        "numero": 247,
+        "number": 247,
         "name": {
             "de": "Pupitar",
             "en": "Pupitar",
@@ -3211,7 +3211,7 @@
         "generation": 2
     },
     {
-        "numero": 248,
+        "number": 248,
         "name": {
             "de": "Despotar",
             "en": "Tyranitar",
@@ -3224,7 +3224,7 @@
         "generation": 2
     },
     {
-        "numero": 249,
+        "number": 249,
         "name": {
             "de": "Lugia",
             "en": "Lugia",
@@ -3237,7 +3237,7 @@
         "generation": 2
     },
     {
-        "numero": 250,
+        "number": 250,
         "name": {
             "de": "Ho-Oh",
             "en": "Ho-Oh",
@@ -3250,7 +3250,7 @@
         "generation": 2
     },
     {
-        "numero": 251,
+        "number": 251,
         "name": {
             "de": "Celebi",
             "en": "Celebi",
@@ -3263,7 +3263,7 @@
         "generation": 2
     },
     {
-        "numero": 252,
+        "number": 252,
         "name": {
             "de": "Geckarbor",
             "en": "Treecko",
@@ -3276,7 +3276,7 @@
         "generation": 3
     },
     {
-        "numero": 253,
+        "number": 253,
         "name": {
             "de": "Reptain",
             "en": "Grovyle",
@@ -3289,7 +3289,7 @@
         "generation": 3
     },
     {
-        "numero": 254,
+        "number": 254,
         "name": {
             "de": "Gewaldro",
             "en": "Sceptile",
@@ -3302,7 +3302,7 @@
         "generation": 3
     },
     {
-        "numero": 255,
+        "number": 255,
         "name": {
             "de": "Flemmli",
             "en": "Torchic",
@@ -3315,7 +3315,7 @@
         "generation": 3
     },
     {
-        "numero": 256,
+        "number": 256,
         "name": {
             "de": "Jungglut",
             "en": "Combusken",
@@ -3328,7 +3328,7 @@
         "generation": 3
     },
     {
-        "numero": 257,
+        "number": 257,
         "name": {
             "de": "Lohgock",
             "en": "Blaziken",
@@ -3341,7 +3341,7 @@
         "generation": 3
     },
     {
-        "numero": 258,
+        "number": 258,
         "name": {
             "de": "Hydropi",
             "en": "Mudkip",
@@ -3354,7 +3354,7 @@
         "generation": 3
     },
     {
-        "numero": 259,
+        "number": 259,
         "name": {
             "de": "Moorabbel",
             "en": "Marshtomp",
@@ -3367,7 +3367,7 @@
         "generation": 3
     },
     {
-        "numero": 260,
+        "number": 260,
         "name": {
             "de": "Sumpex",
             "en": "Swampert",
@@ -3380,7 +3380,7 @@
         "generation": 3
     },
     {
-        "numero": 261,
+        "number": 261,
         "name": {
             "de": "Fiffyen",
             "en": "Poochyena",
@@ -3393,7 +3393,7 @@
         "generation": 3
     },
     {
-        "numero": 262,
+        "number": 262,
         "name": {
             "de": "Magnayen",
             "en": "Mightyena",
@@ -3406,7 +3406,7 @@
         "generation": 3
     },
     {
-        "numero": 263,
+        "number": 263,
         "name": {
             "de": "Zigzachs",
             "en": "Zigzagoon",
@@ -3419,7 +3419,7 @@
         "generation": 3
     },
     {
-        "numero": 264,
+        "number": 264,
         "name": {
             "de": "Geradaks",
             "en": "Linoone",
@@ -3432,7 +3432,7 @@
         "generation": 3
     },
     {
-        "numero": 265,
+        "number": 265,
         "name": {
             "de": "Waumpel",
             "en": "Wurmple",
@@ -3445,7 +3445,7 @@
         "generation": 3
     },
     {
-        "numero": 266,
+        "number": 266,
         "name": {
             "de": "Schaloko",
             "en": "Silcoon",
@@ -3458,7 +3458,7 @@
         "generation": 3
     },
     {
-        "numero": 267,
+        "number": 267,
         "name": {
             "de": "Papinella",
             "en": "Beautifly",
@@ -3471,7 +3471,7 @@
         "generation": 3
     },
     {
-        "numero": 268,
+        "number": 268,
         "name": {
             "de": "Panekon",
             "en": "Cascoon",
@@ -3484,7 +3484,7 @@
         "generation": 3
     },
     {
-        "numero": 269,
+        "number": 269,
         "name": {
             "de": "Pudox",
             "en": "Dustox",
@@ -3497,7 +3497,7 @@
         "generation": 3
     },
     {
-        "numero": 270,
+        "number": 270,
         "name": {
             "de": "Loturzel",
             "en": "Lotad",
@@ -3510,7 +3510,7 @@
         "generation": 3
     },
     {
-        "numero": 271,
+        "number": 271,
         "name": {
             "de": "Lombrero",
             "en": "Lombre",
@@ -3523,7 +3523,7 @@
         "generation": 3
     },
     {
-        "numero": 272,
+        "number": 272,
         "name": {
             "de": "Kappalores",
             "en": "Ludicolo",
@@ -3536,7 +3536,7 @@
         "generation": 3
     },
     {
-        "numero": 273,
+        "number": 273,
         "name": {
             "de": "Samurzel",
             "en": "Seedot",
@@ -3549,7 +3549,7 @@
         "generation": 3
     },
     {
-        "numero": 274,
+        "number": 274,
         "name": {
             "de": "Blanas",
             "en": "Nuzleaf",
@@ -3562,7 +3562,7 @@
         "generation": 3
     },
     {
-        "numero": 275,
+        "number": 275,
         "name": {
             "de": "Tengulist",
             "en": "Shiftry",
@@ -3575,7 +3575,7 @@
         "generation": 3
     },
     {
-        "numero": 276,
+        "number": 276,
         "name": {
             "de": "Schwalbini",
             "en": "Taillow",
@@ -3588,7 +3588,7 @@
         "generation": 3
     },
     {
-        "numero": 277,
+        "number": 277,
         "name": {
             "de": "Schwalboss",
             "en": "Swellow",
@@ -3601,7 +3601,7 @@
         "generation": 3
     },
     {
-        "numero": 278,
+        "number": 278,
         "name": {
             "de": "Wingull",
             "en": "Wingull",
@@ -3614,7 +3614,7 @@
         "generation": 3
     },
     {
-        "numero": 279,
+        "number": 279,
         "name": {
             "de": "Pelipper",
             "en": "Pelipper",
@@ -3627,7 +3627,7 @@
         "generation": 3
     },
     {
-        "numero": 280,
+        "number": 280,
         "name": {
             "de": "Trasla",
             "en": "Ralts",
@@ -3640,7 +3640,7 @@
         "generation": 3
     },
     {
-        "numero": 281,
+        "number": 281,
         "name": {
             "de": "Kirlia",
             "en": "Kirlia",
@@ -3653,7 +3653,7 @@
         "generation": 3
     },
     {
-        "numero": 282,
+        "number": 282,
         "name": {
             "de": "Guardevoir",
             "en": "Gardevoir",
@@ -3666,7 +3666,7 @@
         "generation": 3
     },
     {
-        "numero": 283,
+        "number": 283,
         "name": {
             "de": "Gehweiher",
             "en": "Surskit",
@@ -3679,7 +3679,7 @@
         "generation": 3
     },
     {
-        "numero": 284,
+        "number": 284,
         "name": {
             "de": "Maskeregen",
             "en": "Masquerain",
@@ -3692,7 +3692,7 @@
         "generation": 3
     },
     {
-        "numero": 285,
+        "number": 285,
         "name": {
             "de": "Knilz",
             "en": "Shroomish",
@@ -3705,7 +3705,7 @@
         "generation": 3
     },
     {
-        "numero": 286,
+        "number": 286,
         "name": {
             "de": "Kapilz",
             "en": "Breloom",
@@ -3718,7 +3718,7 @@
         "generation": 3
     },
     {
-        "numero": 287,
+        "number": 287,
         "name": {
             "de": "Bummelz",
             "en": "Slakoth",
@@ -3731,7 +3731,7 @@
         "generation": 3
     },
     {
-        "numero": 288,
+        "number": 288,
         "name": {
             "de": "Muntier",
             "en": "Vigoroth",
@@ -3744,7 +3744,7 @@
         "generation": 3
     },
     {
-        "numero": 289,
+        "number": 289,
         "name": {
             "de": "Letarking",
             "en": "Slaking",
@@ -3757,7 +3757,7 @@
         "generation": 3
     },
     {
-        "numero": 290,
+        "number": 290,
         "name": {
             "de": "Nincada",
             "en": "Nincada",
@@ -3770,7 +3770,7 @@
         "generation": 3
     },
     {
-        "numero": 291,
+        "number": 291,
         "name": {
             "de": "Ninjask",
             "en": "Ninjask",
@@ -3783,7 +3783,7 @@
         "generation": 3
     },
     {
-        "numero": 292,
+        "number": 292,
         "name": {
             "de": "Ninjatom",
             "en": "Shedinja",
@@ -3796,7 +3796,7 @@
         "generation": 3
     },
     {
-        "numero": 293,
+        "number": 293,
         "name": {
             "de": "Flurmel",
             "en": "Whismur",
@@ -3809,7 +3809,7 @@
         "generation": 3
     },
     {
-        "numero": 294,
+        "number": 294,
         "name": {
             "de": "Krakeelo",
             "en": "Loudred",
@@ -3822,7 +3822,7 @@
         "generation": 3
     },
     {
-        "numero": 295,
+        "number": 295,
         "name": {
             "de": "Krawumms",
             "en": "Exploud",
@@ -3835,7 +3835,7 @@
         "generation": 3
     },
     {
-        "numero": 296,
+        "number": 296,
         "name": {
             "de": "Makuhita",
             "en": "Makuhita",
@@ -3848,7 +3848,7 @@
         "generation": 3
     },
     {
-        "numero": 297,
+        "number": 297,
         "name": {
             "de": "Hariyama",
             "en": "Hariyama",
@@ -3861,7 +3861,7 @@
         "generation": 3
     },
     {
-        "numero": 298,
+        "number": 298,
         "name": {
             "de": "Azurill",
             "en": "Azurill",
@@ -3874,7 +3874,7 @@
         "generation": 3
     },
     {
-        "numero": 299,
+        "number": 299,
         "name": {
             "de": "Nasgnet",
             "en": "Nosepass",
@@ -3887,7 +3887,7 @@
         "generation": 3
     },
     {
-        "numero": 300,
+        "number": 300,
         "name": {
             "de": "Eneco",
             "en": "Skitty",
@@ -3900,7 +3900,7 @@
         "generation": 3
     },
     {
-        "numero": 301,
+        "number": 301,
         "name": {
             "de": "Enekoro",
             "en": "Delcatty",
@@ -3913,7 +3913,7 @@
         "generation": 3
     },
     {
-        "numero": 302,
+        "number": 302,
         "name": {
             "de": "Zobiris",
             "en": "Sableye",
@@ -3926,7 +3926,7 @@
         "generation": 3
     },
     {
-        "numero": 303,
+        "number": 303,
         "name": {
             "de": "Flunkifer",
             "en": "Mawile",
@@ -3939,7 +3939,7 @@
         "generation": 3
     },
     {
-        "numero": 304,
+        "number": 304,
         "name": {
             "de": "Stollunior",
             "en": "Aron",
@@ -3952,7 +3952,7 @@
         "generation": 3
     },
     {
-        "numero": 305,
+        "number": 305,
         "name": {
             "de": "Stollrak",
             "en": "Lairon",
@@ -3965,7 +3965,7 @@
         "generation": 3
     },
     {
-        "numero": 306,
+        "number": 306,
         "name": {
             "de": "Stolloss",
             "en": "Aggron",
@@ -3978,7 +3978,7 @@
         "generation": 3
     },
     {
-        "numero": 307,
+        "number": 307,
         "name": {
             "de": "Meditie",
             "en": "Meditite",
@@ -3991,7 +3991,7 @@
         "generation": 3
     },
     {
-        "numero": 308,
+        "number": 308,
         "name": {
             "de": "Meditalis",
             "en": "Medicham",
@@ -4004,7 +4004,7 @@
         "generation": 3
     },
     {
-        "numero": 309,
+        "number": 309,
         "name": {
             "de": "Frizelbliz",
             "en": "Electrike",
@@ -4017,7 +4017,7 @@
         "generation": 3
     },
     {
-        "numero": 310,
+        "number": 310,
         "name": {
             "de": "Voltenso",
             "en": "Manectric",
@@ -4030,7 +4030,7 @@
         "generation": 3
     },
     {
-        "numero": 311,
+        "number": 311,
         "name": {
             "de": "Plusle",
             "en": "Plusle",
@@ -4043,7 +4043,7 @@
         "generation": 3
     },
     {
-        "numero": 312,
+        "number": 312,
         "name": {
             "de": "Minun",
             "en": "Minun",
@@ -4056,7 +4056,7 @@
         "generation": 3
     },
     {
-        "numero": 313,
+        "number": 313,
         "name": {
             "de": "Volbeat",
             "en": "Volbeat",
@@ -4069,7 +4069,7 @@
         "generation": 3
     },
     {
-        "numero": 314,
+        "number": 314,
         "name": {
             "de": "Illumise",
             "en": "Illumise",
@@ -4082,7 +4082,7 @@
         "generation": 3
     },
     {
-        "numero": 315,
+        "number": 315,
         "name": {
             "de": "Roselia",
             "en": "Roselia",
@@ -4095,7 +4095,7 @@
         "generation": 3
     },
     {
-        "numero": 316,
+        "number": 316,
         "name": {
             "de": "Schluppuck",
             "en": "Gulpin",
@@ -4108,7 +4108,7 @@
         "generation": 3
     },
     {
-        "numero": 317,
+        "number": 317,
         "name": {
             "de": "Schlukwech",
             "en": "Swalot",
@@ -4121,7 +4121,7 @@
         "generation": 3
     },
     {
-        "numero": 318,
+        "number": 318,
         "name": {
             "de": "Kanivanha",
             "en": "Carvanha",
@@ -4134,7 +4134,7 @@
         "generation": 3
     },
     {
-        "numero": 319,
+        "number": 319,
         "name": {
             "de": "Tohaido",
             "en": "Sharpedo",
@@ -4147,7 +4147,7 @@
         "generation": 3
     },
     {
-        "numero": 320,
+        "number": 320,
         "name": {
             "de": "Wailmer",
             "en": "Wailmer",
@@ -4160,7 +4160,7 @@
         "generation": 3
     },
     {
-        "numero": 321,
+        "number": 321,
         "name": {
             "de": "Wailord",
             "en": "Wailord",
@@ -4173,7 +4173,7 @@
         "generation": 3
     },
     {
-        "numero": 322,
+        "number": 322,
         "name": {
             "de": "Camaub",
             "en": "Numel",
@@ -4186,7 +4186,7 @@
         "generation": 3
     },
     {
-        "numero": 323,
+        "number": 323,
         "name": {
             "de": "Camerupt",
             "en": "Camerupt",
@@ -4199,7 +4199,7 @@
         "generation": 3
     },
     {
-        "numero": 324,
+        "number": 324,
         "name": {
             "de": "Qurtel",
             "en": "Torkoal",
@@ -4212,7 +4212,7 @@
         "generation": 3
     },
     {
-        "numero": 325,
+        "number": 325,
         "name": {
             "de": "Spoink",
             "en": "Spoink",
@@ -4225,7 +4225,7 @@
         "generation": 3
     },
     {
-        "numero": 326,
+        "number": 326,
         "name": {
             "de": "Groink",
             "en": "Grumpig",
@@ -4238,7 +4238,7 @@
         "generation": 3
     },
     {
-        "numero": 327,
+        "number": 327,
         "name": {
             "de": "Pandir",
             "en": "Spinda",
@@ -4251,7 +4251,7 @@
         "generation": 3
     },
     {
-        "numero": 328,
+        "number": 328,
         "name": {
             "de": "Knacklion",
             "en": "Trapinch",
@@ -4264,7 +4264,7 @@
         "generation": 3
     },
     {
-        "numero": 329,
+        "number": 329,
         "name": {
             "de": "Vibrava",
             "en": "Vibrava",
@@ -4277,7 +4277,7 @@
         "generation": 3
     },
     {
-        "numero": 330,
+        "number": 330,
         "name": {
             "de": "Libelldra",
             "en": "Flygon",
@@ -4290,7 +4290,7 @@
         "generation": 3
     },
     {
-        "numero": 331,
+        "number": 331,
         "name": {
             "de": "Tuska",
             "en": "Cacnea",
@@ -4303,7 +4303,7 @@
         "generation": 3
     },
     {
-        "numero": 332,
+        "number": 332,
         "name": {
             "de": "Noktuska",
             "en": "Cacturne",
@@ -4316,7 +4316,7 @@
         "generation": 3
     },
     {
-        "numero": 333,
+        "number": 333,
         "name": {
             "de": "Wablu",
             "en": "Swablu",
@@ -4329,7 +4329,7 @@
         "generation": 3
     },
     {
-        "numero": 334,
+        "number": 334,
         "name": {
             "de": "Altaria",
             "en": "Altaria",
@@ -4342,7 +4342,7 @@
         "generation": 3
     },
     {
-        "numero": 335,
+        "number": 335,
         "name": {
             "de": "Sengo",
             "en": "Zangoose",
@@ -4355,7 +4355,7 @@
         "generation": 3
     },
     {
-        "numero": 336,
+        "number": 336,
         "name": {
             "de": "Vipitis",
             "en": "Seviper",
@@ -4368,7 +4368,7 @@
         "generation": 3
     },
     {
-        "numero": 337,
+        "number": 337,
         "name": {
             "de": "Lunastein",
             "en": "Lunatone",
@@ -4381,7 +4381,7 @@
         "generation": 3
     },
     {
-        "numero": 338,
+        "number": 338,
         "name": {
             "de": "Sonnfel",
             "en": "Solrock",
@@ -4394,7 +4394,7 @@
         "generation": 3
     },
     {
-        "numero": 339,
+        "number": 339,
         "name": {
             "de": "Schmerbe",
             "en": "Barboach",
@@ -4407,7 +4407,7 @@
         "generation": 3
     },
     {
-        "numero": 340,
+        "number": 340,
         "name": {
             "de": "Welsar",
             "en": "Whiscash",
@@ -4420,7 +4420,7 @@
         "generation": 3
     },
     {
-        "numero": 341,
+        "number": 341,
         "name": {
             "de": "Krebscorps",
             "en": "Corphish",
@@ -4433,7 +4433,7 @@
         "generation": 3
     },
     {
-        "numero": 342,
+        "number": 342,
         "name": {
             "de": "Krebutack",
             "en": "Crawdaunt",
@@ -4446,7 +4446,7 @@
         "generation": 3
     },
     {
-        "numero": 343,
+        "number": 343,
         "name": {
             "de": "Puppance",
             "en": "Baltoy",
@@ -4459,7 +4459,7 @@
         "generation": 3
     },
     {
-        "numero": 344,
+        "number": 344,
         "name": {
             "de": "Lepumentas",
             "en": "Claydol",
@@ -4472,7 +4472,7 @@
         "generation": 3
     },
     {
-        "numero": 345,
+        "number": 345,
         "name": {
             "de": "Liliep",
             "en": "Lileep",
@@ -4485,7 +4485,7 @@
         "generation": 3
     },
     {
-        "numero": 346,
+        "number": 346,
         "name": {
             "de": "Wielie",
             "en": "Cradily",
@@ -4498,7 +4498,7 @@
         "generation": 3
     },
     {
-        "numero": 347,
+        "number": 347,
         "name": {
             "de": "Anorith",
             "en": "Anorith",
@@ -4511,7 +4511,7 @@
         "generation": 3
     },
     {
-        "numero": 348,
+        "number": 348,
         "name": {
             "de": "Armaldo",
             "en": "Armaldo",
@@ -4524,7 +4524,7 @@
         "generation": 3
     },
     {
-        "numero": 349,
+        "number": 349,
         "name": {
             "de": "Barschwa",
             "en": "Feebas",
@@ -4537,7 +4537,7 @@
         "generation": 3
     },
     {
-        "numero": 350,
+        "number": 350,
         "name": {
             "de": "Milotic",
             "en": "Milotic",
@@ -4550,7 +4550,7 @@
         "generation": 3
     },
     {
-        "numero": 351,
+        "number": 351,
         "name": {
             "de": "Formeo",
             "en": "Castform",
@@ -4563,7 +4563,7 @@
         "generation": 3
     },
     {
-        "numero": 352,
+        "number": 352,
         "name": {
             "de": "Kecleon",
             "en": "Kecleon",
@@ -4576,7 +4576,7 @@
         "generation": 3
     },
     {
-        "numero": 353,
+        "number": 353,
         "name": {
             "de": "Shuppet",
             "en": "Shuppet",
@@ -4589,7 +4589,7 @@
         "generation": 3
     },
     {
-        "numero": 354,
+        "number": 354,
         "name": {
             "de": "Banette",
             "en": "Banette",
@@ -4602,7 +4602,7 @@
         "generation": 3
     },
     {
-        "numero": 355,
+        "number": 355,
         "name": {
             "de": "Zwirrlicht",
             "en": "Duskull",
@@ -4615,7 +4615,7 @@
         "generation": 3
     },
     {
-        "numero": 356,
+        "number": 356,
         "name": {
             "de": "Zwirrklop",
             "en": "Dusclops",
@@ -4628,7 +4628,7 @@
         "generation": 3
     },
     {
-        "numero": 357,
+        "number": 357,
         "name": {
             "de": "Tropius",
             "en": "Tropius",
@@ -4641,7 +4641,7 @@
         "generation": 3
     },
     {
-        "numero": 358,
+        "number": 358,
         "name": {
             "de": "Palimpalim",
             "en": "Chimecho",
@@ -4654,7 +4654,7 @@
         "generation": 3
     },
     {
-        "numero": 359,
+        "number": 359,
         "name": {
             "de": "Absol",
             "en": "Absol",
@@ -4667,7 +4667,7 @@
         "generation": 3
     },
     {
-        "numero": 360,
+        "number": 360,
         "name": {
             "de": "Isso",
             "en": "Wynaut",
@@ -4680,7 +4680,7 @@
         "generation": 3
     },
     {
-        "numero": 361,
+        "number": 361,
         "name": {
             "de": "Schneppke",
             "en": "Snorunt",
@@ -4693,7 +4693,7 @@
         "generation": 3
     },
     {
-        "numero": 362,
+        "number": 362,
         "name": {
             "de": "Firnontor",
             "en": "Glalie",
@@ -4706,7 +4706,7 @@
         "generation": 3
     },
     {
-        "numero": 363,
+        "number": 363,
         "name": {
             "de": "Seemops",
             "en": "Spheal",
@@ -4719,7 +4719,7 @@
         "generation": 3
     },
     {
-        "numero": 364,
+        "number": 364,
         "name": {
             "de": "Seejong",
             "en": "Sealeo",
@@ -4732,7 +4732,7 @@
         "generation": 3
     },
     {
-        "numero": 365,
+        "number": 365,
         "name": {
             "de": "Walraisa",
             "en": "Walrein",
@@ -4745,7 +4745,7 @@
         "generation": 3
     },
     {
-        "numero": 366,
+        "number": 366,
         "name": {
             "de": "Perlu",
             "en": "Clamperl",
@@ -4758,7 +4758,7 @@
         "generation": 3
     },
     {
-        "numero": 367,
+        "number": 367,
         "name": {
             "de": "Aalabyss",
             "en": "Huntail",
@@ -4771,7 +4771,7 @@
         "generation": 3
     },
     {
-        "numero": 368,
+        "number": 368,
         "name": {
             "de": "Saganabyss",
             "en": "Gorebyss",
@@ -4784,7 +4784,7 @@
         "generation": 3
     },
     {
-        "numero": 369,
+        "number": 369,
         "name": {
             "de": "Relicanth",
             "en": "Relicanth",
@@ -4797,7 +4797,7 @@
         "generation": 3
     },
     {
-        "numero": 370,
+        "number": 370,
         "name": {
             "de": "Liebiskus",
             "en": "Luvdisc",
@@ -4810,7 +4810,7 @@
         "generation": 3
     },
     {
-        "numero": 371,
+        "number": 371,
         "name": {
             "de": "Kindwurm",
             "en": "Bagon",
@@ -4823,7 +4823,7 @@
         "generation": 3
     },
     {
-        "numero": 372,
+        "number": 372,
         "name": {
             "de": "Draschel",
             "en": "Shelgon",
@@ -4836,7 +4836,7 @@
         "generation": 3
     },
     {
-        "numero": 373,
+        "number": 373,
         "name": {
             "de": "Brutalanda",
             "en": "Salamence",
@@ -4849,7 +4849,7 @@
         "generation": 3
     },
     {
-        "numero": 374,
+        "number": 374,
         "name": {
             "de": "Tanhel",
             "en": "Beldum",
@@ -4862,7 +4862,7 @@
         "generation": 3
     },
     {
-        "numero": 375,
+        "number": 375,
         "name": {
             "de": "Metang",
             "en": "Metang",
@@ -4875,7 +4875,7 @@
         "generation": 3
     },
     {
-        "numero": 376,
+        "number": 376,
         "name": {
             "de": "Metagross",
             "en": "Metagross",
@@ -4888,7 +4888,7 @@
         "generation": 3
     },
     {
-        "numero": 377,
+        "number": 377,
         "name": {
             "de": "Regirock",
             "en": "Regirock",
@@ -4901,7 +4901,7 @@
         "generation": 3
     },
     {
-        "numero": 378,
+        "number": 378,
         "name": {
             "de": "Regice",
             "en": "Regice",
@@ -4914,7 +4914,7 @@
         "generation": 3
     },
     {
-        "numero": 379,
+        "number": 379,
         "name": {
             "de": "Registeel",
             "en": "Registeel",
@@ -4927,7 +4927,7 @@
         "generation": 3
     },
     {
-        "numero": 380,
+        "number": 380,
         "name": {
             "de": "Latias",
             "en": "Latias",
@@ -4940,7 +4940,7 @@
         "generation": 3
     },
     {
-        "numero": 381,
+        "number": 381,
         "name": {
             "de": "Latios",
             "en": "Latios",
@@ -4953,7 +4953,7 @@
         "generation": 3
     },
     {
-        "numero": 382,
+        "number": 382,
         "name": {
             "de": "Kyogre",
             "en": "Kyogre",
@@ -4966,7 +4966,7 @@
         "generation": 3
     },
     {
-        "numero": 383,
+        "number": 383,
         "name": {
             "de": "Groudon",
             "en": "Groudon",
@@ -4979,7 +4979,7 @@
         "generation": 3
     },
     {
-        "numero": 384,
+        "number": 384,
         "name": {
             "de": "Rayquaza",
             "en": "Rayquaza",
@@ -4992,7 +4992,7 @@
         "generation": 3
     },
     {
-        "numero": 385,
+        "number": 385,
         "name": {
             "de": "Jirachi",
             "en": "Jirachi",
@@ -5005,7 +5005,7 @@
         "generation": 3
     },
     {
-        "numero": 386,
+        "number": 386,
         "name": {
             "de": "Deoxys",
             "en": "Deoxys",
@@ -5018,7 +5018,7 @@
         "generation": 3
     },
     {
-        "numero": 387,
+        "number": 387,
         "name": {
             "de": "Chelast",
             "en": "Turtwig",
@@ -5031,7 +5031,7 @@
         "generation": 4
     },
     {
-        "numero": 388,
+        "number": 388,
         "name": {
             "de": "Chelcarain",
             "en": "Grotle",
@@ -5044,7 +5044,7 @@
         "generation": 4
     },
     {
-        "numero": 389,
+        "number": 389,
         "name": {
             "de": "Chelterrar",
             "en": "Torterra",
@@ -5057,7 +5057,7 @@
         "generation": 4
     },
     {
-        "numero": 390,
+        "number": 390,
         "name": {
             "de": "Panflam",
             "en": "Chimchar",
@@ -5070,7 +5070,7 @@
         "generation": 4
     },
     {
-        "numero": 391,
+        "number": 391,
         "name": {
             "de": "Panpyro",
             "en": "Monferno",
@@ -5083,7 +5083,7 @@
         "generation": 4
     },
     {
-        "numero": 392,
+        "number": 392,
         "name": {
             "de": "Panferno",
             "en": "Infernape",
@@ -5096,7 +5096,7 @@
         "generation": 4
     },
     {
-        "numero": 393,
+        "number": 393,
         "name": {
             "de": "Plinfa",
             "en": "Piplup",
@@ -5109,7 +5109,7 @@
         "generation": 4
     },
     {
-        "numero": 394,
+        "number": 394,
         "name": {
             "de": "Pliprin",
             "en": "Prinplup",
@@ -5122,7 +5122,7 @@
         "generation": 4
     },
     {
-        "numero": 395,
+        "number": 395,
         "name": {
             "de": "Impoleon",
             "en": "Empoleon",
@@ -5135,7 +5135,7 @@
         "generation": 4
     },
     {
-        "numero": 396,
+        "number": 396,
         "name": {
             "de": "Staralili",
             "en": "Starly",
@@ -5148,7 +5148,7 @@
         "generation": 4
     },
     {
-        "numero": 397,
+        "number": 397,
         "name": {
             "de": "Staravia",
             "en": "Staravia",
@@ -5161,7 +5161,7 @@
         "generation": 4
     },
     {
-        "numero": 398,
+        "number": 398,
         "name": {
             "de": "Staraptor",
             "en": "Staraptor",
@@ -5174,7 +5174,7 @@
         "generation": 4
     },
     {
-        "numero": 399,
+        "number": 399,
         "name": {
             "de": "Bidiza",
             "en": "Bidoof",
@@ -5187,7 +5187,7 @@
         "generation": 4
     },
     {
-        "numero": 400,
+        "number": 400,
         "name": {
             "de": "Bidifas",
             "en": "Bibarel",
@@ -5200,7 +5200,7 @@
         "generation": 4
     },
     {
-        "numero": 401,
+        "number": 401,
         "name": {
             "de": "Zirpurze",
             "en": "Kricketot",
@@ -5213,7 +5213,7 @@
         "generation": 4
     },
     {
-        "numero": 402,
+        "number": 402,
         "name": {
             "de": "Zirpeise",
             "en": "Kricketune",
@@ -5226,7 +5226,7 @@
         "generation": 4
     },
     {
-        "numero": 403,
+        "number": 403,
         "name": {
             "de": "Sheinux",
             "en": "Shinx",
@@ -5239,7 +5239,7 @@
         "generation": 4
     },
     {
-        "numero": 404,
+        "number": 404,
         "name": {
             "de": "Luxio",
             "en": "Luxio",
@@ -5252,7 +5252,7 @@
         "generation": 4
     },
     {
-        "numero": 405,
+        "number": 405,
         "name": {
             "de": "Luxtra",
             "en": "Luxray",
@@ -5265,7 +5265,7 @@
         "generation": 4
     },
     {
-        "numero": 406,
+        "number": 406,
         "name": {
             "de": "Knospi",
             "en": "Budew",
@@ -5278,7 +5278,7 @@
         "generation": 4
     },
     {
-        "numero": 407,
+        "number": 407,
         "name": {
             "de": "Roserade",
             "en": "Roserade",
@@ -5291,7 +5291,7 @@
         "generation": 4
     },
     {
-        "numero": 408,
+        "number": 408,
         "name": {
             "de": "Koknodon",
             "en": "Cranidos",
@@ -5304,7 +5304,7 @@
         "generation": 4
     },
     {
-        "numero": 409,
+        "number": 409,
         "name": {
             "de": "Rameidon",
             "en": "Rampardos",
@@ -5317,7 +5317,7 @@
         "generation": 4
     },
     {
-        "numero": 410,
+        "number": 410,
         "name": {
             "de": "Schilterus",
             "en": "Shieldon",
@@ -5330,7 +5330,7 @@
         "generation": 4
     },
     {
-        "numero": 411,
+        "number": 411,
         "name": {
             "de": "Bollterus",
             "en": "Bastiodon",
@@ -5343,7 +5343,7 @@
         "generation": 4
     },
     {
-        "numero": 412,
+        "number": 412,
         "name": {
             "de": "Burmy",
             "en": "Burmy",
@@ -5356,7 +5356,7 @@
         "generation": 4
     },
     {
-        "numero": 413,
+        "number": 413,
         "name": {
             "de": "Burmadame",
             "en": "Wormadam",
@@ -5369,7 +5369,7 @@
         "generation": 4
     },
     {
-        "numero": 414,
+        "number": 414,
         "name": {
             "de": "Moterpel",
             "en": "Mothim",
@@ -5382,7 +5382,7 @@
         "generation": 4
     },
     {
-        "numero": 415,
+        "number": 415,
         "name": {
             "de": "Wadribie",
             "en": "Combee",
@@ -5395,7 +5395,7 @@
         "generation": 4
     },
     {
-        "numero": 416,
+        "number": 416,
         "name": {
             "de": "Honweisel",
             "en": "Vespiquen",
@@ -5408,7 +5408,7 @@
         "generation": 4
     },
     {
-        "numero": 417,
+        "number": 417,
         "name": {
             "de": "Pachirisu",
             "en": "Pachirisu",
@@ -5421,7 +5421,7 @@
         "generation": 4
     },
     {
-        "numero": 418,
+        "number": 418,
         "name": {
             "de": "Bamelin",
             "en": "Buizel",
@@ -5434,7 +5434,7 @@
         "generation": 4
     },
     {
-        "numero": 419,
+        "number": 419,
         "name": {
             "de": "Bojelin",
             "en": "Floatzel",
@@ -5447,7 +5447,7 @@
         "generation": 4
     },
     {
-        "numero": 420,
+        "number": 420,
         "name": {
             "de": "Kikugi",
             "en": "Cherubi",
@@ -5460,7 +5460,7 @@
         "generation": 4
     },
     {
-        "numero": 421,
+        "number": 421,
         "name": {
             "de": "Kinoso",
             "en": "Cherrim",
@@ -5473,7 +5473,7 @@
         "generation": 4
     },
     {
-        "numero": 422,
+        "number": 422,
         "name": {
             "de": "Schalellos",
             "en": "Shellos",
@@ -5486,7 +5486,7 @@
         "generation": 4
     },
     {
-        "numero": 423,
+        "number": 423,
         "name": {
             "de": "Gastrodon",
             "en": "Gastrodon",
@@ -5499,7 +5499,7 @@
         "generation": 4
     },
     {
-        "numero": 424,
+        "number": 424,
         "name": {
             "de": "Ambidiffel",
             "en": "Ambipom",
@@ -5512,7 +5512,7 @@
         "generation": 4
     },
     {
-        "numero": 425,
+        "number": 425,
         "name": {
             "de": "Driftlon",
             "en": "Drifloon",
@@ -5525,7 +5525,7 @@
         "generation": 4
     },
     {
-        "numero": 426,
+        "number": 426,
         "name": {
             "de": "Drifzepeli",
             "en": "Drifblim",
@@ -5538,7 +5538,7 @@
         "generation": 4
     },
     {
-        "numero": 427,
+        "number": 427,
         "name": {
             "de": "Haspiror",
             "en": "Buneary",
@@ -5551,7 +5551,7 @@
         "generation": 4
     },
     {
-        "numero": 428,
+        "number": 428,
         "name": {
             "de": "Schlapor",
             "en": "Lopunny",
@@ -5564,7 +5564,7 @@
         "generation": 4
     },
     {
-        "numero": 429,
+        "number": 429,
         "name": {
             "de": "Traunmagil",
             "en": "Mismagius",
@@ -5577,7 +5577,7 @@
         "generation": 4
     },
     {
-        "numero": 430,
+        "number": 430,
         "name": {
             "de": "Kramshef",
             "en": "Honchkrow",
@@ -5590,7 +5590,7 @@
         "generation": 4
     },
     {
-        "numero": 431,
+        "number": 431,
         "name": {
             "de": "Charmian",
             "en": "Glameow",
@@ -5603,7 +5603,7 @@
         "generation": 4
     },
     {
-        "numero": 432,
+        "number": 432,
         "name": {
             "de": "Shnurgarst",
             "en": "Purugly",
@@ -5616,7 +5616,7 @@
         "generation": 4
     },
     {
-        "numero": 433,
+        "number": 433,
         "name": {
             "de": "Klingplim",
             "en": "Chingling",
@@ -5629,7 +5629,7 @@
         "generation": 4
     },
     {
-        "numero": 434,
+        "number": 434,
         "name": {
             "de": "Skunkapuh",
             "en": "Stunky",
@@ -5642,7 +5642,7 @@
         "generation": 4
     },
     {
-        "numero": 435,
+        "number": 435,
         "name": {
             "de": "Skunktank",
             "en": "Skuntank",
@@ -5655,7 +5655,7 @@
         "generation": 4
     },
     {
-        "numero": 436,
+        "number": 436,
         "name": {
             "de": "Bronzel",
             "en": "Bronzor",
@@ -5668,7 +5668,7 @@
         "generation": 4
     },
     {
-        "numero": 437,
+        "number": 437,
         "name": {
             "de": "Bronzong",
             "en": "Bronzong",
@@ -5681,7 +5681,7 @@
         "generation": 4
     },
     {
-        "numero": 438,
+        "number": 438,
         "name": {
             "de": "Mobai",
             "en": "Bonsly",
@@ -5694,7 +5694,7 @@
         "generation": 4
     },
     {
-        "numero": 439,
+        "number": 439,
         "name": {
             "de": "Pantimimi",
             "en": "Mime Jr.",
@@ -5707,7 +5707,7 @@
         "generation": 4
     },
     {
-        "numero": 440,
+        "number": 440,
         "name": {
             "de": "Wonneira",
             "en": "Happiny",
@@ -5720,7 +5720,7 @@
         "generation": 4
     },
     {
-        "numero": 441,
+        "number": 441,
         "name": {
             "de": "Plaudagei",
             "en": "Chatot",
@@ -5733,7 +5733,7 @@
         "generation": 4
     },
     {
-        "numero": 442,
+        "number": 442,
         "name": {
             "de": "Kryppuk",
             "en": "Spiritomb",
@@ -5746,7 +5746,7 @@
         "generation": 4
     },
     {
-        "numero": 443,
+        "number": 443,
         "name": {
             "de": "Kaumalat",
             "en": "Gible",
@@ -5759,7 +5759,7 @@
         "generation": 4
     },
     {
-        "numero": 444,
+        "number": 444,
         "name": {
             "de": "Knarksel",
             "en": "Gabite",
@@ -5772,7 +5772,7 @@
         "generation": 4
     },
     {
-        "numero": 445,
+        "number": 445,
         "name": {
             "de": "Knakrack",
             "en": "Garchomp",
@@ -5785,7 +5785,7 @@
         "generation": 4
     },
     {
-        "numero": 446,
+        "number": 446,
         "name": {
             "de": "Mampfaxo",
             "en": "Munchlax",
@@ -5798,7 +5798,7 @@
         "generation": 4
     },
     {
-        "numero": 447,
+        "number": 447,
         "name": {
             "de": "Riolu",
             "en": "Riolu",
@@ -5811,7 +5811,7 @@
         "generation": 4
     },
     {
-        "numero": 448,
+        "number": 448,
         "name": {
             "de": "Lucario",
             "en": "Lucario",
@@ -5824,7 +5824,7 @@
         "generation": 4
     },
     {
-        "numero": 449,
+        "number": 449,
         "name": {
             "de": "Hippopotas",
             "en": "Hippopotas",
@@ -5837,7 +5837,7 @@
         "generation": 4
     },
     {
-        "numero": 450,
+        "number": 450,
         "name": {
             "de": "Hippoterus",
             "en": "Hippowdon",
@@ -5850,7 +5850,7 @@
         "generation": 4
     },
     {
-        "numero": 451,
+        "number": 451,
         "name": {
             "de": "Pionskora",
             "en": "Skorupi",
@@ -5863,7 +5863,7 @@
         "generation": 4
     },
     {
-        "numero": 452,
+        "number": 452,
         "name": {
             "de": "Piondragi",
             "en": "Drapion",
@@ -5876,7 +5876,7 @@
         "generation": 4
     },
     {
-        "numero": 453,
+        "number": 453,
         "name": {
             "de": "Glibunkel",
             "en": "Croagunk",
@@ -5889,7 +5889,7 @@
         "generation": 4
     },
     {
-        "numero": 454,
+        "number": 454,
         "name": {
             "de": "Toxiquak",
             "en": "Toxicroak",
@@ -5902,7 +5902,7 @@
         "generation": 4
     },
     {
-        "numero": 455,
+        "number": 455,
         "name": {
             "de": "Venuflibis",
             "en": "Carnivine",
@@ -5915,7 +5915,7 @@
         "generation": 4
     },
     {
-        "numero": 456,
+        "number": 456,
         "name": {
             "de": "Finneon",
             "en": "Finneon",
@@ -5928,7 +5928,7 @@
         "generation": 4
     },
     {
-        "numero": 457,
+        "number": 457,
         "name": {
             "de": "Lumineon",
             "en": "Lumineon",
@@ -5941,7 +5941,7 @@
         "generation": 4
     },
     {
-        "numero": 458,
+        "number": 458,
         "name": {
             "de": "Mantirps",
             "en": "Mantyke",
@@ -5954,7 +5954,7 @@
         "generation": 4
     },
     {
-        "numero": 459,
+        "number": 459,
         "name": {
             "de": "Shnebedeck",
             "en": "Snover",
@@ -5967,7 +5967,7 @@
         "generation": 4
     },
     {
-        "numero": 460,
+        "number": 460,
         "name": {
             "de": "Rexblisar",
             "en": "Abomasnow",
@@ -5980,7 +5980,7 @@
         "generation": 4
     },
     {
-        "numero": 461,
+        "number": 461,
         "name": {
             "de": "Snibunna",
             "en": "Weavile",
@@ -5993,7 +5993,7 @@
         "generation": 4
     },
     {
-        "numero": 462,
+        "number": 462,
         "name": {
             "de": "Magnezone",
             "en": "Magnezone",
@@ -6006,7 +6006,7 @@
         "generation": 4
     },
     {
-        "numero": 463,
+        "number": 463,
         "name": {
             "de": "Schlurplek",
             "en": "Lickilicky",
@@ -6019,7 +6019,7 @@
         "generation": 4
     },
     {
-        "numero": 464,
+        "number": 464,
         "name": {
             "de": "Rihornior",
             "en": "Rhyperior",
@@ -6032,7 +6032,7 @@
         "generation": 4
     },
     {
-        "numero": 465,
+        "number": 465,
         "name": {
             "de": "Tangoloss",
             "en": "Tangrowth",
@@ -6045,7 +6045,7 @@
         "generation": 4
     },
     {
-        "numero": 466,
+        "number": 466,
         "name": {
             "de": "Elevoltek",
             "en": "Electivire",
@@ -6058,7 +6058,7 @@
         "generation": 4
     },
     {
-        "numero": 467,
+        "number": 467,
         "name": {
             "de": "Magbrant",
             "en": "Magmortar",
@@ -6071,7 +6071,7 @@
         "generation": 4
     },
     {
-        "numero": 468,
+        "number": 468,
         "name": {
             "de": "Togekiss",
             "en": "Togekiss",
@@ -6084,7 +6084,7 @@
         "generation": 4
     },
     {
-        "numero": 469,
+        "number": 469,
         "name": {
             "de": "Yanmega",
             "en": "Yanmega",
@@ -6097,7 +6097,7 @@
         "generation": 4
     },
     {
-        "numero": 470,
+        "number": 470,
         "name": {
             "de": "Folipurba",
             "en": "Leafeon",
@@ -6110,7 +6110,7 @@
         "generation": 4
     },
     {
-        "numero": 471,
+        "number": 471,
         "name": {
             "de": "Glaziola",
             "en": "Glaceon",
@@ -6123,7 +6123,7 @@
         "generation": 4
     },
     {
-        "numero": 472,
+        "number": 472,
         "name": {
             "de": "Skorgro",
             "en": "Gliscor",
@@ -6136,7 +6136,7 @@
         "generation": 4
     },
     {
-        "numero": 473,
+        "number": 473,
         "name": {
             "de": "Mamutel",
             "en": "Mamoswine",
@@ -6149,7 +6149,7 @@
         "generation": 4
     },
     {
-        "numero": 474,
+        "number": 474,
         "name": {
             "de": "Porygon-Z",
             "en": "Porygon-Z",
@@ -6162,7 +6162,7 @@
         "generation": 4
     },
     {
-        "numero": 475,
+        "number": 475,
         "name": {
             "de": "Galagladi",
             "en": "Gallade",
@@ -6175,7 +6175,7 @@
         "generation": 4
     },
     {
-        "numero": 476,
+        "number": 476,
         "name": {
             "de": "Voluminas",
             "en": "Probopass",
@@ -6188,7 +6188,7 @@
         "generation": 4
     },
     {
-        "numero": 477,
+        "number": 477,
         "name": {
             "de": "Zwirrfinst",
             "en": "Dusknoir",
@@ -6201,7 +6201,7 @@
         "generation": 4
     },
     {
-        "numero": 478,
+        "number": 478,
         "name": {
             "de": "Frosdedje",
             "en": "Froslass",
@@ -6214,7 +6214,7 @@
         "generation": 4
     },
     {
-        "numero": 479,
+        "number": 479,
         "name": {
             "de": "Rotom",
             "en": "Rotom",
@@ -6227,7 +6227,7 @@
         "generation": 4
     },
     {
-        "numero": 480,
+        "number": 480,
         "name": {
             "de": "Selfe",
             "en": "Uxie",
@@ -6240,7 +6240,7 @@
         "generation": 4
     },
     {
-        "numero": 481,
+        "number": 481,
         "name": {
             "de": "Vesprit",
             "en": "Mesprit",
@@ -6253,7 +6253,7 @@
         "generation": 4
     },
     {
-        "numero": 482,
+        "number": 482,
         "name": {
             "de": "Tobutz",
             "en": "Azelf",
@@ -6266,7 +6266,7 @@
         "generation": 4
     },
     {
-        "numero": 483,
+        "number": 483,
         "name": {
             "de": "Dialga",
             "en": "Dialga",
@@ -6279,7 +6279,7 @@
         "generation": 4
     },
     {
-        "numero": 484,
+        "number": 484,
         "name": {
             "de": "Palkia",
             "en": "Palkia",
@@ -6292,7 +6292,7 @@
         "generation": 4
     },
     {
-        "numero": 485,
+        "number": 485,
         "name": {
             "de": "Heatran",
             "en": "Heatran",
@@ -6305,7 +6305,7 @@
         "generation": 4
     },
     {
-        "numero": 486,
+        "number": 486,
         "name": {
             "de": "Regigigas",
             "en": "Regigigas",
@@ -6318,7 +6318,7 @@
         "generation": 4
     },
     {
-        "numero": 487,
+        "number": 487,
         "name": {
             "de": "Giratina",
             "en": "Giratina",
@@ -6331,7 +6331,7 @@
         "generation": 4
     },
     {
-        "numero": 488,
+        "number": 488,
         "name": {
             "de": "Cresselia",
             "en": "Cresselia",
@@ -6344,7 +6344,7 @@
         "generation": 4
     },
     {
-        "numero": 489,
+        "number": 489,
         "name": {
             "de": "Phione",
             "en": "Phione",
@@ -6357,7 +6357,7 @@
         "generation": 4
     },
     {
-        "numero": 490,
+        "number": 490,
         "name": {
             "de": "Manaphy",
             "en": "Manaphy",
@@ -6370,7 +6370,7 @@
         "generation": 4
     },
     {
-        "numero": 491,
+        "number": 491,
         "name": {
             "de": "Darkrai",
             "en": "Darkrai",
@@ -6383,7 +6383,7 @@
         "generation": 4
     },
     {
-        "numero": 492,
+        "number": 492,
         "name": {
             "de": "Shaymin",
             "en": "Shaymin",
@@ -6396,7 +6396,7 @@
         "generation": 4
     },
     {
-        "numero": 493,
+        "number": 493,
         "name": {
             "de": "Arceus",
             "en": "Arceus",
@@ -6409,7 +6409,7 @@
         "generation": 4
     },
     {
-        "numero": 494,
+        "number": 494,
         "name": {
             "de": "Victini",
             "en": "Victini",
@@ -6422,7 +6422,7 @@
         "generation": 5
     },
     {
-        "numero": 495,
+        "number": 495,
         "name": {
             "de": "Serpifeu",
             "en": "Snivy",
@@ -6435,7 +6435,7 @@
         "generation": 5
     },
     {
-        "numero": 496,
+        "number": 496,
         "name": {
             "de": "Efoserp",
             "en": "Servine",
@@ -6448,7 +6448,7 @@
         "generation": 5
     },
     {
-        "numero": 497,
+        "number": 497,
         "name": {
             "de": "Serpiroyal",
             "en": "Serperior",
@@ -6461,7 +6461,7 @@
         "generation": 5
     },
     {
-        "numero": 498,
+        "number": 498,
         "name": {
             "de": "Floink",
             "en": "Tepig",
@@ -6474,7 +6474,7 @@
         "generation": 5
     },
     {
-        "numero": 499,
+        "number": 499,
         "name": {
             "de": "Ferkokel",
             "en": "Pignite",
@@ -6487,7 +6487,7 @@
         "generation": 5
     },
     {
-        "numero": 500,
+        "number": 500,
         "name": {
             "de": "Flambirex",
             "en": "Emboar",
@@ -6500,7 +6500,7 @@
         "generation": 5
     },
     {
-        "numero": 501,
+        "number": 501,
         "name": {
             "de": "Ottaro",
             "en": "Oshawott",
@@ -6513,7 +6513,7 @@
         "generation": 5
     },
     {
-        "numero": 502,
+        "number": 502,
         "name": {
             "de": "Zwottronin",
             "en": "Dewott",
@@ -6526,7 +6526,7 @@
         "generation": 5
     },
     {
-        "numero": 503,
+        "number": 503,
         "name": {
             "de": "Admurai",
             "en": "Samurott",
@@ -6539,7 +6539,7 @@
         "generation": 5
     },
     {
-        "numero": 504,
+        "number": 504,
         "name": {
             "de": "Nagelotz",
             "en": "Patrat",
@@ -6552,7 +6552,7 @@
         "generation": 5
     },
     {
-        "numero": 505,
+        "number": 505,
         "name": {
             "de": "Kukmarda",
             "en": "Watchog",
@@ -6565,7 +6565,7 @@
         "generation": 5
     },
     {
-        "numero": 506,
+        "number": 506,
         "name": {
             "de": "Yorkleff",
             "en": "Lillipup",
@@ -6578,7 +6578,7 @@
         "generation": 5
     },
     {
-        "numero": 507,
+        "number": 507,
         "name": {
             "de": "Terribark",
             "en": "Herdier",
@@ -6591,7 +6591,7 @@
         "generation": 5
     },
     {
-        "numero": 508,
+        "number": 508,
         "name": {
             "de": "Bissbark",
             "en": "Stoutland",
@@ -6604,7 +6604,7 @@
         "generation": 5
     },
     {
-        "numero": 509,
+        "number": 509,
         "name": {
             "de": "Felilou",
             "en": "Purrloin",
@@ -6617,7 +6617,7 @@
         "generation": 5
     },
     {
-        "numero": 510,
+        "number": 510,
         "name": {
             "de": "Kleoparda",
             "en": "Liepard",
@@ -6630,7 +6630,7 @@
         "generation": 5
     },
     {
-        "numero": 511,
+        "number": 511,
         "name": {
             "de": "Vegimak",
             "en": "Pansage",
@@ -6643,7 +6643,7 @@
         "generation": 5
     },
     {
-        "numero": 512,
+        "number": 512,
         "name": {
             "de": "Vegichita",
             "en": "Simisage",
@@ -6656,7 +6656,7 @@
         "generation": 5
     },
     {
-        "numero": 513,
+        "number": 513,
         "name": {
             "de": "Grillmak",
             "en": "Pansear",
@@ -6669,7 +6669,7 @@
         "generation": 5
     },
     {
-        "numero": 514,
+        "number": 514,
         "name": {
             "de": "Grillchita",
             "en": "Simisear",
@@ -6682,7 +6682,7 @@
         "generation": 5
     },
     {
-        "numero": 515,
+        "number": 515,
         "name": {
             "de": "Sodamak",
             "en": "Panpour",
@@ -6695,7 +6695,7 @@
         "generation": 5
     },
     {
-        "numero": 516,
+        "number": 516,
         "name": {
             "de": "Sodachita",
             "en": "Simipour",
@@ -6708,7 +6708,7 @@
         "generation": 5
     },
     {
-        "numero": 517,
+        "number": 517,
         "name": {
             "de": "Somniam",
             "en": "Munna",
@@ -6721,7 +6721,7 @@
         "generation": 5
     },
     {
-        "numero": 518,
+        "number": 518,
         "name": {
             "de": "Somnivora",
             "en": "Musharna",
@@ -6734,7 +6734,7 @@
         "generation": 5
     },
     {
-        "numero": 519,
+        "number": 519,
         "name": {
             "de": "Dusselgurr",
             "en": "Pidove",
@@ -6747,7 +6747,7 @@
         "generation": 5
     },
     {
-        "numero": 520,
+        "number": 520,
         "name": {
             "de": "Navitaub",
             "en": "Tranquill",
@@ -6760,7 +6760,7 @@
         "generation": 5
     },
     {
-        "numero": 521,
+        "number": 521,
         "name": {
             "de": "Fasasnob",
             "en": "Unfezant",
@@ -6773,7 +6773,7 @@
         "generation": 5
     },
     {
-        "numero": 522,
+        "number": 522,
         "name": {
             "de": "Elezeba",
             "en": "Blitzle",
@@ -6786,7 +6786,7 @@
         "generation": 5
     },
     {
-        "numero": 523,
+        "number": 523,
         "name": {
             "de": "Zebritz",
             "en": "Zebstrika",
@@ -6799,7 +6799,7 @@
         "generation": 5
     },
     {
-        "numero": 524,
+        "number": 524,
         "name": {
             "de": "Kiesling",
             "en": "Roggenrola",
@@ -6812,7 +6812,7 @@
         "generation": 5
     },
     {
-        "numero": 525,
+        "number": 525,
         "name": {
             "de": "Sedimantur",
             "en": "Boldore",
@@ -6825,7 +6825,7 @@
         "generation": 5
     },
     {
-        "numero": 526,
+        "number": 526,
         "name": {
             "de": "Brockoloss",
             "en": "Gigalith",
@@ -6838,7 +6838,7 @@
         "generation": 5
     },
     {
-        "numero": 527,
+        "number": 527,
         "name": {
             "de": "Fleknoil",
             "en": "Woobat",
@@ -6851,7 +6851,7 @@
         "generation": 5
     },
     {
-        "numero": 528,
+        "number": 528,
         "name": {
             "de": "Fletiamo",
             "en": "Swoobat",
@@ -6864,7 +6864,7 @@
         "generation": 5
     },
     {
-        "numero": 529,
+        "number": 529,
         "name": {
             "de": "Rotomurf",
             "en": "Drilbur",
@@ -6877,7 +6877,7 @@
         "generation": 5
     },
     {
-        "numero": 530,
+        "number": 530,
         "name": {
             "de": "Stalobor",
             "en": "Excadrill",
@@ -6890,7 +6890,7 @@
         "generation": 5
     },
     {
-        "numero": 531,
+        "number": 531,
         "name": {
             "de": "Ohrdoch",
             "en": "Audino",
@@ -6903,7 +6903,7 @@
         "generation": 5
     },
     {
-        "numero": 532,
+        "number": 532,
         "name": {
             "de": "Praktibalk",
             "en": "Timburr",
@@ -6916,7 +6916,7 @@
         "generation": 5
     },
     {
-        "numero": 533,
+        "number": 533,
         "name": {
             "de": "Strepoli",
             "en": "Gurdurr",
@@ -6929,7 +6929,7 @@
         "generation": 5
     },
     {
-        "numero": 534,
+        "number": 534,
         "name": {
             "de": "Meistagrif",
             "en": "Conkeldurr",
@@ -6942,7 +6942,7 @@
         "generation": 5
     },
     {
-        "numero": 535,
+        "number": 535,
         "name": {
             "de": "Schallquap",
             "en": "Tympole",
@@ -6955,7 +6955,7 @@
         "generation": 5
     },
     {
-        "numero": 536,
+        "number": 536,
         "name": {
             "de": "Mebrana",
             "en": "Palpitoad",
@@ -6968,7 +6968,7 @@
         "generation": 5
     },
     {
-        "numero": 537,
+        "number": 537,
         "name": {
             "de": "Branawarz",
             "en": "Seismitoad",
@@ -6981,7 +6981,7 @@
         "generation": 5
     },
     {
-        "numero": 538,
+        "number": 538,
         "name": {
             "de": "Jiutesto",
             "en": "Throh",
@@ -6994,7 +6994,7 @@
         "generation": 5
     },
     {
-        "numero": 539,
+        "number": 539,
         "name": {
             "de": "Karadonis",
             "en": "Sawk",
@@ -7007,7 +7007,7 @@
         "generation": 5
     },
     {
-        "numero": 540,
+        "number": 540,
         "name": {
             "de": "Strawickl",
             "en": "Sewaddle",
@@ -7020,7 +7020,7 @@
         "generation": 5
     },
     {
-        "numero": 541,
+        "number": 541,
         "name": {
             "de": "Folikon",
             "en": "Swadloon",
@@ -7033,7 +7033,7 @@
         "generation": 5
     },
     {
-        "numero": 542,
+        "number": 542,
         "name": {
             "de": "Matrifol",
             "en": "Leavanny",
@@ -7046,7 +7046,7 @@
         "generation": 5
     },
     {
-        "numero": 543,
+        "number": 543,
         "name": {
             "de": "Toxiped",
             "en": "Venipede",
@@ -7059,7 +7059,7 @@
         "generation": 5
     },
     {
-        "numero": 544,
+        "number": 544,
         "name": {
             "de": "Rollum",
             "en": "Whirlipede",
@@ -7072,7 +7072,7 @@
         "generation": 5
     },
     {
-        "numero": 545,
+        "number": 545,
         "name": {
             "de": "Cerapendra",
             "en": "Scolipede",
@@ -7085,7 +7085,7 @@
         "generation": 5
     },
     {
-        "numero": 546,
+        "number": 546,
         "name": {
             "de": "Waumboll",
             "en": "Cottonee",
@@ -7098,7 +7098,7 @@
         "generation": 5
     },
     {
-        "numero": 547,
+        "number": 547,
         "name": {
             "de": "Elfun",
             "en": "Whimsicott",
@@ -7111,7 +7111,7 @@
         "generation": 5
     },
     {
-        "numero": 548,
+        "number": 548,
         "name": {
             "de": "Lilminip",
             "en": "Petilil",
@@ -7124,7 +7124,7 @@
         "generation": 5
     },
     {
-        "numero": 549,
+        "number": 549,
         "name": {
             "de": "Dressella",
             "en": "Lilligant",
@@ -7137,7 +7137,7 @@
         "generation": 5
     },
     {
-        "numero": 550,
+        "number": 550,
         "name": {
             "de": "Barschuft",
             "en": "Basculin",
@@ -7150,7 +7150,7 @@
         "generation": 5
     },
     {
-        "numero": 551,
+        "number": 551,
         "name": {
             "de": "Ganovil",
             "en": "Sandile",
@@ -7163,7 +7163,7 @@
         "generation": 5
     },
     {
-        "numero": 552,
+        "number": 552,
         "name": {
             "de": "Rokkaiman",
             "en": "Krokorok",
@@ -7176,7 +7176,7 @@
         "generation": 5
     },
     {
-        "numero": 553,
+        "number": 553,
         "name": {
             "de": "Rabigator",
             "en": "Krookodile",
@@ -7189,7 +7189,7 @@
         "generation": 5
     },
     {
-        "numero": 554,
+        "number": 554,
         "name": {
             "de": "Flampion",
             "en": "Darumaka",
@@ -7202,7 +7202,7 @@
         "generation": 5
     },
     {
-        "numero": 555,
+        "number": 555,
         "name": {
             "de": "Flampivian",
             "en": "Darmanitan",
@@ -7215,7 +7215,7 @@
         "generation": 5
     },
     {
-        "numero": 556,
+        "number": 556,
         "name": {
             "de": "Maracamba",
             "en": "Maractus",
@@ -7228,7 +7228,7 @@
         "generation": 5
     },
     {
-        "numero": 557,
+        "number": 557,
         "name": {
             "de": "Lithomith",
             "en": "Dwebble",
@@ -7241,7 +7241,7 @@
         "generation": 5
     },
     {
-        "numero": 558,
+        "number": 558,
         "name": {
             "de": "Castellith",
             "en": "Crustle",
@@ -7254,7 +7254,7 @@
         "generation": 5
     },
     {
-        "numero": 559,
+        "number": 559,
         "name": {
             "de": "Zurrokex",
             "en": "Scraggy",
@@ -7267,7 +7267,7 @@
         "generation": 5
     },
     {
-        "numero": 560,
+        "number": 560,
         "name": {
             "de": "Irokex",
             "en": "Scrafty",
@@ -7280,7 +7280,7 @@
         "generation": 5
     },
     {
-        "numero": 561,
+        "number": 561,
         "name": {
             "de": "Symvolara",
             "en": "Sigilyph",
@@ -7293,7 +7293,7 @@
         "generation": 5
     },
     {
-        "numero": 562,
+        "number": 562,
         "name": {
             "de": "Makabaja",
             "en": "Yamask",
@@ -7306,7 +7306,7 @@
         "generation": 5
     },
     {
-        "numero": 563,
+        "number": 563,
         "name": {
             "de": "Echnatoll",
             "en": "Cofagrigus",
@@ -7319,7 +7319,7 @@
         "generation": 5
     },
     {
-        "numero": 564,
+        "number": 564,
         "name": {
             "de": "Galapaflos",
             "en": "Tirtouga",
@@ -7332,7 +7332,7 @@
         "generation": 5
     },
     {
-        "numero": 565,
+        "number": 565,
         "name": {
             "de": "Karippas",
             "en": "Carracosta",
@@ -7345,7 +7345,7 @@
         "generation": 5
     },
     {
-        "numero": 566,
+        "number": 566,
         "name": {
             "de": "Flapteryx",
             "en": "Archen",
@@ -7358,7 +7358,7 @@
         "generation": 5
     },
     {
-        "numero": 567,
+        "number": 567,
         "name": {
             "de": "Aeropteryx",
             "en": "Archeops",
@@ -7371,7 +7371,7 @@
         "generation": 5
     },
     {
-        "numero": 568,
+        "number": 568,
         "name": {
             "de": "Unratütox",
             "en": "Trubbish",
@@ -7384,7 +7384,7 @@
         "generation": 5
     },
     {
-        "numero": 569,
+        "number": 569,
         "name": {
             "de": "Deponitox",
             "en": "Garbodor",
@@ -7397,7 +7397,7 @@
         "generation": 5
     },
     {
-        "numero": 570,
+        "number": 570,
         "name": {
             "de": "Zorua",
             "en": "Zorua",
@@ -7410,7 +7410,7 @@
         "generation": 5
     },
     {
-        "numero": 571,
+        "number": 571,
         "name": {
             "de": "Zoroark",
             "en": "Zoroark",
@@ -7423,7 +7423,7 @@
         "generation": 5
     },
     {
-        "numero": 572,
+        "number": 572,
         "name": {
             "de": "Picochilla",
             "en": "Minccino",
@@ -7436,7 +7436,7 @@
         "generation": 5
     },
     {
-        "numero": 573,
+        "number": 573,
         "name": {
             "de": "Chillabell",
             "en": "Cinccino",
@@ -7449,7 +7449,7 @@
         "generation": 5
     },
     {
-        "numero": 574,
+        "number": 574,
         "name": {
             "de": "Mollimorba",
             "en": "Gothita",
@@ -7462,7 +7462,7 @@
         "generation": 5
     },
     {
-        "numero": 575,
+        "number": 575,
         "name": {
             "de": "Hypnomorba",
             "en": "Gothorita",
@@ -7475,7 +7475,7 @@
         "generation": 5
     },
     {
-        "numero": 576,
+        "number": 576,
         "name": {
             "de": "Morbitesse",
             "en": "Gothitelle",
@@ -7488,7 +7488,7 @@
         "generation": 5
     },
     {
-        "numero": 577,
+        "number": 577,
         "name": {
             "de": "Monozyto",
             "en": "Solosis",
@@ -7501,7 +7501,7 @@
         "generation": 5
     },
     {
-        "numero": 578,
+        "number": 578,
         "name": {
             "de": "Mitodos",
             "en": "Duosion",
@@ -7514,7 +7514,7 @@
         "generation": 5
     },
     {
-        "numero": 579,
+        "number": 579,
         "name": {
             "de": "Zytomega",
             "en": "Reuniclus",
@@ -7527,7 +7527,7 @@
         "generation": 5
     },
     {
-        "numero": 580,
+        "number": 580,
         "name": {
             "de": "Piccolente",
             "en": "Ducklett",
@@ -7540,7 +7540,7 @@
         "generation": 5
     },
     {
-        "numero": 581,
+        "number": 581,
         "name": {
             "de": "Swaroness",
             "en": "Swanna",
@@ -7553,7 +7553,7 @@
         "generation": 5
     },
     {
-        "numero": 582,
+        "number": 582,
         "name": {
             "de": "Gelatini",
             "en": "Vanillite",
@@ -7566,7 +7566,7 @@
         "generation": 5
     },
     {
-        "numero": 583,
+        "number": 583,
         "name": {
             "de": "Gelatroppo",
             "en": "Vanillish",
@@ -7579,7 +7579,7 @@
         "generation": 5
     },
     {
-        "numero": 584,
+        "number": 584,
         "name": {
             "de": "Gelatwino",
             "en": "Vanilluxe",
@@ -7592,7 +7592,7 @@
         "generation": 5
     },
     {
-        "numero": 585,
+        "number": 585,
         "name": {
             "de": "Sesokitz",
             "en": "Deerling",
@@ -7605,7 +7605,7 @@
         "generation": 5
     },
     {
-        "numero": 586,
+        "number": 586,
         "name": {
             "de": "Kronjuwild",
             "en": "Sawsbuck",
@@ -7618,7 +7618,7 @@
         "generation": 5
     },
     {
-        "numero": 587,
+        "number": 587,
         "name": {
             "de": "Emolga",
             "en": "Emolga",
@@ -7631,7 +7631,7 @@
         "generation": 5
     },
     {
-        "numero": 588,
+        "number": 588,
         "name": {
             "de": "Laukaps",
             "en": "Karrablast",
@@ -7644,7 +7644,7 @@
         "generation": 5
     },
     {
-        "numero": 589,
+        "number": 589,
         "name": {
             "de": "Cavalanzas",
             "en": "Escavalier",
@@ -7657,7 +7657,7 @@
         "generation": 5
     },
     {
-        "numero": 590,
+        "number": 590,
         "name": {
             "de": "Tarnpignon",
             "en": "Foongus",
@@ -7670,7 +7670,7 @@
         "generation": 5
     },
     {
-        "numero": 591,
+        "number": 591,
         "name": {
             "de": "Hutsassa",
             "en": "Amoonguss",
@@ -7683,7 +7683,7 @@
         "generation": 5
     },
     {
-        "numero": 592,
+        "number": 592,
         "name": {
             "de": "Quabbel",
             "en": "Frillish",
@@ -7696,7 +7696,7 @@
         "generation": 5
     },
     {
-        "numero": 593,
+        "number": 593,
         "name": {
             "de": "Apoquallyp",
             "en": "Jellicent",
@@ -7709,7 +7709,7 @@
         "generation": 5
     },
     {
-        "numero": 594,
+        "number": 594,
         "name": {
             "de": "Mamolida",
             "en": "Alomomola",
@@ -7722,7 +7722,7 @@
         "generation": 5
     },
     {
-        "numero": 595,
+        "number": 595,
         "name": {
             "de": "Wattzapf",
             "en": "Joltik",
@@ -7735,7 +7735,7 @@
         "generation": 5
     },
     {
-        "numero": 596,
+        "number": 596,
         "name": {
             "de": "Voltula",
             "en": "Galvantula",
@@ -7748,7 +7748,7 @@
         "generation": 5
     },
     {
-        "numero": 597,
+        "number": 597,
         "name": {
             "de": "Kastadur",
             "en": "Ferroseed",
@@ -7761,7 +7761,7 @@
         "generation": 5
     },
     {
-        "numero": 598,
+        "number": 598,
         "name": {
             "de": "Tentantel",
             "en": "Ferrothorn",
@@ -7774,7 +7774,7 @@
         "generation": 5
     },
     {
-        "numero": 599,
+        "number": 599,
         "name": {
             "de": "Klikk",
             "en": "Klink",
@@ -7787,7 +7787,7 @@
         "generation": 5
     },
     {
-        "numero": 600,
+        "number": 600,
         "name": {
             "de": "Kliklak",
             "en": "Klang",
@@ -7800,7 +7800,7 @@
         "generation": 5
     },
     {
-        "numero": 601,
+        "number": 601,
         "name": {
             "de": "Klikdiklak",
             "en": "Klinklang",
@@ -7813,7 +7813,7 @@
         "generation": 5
     },
     {
-        "numero": 602,
+        "number": 602,
         "name": {
             "de": "Zapplardin",
             "en": "Tynamo",
@@ -7826,7 +7826,7 @@
         "generation": 5
     },
     {
-        "numero": 603,
+        "number": 603,
         "name": {
             "de": "Zapplalek",
             "en": "Eelektrik",
@@ -7839,7 +7839,7 @@
         "generation": 5
     },
     {
-        "numero": 604,
+        "number": 604,
         "name": {
             "de": "Zapplarang",
             "en": "Eelektross",
@@ -7852,7 +7852,7 @@
         "generation": 5
     },
     {
-        "numero": 605,
+        "number": 605,
         "name": {
             "de": "Pygraulon",
             "en": "Elgyem",
@@ -7865,7 +7865,7 @@
         "generation": 5
     },
     {
-        "numero": 606,
+        "number": 606,
         "name": {
             "de": "Megalon",
             "en": "Beheeyem",
@@ -7878,7 +7878,7 @@
         "generation": 5
     },
     {
-        "numero": 607,
+        "number": 607,
         "name": {
             "de": "Lichtel",
             "en": "Litwick",
@@ -7891,7 +7891,7 @@
         "generation": 5
     },
     {
-        "numero": 608,
+        "number": 608,
         "name": {
             "de": "Laternecto",
             "en": "Lampent",
@@ -7904,7 +7904,7 @@
         "generation": 5
     },
     {
-        "numero": 609,
+        "number": 609,
         "name": {
             "de": "Skelabra",
             "en": "Chandelure",
@@ -7917,7 +7917,7 @@
         "generation": 5
     },
     {
-        "numero": 610,
+        "number": 610,
         "name": {
             "de": "Milza",
             "en": "Axew",
@@ -7930,7 +7930,7 @@
         "generation": 5
     },
     {
-        "numero": 611,
+        "number": 611,
         "name": {
             "de": "Sharfax",
             "en": "Fraxure",
@@ -7943,7 +7943,7 @@
         "generation": 5
     },
     {
-        "numero": 612,
+        "number": 612,
         "name": {
             "de": "Maxax",
             "en": "Haxorus",
@@ -7956,7 +7956,7 @@
         "generation": 5
     },
     {
-        "numero": 613,
+        "number": 613,
         "name": {
             "de": "Petznief",
             "en": "Cubchoo",
@@ -7969,7 +7969,7 @@
         "generation": 5
     },
     {
-        "numero": 614,
+        "number": 614,
         "name": {
             "de": "Siberio",
             "en": "Beartic",
@@ -7982,7 +7982,7 @@
         "generation": 5
     },
     {
-        "numero": 615,
+        "number": 615,
         "name": {
             "de": "Frigometri",
             "en": "Cryogonal",
@@ -7995,7 +7995,7 @@
         "generation": 5
     },
     {
-        "numero": 616,
+        "number": 616,
         "name": {
             "de": "Schnuthelm",
             "en": "Shelmet",
@@ -8008,7 +8008,7 @@
         "generation": 5
     },
     {
-        "numero": 617,
+        "number": 617,
         "name": {
             "de": "Hydragil",
             "en": "Accelgor",
@@ -8021,7 +8021,7 @@
         "generation": 5
     },
     {
-        "numero": 618,
+        "number": 618,
         "name": {
             "de": "Flunschlik",
             "en": "Stunfisk",
@@ -8034,7 +8034,7 @@
         "generation": 5
     },
     {
-        "numero": 619,
+        "number": 619,
         "name": {
             "de": "Fu",
             "en": "Mienfoo",
@@ -8047,7 +8047,7 @@
         "generation": 5
     },
     {
-        "numero": 620,
+        "number": 620,
         "name": {
             "de": "Shu",
             "en": "Mienshao",
@@ -8060,7 +8060,7 @@
         "generation": 5
     },
     {
-        "numero": 621,
+        "number": 621,
         "name": {
             "de": "Shardrago",
             "en": "Druddigon",
@@ -8073,7 +8073,7 @@
         "generation": 5
     },
     {
-        "numero": 622,
+        "number": 622,
         "name": {
             "de": "Golbit",
             "en": "Golett",
@@ -8086,7 +8086,7 @@
         "generation": 5
     },
     {
-        "numero": 623,
+        "number": 623,
         "name": {
             "de": "Golgantes",
             "en": "Golurk",
@@ -8099,7 +8099,7 @@
         "generation": 5
     },
     {
-        "numero": 624,
+        "number": 624,
         "name": {
             "de": "Gladiantri",
             "en": "Pawniard",
@@ -8112,7 +8112,7 @@
         "generation": 5
     },
     {
-        "numero": 625,
+        "number": 625,
         "name": {
             "de": "Caesurio",
             "en": "Bisharp",
@@ -8125,7 +8125,7 @@
         "generation": 5
     },
     {
-        "numero": 626,
+        "number": 626,
         "name": {
             "de": "Bisofank",
             "en": "Bouffalant",
@@ -8138,7 +8138,7 @@
         "generation": 5
     },
     {
-        "numero": 627,
+        "number": 627,
         "name": {
             "de": "Geronimatz",
             "en": "Rufflet",
@@ -8151,7 +8151,7 @@
         "generation": 5
     },
     {
-        "numero": 628,
+        "number": 628,
         "name": {
             "de": "Washakwil",
             "en": "Braviary",
@@ -8164,7 +8164,7 @@
         "generation": 5
     },
     {
-        "numero": 629,
+        "number": 629,
         "name": {
             "de": "Skallyk",
             "en": "Vullaby",
@@ -8177,7 +8177,7 @@
         "generation": 5
     },
     {
-        "numero": 630,
+        "number": 630,
         "name": {
             "de": "Grypheldis",
             "en": "Mandibuzz",
@@ -8190,7 +8190,7 @@
         "generation": 5
     },
     {
-        "numero": 631,
+        "number": 631,
         "name": {
             "de": "Furnifraß",
             "en": "Heatmor",
@@ -8203,7 +8203,7 @@
         "generation": 5
     },
     {
-        "numero": 632,
+        "number": 632,
         "name": {
             "de": "Fermicula",
             "en": "Durant",
@@ -8216,7 +8216,7 @@
         "generation": 5
     },
     {
-        "numero": 633,
+        "number": 633,
         "name": {
             "de": "Kapuno",
             "en": "Deino",
@@ -8229,7 +8229,7 @@
         "generation": 5
     },
     {
-        "numero": 634,
+        "number": 634,
         "name": {
             "de": "Duodino",
             "en": "Zweilous",
@@ -8242,7 +8242,7 @@
         "generation": 5
     },
     {
-        "numero": 635,
+        "number": 635,
         "name": {
             "de": "Trikephalo",
             "en": "Hydreigon",
@@ -8255,7 +8255,7 @@
         "generation": 5
     },
     {
-        "numero": 636,
+        "number": 636,
         "name": {
             "de": "Ignivor",
             "en": "Larvesta",
@@ -8268,7 +8268,7 @@
         "generation": 5
     },
     {
-        "numero": 637,
+        "number": 637,
         "name": {
             "de": "Ramoth",
             "en": "Volcarona",
@@ -8281,7 +8281,7 @@
         "generation": 5
     },
     {
-        "numero": 638,
+        "number": 638,
         "name": {
             "de": "Kobalium",
             "en": "Cobalion",
@@ -8294,7 +8294,7 @@
         "generation": 5
     },
     {
-        "numero": 639,
+        "number": 639,
         "name": {
             "de": "Terrakium",
             "en": "Terrakion",
@@ -8307,7 +8307,7 @@
         "generation": 5
     },
     {
-        "numero": 640,
+        "number": 640,
         "name": {
             "de": "Viridium",
             "en": "Virizion",
@@ -8320,7 +8320,7 @@
         "generation": 5
     },
     {
-        "numero": 641,
+        "number": 641,
         "name": {
             "de": "Boreos",
             "en": "Tornadus",
@@ -8333,7 +8333,7 @@
         "generation": 5
     },
     {
-        "numero": 642,
+        "number": 642,
         "name": {
             "de": "Voltolos",
             "en": "Thundurus",
@@ -8346,7 +8346,7 @@
         "generation": 5
     },
     {
-        "numero": 643,
+        "number": 643,
         "name": {
             "de": "Reshiram",
             "en": "Reshiram",
@@ -8359,7 +8359,7 @@
         "generation": 5
     },
     {
-        "numero": 644,
+        "number": 644,
         "name": {
             "de": "Zekrom",
             "en": "Zekrom",
@@ -8372,7 +8372,7 @@
         "generation": 5
     },
     {
-        "numero": 645,
+        "number": 645,
         "name": {
             "de": "Demeteros",
             "en": "Landorus",
@@ -8385,7 +8385,7 @@
         "generation": 5
     },
     {
-        "numero": 646,
+        "number": 646,
         "name": {
             "de": "Kyurem",
             "en": "Kyurem",
@@ -8398,7 +8398,7 @@
         "generation": 5
     },
     {
-        "numero": 647,
+        "number": 647,
         "name": {
             "de": "Keldeo",
             "en": "Keldeo",
@@ -8411,7 +8411,7 @@
         "generation": 5
     },
     {
-        "numero": 648,
+        "number": 648,
         "name": {
             "de": "Meloetta",
             "en": "Meloetta",
@@ -8424,7 +8424,7 @@
         "generation": 5
     },
     {
-        "numero": 649,
+        "number": 649,
         "name": {
             "de": "Genesect",
             "en": "Genesect",
@@ -8437,7 +8437,7 @@
         "generation": 5
     },
     {
-        "numero": 650,
+        "number": 650,
         "name": {
             "de": "Igamaro",
             "en": "Chespin",
@@ -8450,7 +8450,7 @@
         "generation": 6
     },
     {
-        "numero": 651,
+        "number": 651,
         "name": {
             "de": "Igastarnish",
             "en": "Quilladin",
@@ -8463,7 +8463,7 @@
         "generation": 6
     },
     {
-        "numero": 652,
+        "number": 652,
         "name": {
             "de": "Brigaron",
             "en": "Chesnaught",
@@ -8476,7 +8476,7 @@
         "generation": 6
     },
     {
-        "numero": 653,
+        "number": 653,
         "name": {
             "de": "Fynx",
             "en": "Fennekin",
@@ -8489,7 +8489,7 @@
         "generation": 6
     },
     {
-        "numero": 654,
+        "number": 654,
         "name": {
             "de": "Rutena",
             "en": "Braixen",
@@ -8502,7 +8502,7 @@
         "generation": 6
     },
     {
-        "numero": 655,
+        "number": 655,
         "name": {
             "de": "Fennexis",
             "en": "Delphox",
@@ -8515,7 +8515,7 @@
         "generation": 6
     },
     {
-        "numero": 656,
+        "number": 656,
         "name": {
             "de": "Froxy",
             "en": "Froakie",
@@ -8528,7 +8528,7 @@
         "generation": 6
     },
     {
-        "numero": 657,
+        "number": 657,
         "name": {
             "de": "Amphizel",
             "en": "Frogadier",
@@ -8541,7 +8541,7 @@
         "generation": 6
     },
     {
-        "numero": 658,
+        "number": 658,
         "name": {
             "de": "Quajutsu",
             "en": "Greninja",
@@ -8554,7 +8554,7 @@
         "generation": 6
     },
     {
-        "numero": 659,
+        "number": 659,
         "name": {
             "de": "Scoppel",
             "en": "Bunnelby",
@@ -8567,7 +8567,7 @@
         "generation": 6
     },
     {
-        "numero": 660,
+        "number": 660,
         "name": {
             "de": "Grebbit",
             "en": "Diggersby",
@@ -8580,7 +8580,7 @@
         "generation": 6
     },
     {
-        "numero": 661,
+        "number": 661,
         "name": {
             "de": "Dartiri",
             "en": "Fletchling",
@@ -8593,7 +8593,7 @@
         "generation": 6
     },
     {
-        "numero": 662,
+        "number": 662,
         "name": {
             "de": "Dartignis",
             "en": "Fletchinder",
@@ -8606,7 +8606,7 @@
         "generation": 6
     },
     {
-        "numero": 663,
+        "number": 663,
         "name": {
             "de": "Fiaro",
             "en": "Talonflame",
@@ -8619,7 +8619,7 @@
         "generation": 6
     },
     {
-        "numero": 664,
+        "number": 664,
         "name": {
             "de": "Purmel",
             "en": "Scatterbug",
@@ -8632,7 +8632,7 @@
         "generation": 6
     },
     {
-        "numero": 665,
+        "number": 665,
         "name": {
             "de": "Puponcho",
             "en": "Spewpa",
@@ -8645,7 +8645,7 @@
         "generation": 6
     },
     {
-        "numero": 666,
+        "number": 666,
         "name": {
             "de": "Vivillon",
             "en": "Vivillon",
@@ -8658,7 +8658,7 @@
         "generation": 6
     },
     {
-        "numero": 667,
+        "number": 667,
         "name": {
             "de": "Leufeo",
             "en": "Litleo",
@@ -8671,7 +8671,7 @@
         "generation": 6
     },
     {
-        "numero": 668,
+        "number": 668,
         "name": {
             "de": "Pyroleo",
             "en": "Pyroar",
@@ -8684,7 +8684,7 @@
         "generation": 6
     },
     {
-        "numero": 669,
+        "number": 669,
         "name": {
             "de": "Flabébé",
             "en": "Flabebe",
@@ -8697,7 +8697,7 @@
         "generation": 6
     },
     {
-        "numero": 670,
+        "number": 670,
         "name": {
             "de": "Floette",
             "en": "Floette",
@@ -8710,7 +8710,7 @@
         "generation": 6
     },
     {
-        "numero": 671,
+        "number": 671,
         "name": {
             "de": "Florges",
             "en": "Florges",
@@ -8723,7 +8723,7 @@
         "generation": 6
     },
     {
-        "numero": 672,
+        "number": 672,
         "name": {
             "de": "Mähikel",
             "en": "Skiddo",
@@ -8736,7 +8736,7 @@
         "generation": 6
     },
     {
-        "numero": 673,
+        "number": 673,
         "name": {
             "de": "Chevrumm",
             "en": "Gogoat",
@@ -8749,7 +8749,7 @@
         "generation": 6
     },
     {
-        "numero": 674,
+        "number": 674,
         "name": {
             "de": "Pam",
             "en": "Pancham",
@@ -8762,7 +8762,7 @@
         "generation": 6
     },
     {
-        "numero": 675,
+        "number": 675,
         "name": {
             "de": "Pandagro",
             "en": "Pangoro",
@@ -8775,7 +8775,7 @@
         "generation": 6
     },
     {
-        "numero": 676,
+        "number": 676,
         "name": {
             "de": "Coiffwaff",
             "en": "Furfrou",
@@ -8788,7 +8788,7 @@
         "generation": 6
     },
     {
-        "numero": 677,
+        "number": 677,
         "name": {
             "de": "Psiau",
             "en": "Espurr",
@@ -8801,7 +8801,7 @@
         "generation": 6
     },
     {
-        "numero": 678,
+        "number": 678,
         "name": {
             "de": "Psiaugon",
             "en": "Meowstic",
@@ -8814,7 +8814,7 @@
         "generation": 6
     },
     {
-        "numero": 679,
+        "number": 679,
         "name": {
             "de": "Gramokles",
             "en": "Honedge",
@@ -8827,7 +8827,7 @@
         "generation": 6
     },
     {
-        "numero": 680,
+        "number": 680,
         "name": {
             "de": "Duokles",
             "en": "Doublade",
@@ -8840,7 +8840,7 @@
         "generation": 6
     },
     {
-        "numero": 681,
+        "number": 681,
         "name": {
             "de": "Durengard",
             "en": "Aegislash",
@@ -8853,7 +8853,7 @@
         "generation": 6
     },
     {
-        "numero": 682,
+        "number": 682,
         "name": {
             "de": "Parfi",
             "en": "Spritzee",
@@ -8866,7 +8866,7 @@
         "generation": 6
     },
     {
-        "numero": 683,
+        "number": 683,
         "name": {
             "de": "Parfinesse",
             "en": "Aromatisse",
@@ -8879,7 +8879,7 @@
         "generation": 6
     },
     {
-        "numero": 684,
+        "number": 684,
         "name": {
             "de": "Flauschling",
             "en": "Swirlix",
@@ -8892,7 +8892,7 @@
         "generation": 6
     },
     {
-        "numero": 685,
+        "number": 685,
         "name": {
             "de": "Sabbaione",
             "en": "Slurpuff",
@@ -8905,7 +8905,7 @@
         "generation": 6
     },
     {
-        "numero": 686,
+        "number": 686,
         "name": {
             "de": "Iscalar",
             "en": "Inkay",
@@ -8918,7 +8918,7 @@
         "generation": 6
     },
     {
-        "numero": 687,
+        "number": 687,
         "name": {
             "de": "Calamanero",
             "en": "Malamar",
@@ -8931,7 +8931,7 @@
         "generation": 6
     },
     {
-        "numero": 688,
+        "number": 688,
         "name": {
             "de": "Bithora",
             "en": "Binacle",
@@ -8944,7 +8944,7 @@
         "generation": 6
     },
     {
-        "numero": 689,
+        "number": 689,
         "name": {
             "de": "Thanathora",
             "en": "Barbaracle",
@@ -8957,7 +8957,7 @@
         "generation": 6
     },
     {
-        "numero": 690,
+        "number": 690,
         "name": {
             "de": "Algitt",
             "en": "Skrelp",
@@ -8970,7 +8970,7 @@
         "generation": 6
     },
     {
-        "numero": 691,
+        "number": 691,
         "name": {
             "de": "Tandrak",
             "en": "Dragalge",
@@ -8983,7 +8983,7 @@
         "generation": 6
     },
     {
-        "numero": 692,
+        "number": 692,
         "name": {
             "de": "Scampisto",
             "en": "Clauncher",
@@ -8996,7 +8996,7 @@
         "generation": 6
     },
     {
-        "numero": 693,
+        "number": 693,
         "name": {
             "de": "Wummer",
             "en": "Clawitzer",
@@ -9009,7 +9009,7 @@
         "generation": 6
     },
     {
-        "numero": 694,
+        "number": 694,
         "name": {
             "de": "Eguana",
             "en": "Helioptile",
@@ -9022,7 +9022,7 @@
         "generation": 6
     },
     {
-        "numero": 695,
+        "number": 695,
         "name": {
             "de": "Elezard",
             "en": "Heliolisk",
@@ -9035,7 +9035,7 @@
         "generation": 6
     },
     {
-        "numero": 696,
+        "number": 696,
         "name": {
             "de": "Balgoras",
             "en": "Tyrunt",
@@ -9048,7 +9048,7 @@
         "generation": 6
     },
     {
-        "numero": 697,
+        "number": 697,
         "name": {
             "de": "Monargoras",
             "en": "Tyrantrum",
@@ -9061,7 +9061,7 @@
         "generation": 6
     },
     {
-        "numero": 698,
+        "number": 698,
         "name": {
             "de": "Amarino",
             "en": "Amaura",
@@ -9074,7 +9074,7 @@
         "generation": 6
     },
     {
-        "numero": 699,
+        "number": 699,
         "name": {
             "de": "Amagarga",
             "en": "Aurorus",
@@ -9087,7 +9087,7 @@
         "generation": 6
     },
     {
-        "numero": 700,
+        "number": 700,
         "name": {
             "de": "Feelinara",
             "en": "Sylveon",
@@ -9100,7 +9100,7 @@
         "generation": 6
     },
     {
-        "numero": 701,
+        "number": 701,
         "name": {
             "de": "Resladero",
             "en": "Hawlucha",
@@ -9113,7 +9113,7 @@
         "generation": 6
     },
     {
-        "numero": 702,
+        "number": 702,
         "name": {
             "de": "Dedenne",
             "en": "Dedenne",
@@ -9126,7 +9126,7 @@
         "generation": 6
     },
     {
-        "numero": 703,
+        "number": 703,
         "name": {
             "de": "Rocara",
             "en": "Carbink",
@@ -9139,7 +9139,7 @@
         "generation": 6
     },
     {
-        "numero": 704,
+        "number": 704,
         "name": {
             "de": "Viscora",
             "en": "Goomy",
@@ -9152,7 +9152,7 @@
         "generation": 6
     },
     {
-        "numero": 705,
+        "number": 705,
         "name": {
             "de": "Viscargot",
             "en": "Sliggoo",
@@ -9165,7 +9165,7 @@
         "generation": 6
     },
     {
-        "numero": 706,
+        "number": 706,
         "name": {
             "de": "Viscogon",
             "en": "Goodra",
@@ -9178,7 +9178,7 @@
         "generation": 6
     },
     {
-        "numero": 707,
+        "number": 707,
         "name": {
             "de": "Clavion",
             "en": "Klefki",
@@ -9191,7 +9191,7 @@
         "generation": 6
     },
     {
-        "numero": 708,
+        "number": 708,
         "name": {
             "de": "Paragoni",
             "en": "Phantump",
@@ -9204,7 +9204,7 @@
         "generation": 6
     },
     {
-        "numero": 709,
+        "number": 709,
         "name": {
             "de": "Trombork",
             "en": "Trevenant",
@@ -9217,7 +9217,7 @@
         "generation": 6
     },
     {
-        "numero": 710,
+        "number": 710,
         "name": {
             "de": "Irrbis",
             "en": "Pumpkaboo",
@@ -9230,7 +9230,7 @@
         "generation": 6
     },
     {
-        "numero": 711,
+        "number": 711,
         "name": {
             "de": "Pumpdjinn",
             "en": "Gourgeist",
@@ -9243,7 +9243,7 @@
         "generation": 6
     },
     {
-        "numero": 712,
+        "number": 712,
         "name": {
             "de": "Arktip",
             "en": "Bergmite",
@@ -9256,7 +9256,7 @@
         "generation": 6
     },
     {
-        "numero": 713,
+        "number": 713,
         "name": {
             "de": "Arktilas",
             "en": "Avalugg",
@@ -9269,7 +9269,7 @@
         "generation": 6
     },
     {
-        "numero": 714,
+        "number": 714,
         "name": {
             "de": "eF-eM",
             "en": "Noibat",
@@ -9282,7 +9282,7 @@
         "generation": 6
     },
     {
-        "numero": 715,
+        "number": 715,
         "name": {
             "de": "UHaFnir",
             "en": "Noivern",
@@ -9295,7 +9295,7 @@
         "generation": 6
     },
     {
-        "numero": 716,
+        "number": 716,
         "name": {
             "de": "Xerneas",
             "en": "Xerneas",
@@ -9308,7 +9308,7 @@
         "generation": 6
     },
     {
-        "numero": 717,
+        "number": 717,
         "name": {
             "de": "Yveltal",
             "en": "Yveltal",
@@ -9321,7 +9321,7 @@
         "generation": 6
     },
     {
-        "numero": 718,
+        "number": 718,
         "name": {
             "de": "Zygarde",
             "en": "Zygarde",
@@ -9334,7 +9334,7 @@
         "generation": 6
     },
     {
-        "numero": 719,
+        "number": 719,
         "name": {
             "de": "Diancie",
             "en": "Diancie",
@@ -9347,7 +9347,7 @@
         "generation": 6
     },
     {
-        "numero": 720,
+        "number": 720,
         "name": {
             "de": "Hoopa",
             "en": "Hoopa",
@@ -9360,7 +9360,7 @@
         "generation": 6
     },
     {
-        "numero": 721,
+        "number": 721,
         "name": {
             "de": "Volcanion",
             "en": "Volcanion",
@@ -9373,7 +9373,7 @@
         "generation": 6
     },
     {
-        "numero": 722,
+        "number": 722,
         "name": {
             "de": "Bauz",
             "en": "Rowlet",
@@ -9386,7 +9386,7 @@
         "generation": 7
     },
     {
-        "numero": 723,
+        "number": 723,
         "name": {
             "de": "Arboretoss",
             "en": "Dartrix",
@@ -9399,7 +9399,7 @@
         "generation": 7
     },
     {
-        "numero": 724,
+        "number": 724,
         "name": {
             "de": "Silvarro",
             "en": "Decidueye",
@@ -9412,7 +9412,7 @@
         "generation": 7
     },
     {
-        "numero": 725,
+        "number": 725,
         "name": {
             "de": "Flamiau",
             "en": "Litten",
@@ -9425,7 +9425,7 @@
         "generation": 7
     },
     {
-        "numero": 726,
+        "number": 726,
         "name": {
             "de": "Miezunder",
             "en": "Torracat",
@@ -9438,7 +9438,7 @@
         "generation": 7
     },
     {
-        "numero": 727,
+        "number": 727,
         "name": {
             "de": "Fuegro",
             "en": "Incineroar",
@@ -9451,7 +9451,7 @@
         "generation": 7
     },
     {
-        "numero": 728,
+        "number": 728,
         "name": {
             "de": "Robball",
             "en": "Popplio",
@@ -9464,7 +9464,7 @@
         "generation": 7
     },
     {
-        "numero": 729,
+        "number": 729,
         "name": {
             "de": "Marikeck",
             "en": "Brionne",
@@ -9477,7 +9477,7 @@
         "generation": 7
     },
     {
-        "numero": 730,
+        "number": 730,
         "name": {
             "de": "Primarene",
             "en": "Primarina",
@@ -9490,7 +9490,7 @@
         "generation": 7
     },
     {
-        "numero": 731,
+        "number": 731,
         "name": {
             "de": "Peppeck",
             "en": "Pikipek",
@@ -9503,7 +9503,7 @@
         "generation": 7
     },
     {
-        "numero": 732,
+        "number": 732,
         "name": {
             "de": "Trompeck",
             "en": "Trumbeak",
@@ -9516,7 +9516,7 @@
         "generation": 7
     },
     {
-        "numero": 733,
+        "number": 733,
         "name": {
             "de": "Tukanon",
             "en": "Toucannon",
@@ -9529,7 +9529,7 @@
         "generation": 7
     },
     {
-        "numero": 734,
+        "number": 734,
         "name": {
             "de": "Mangunior",
             "en": "Yungoos",
@@ -9542,7 +9542,7 @@
         "generation": 7
     },
     {
-        "numero": 735,
+        "number": 735,
         "name": {
             "de": "Manguspektor",
             "en": "Gumshoos",
@@ -9555,7 +9555,7 @@
         "generation": 7
     },
     {
-        "numero": 736,
+        "number": 736,
         "name": {
             "de": "Mabula",
             "en": "Grubbin",
@@ -9568,7 +9568,7 @@
         "generation": 7
     },
     {
-        "numero": 737,
+        "number": 737,
         "name": {
             "de": "Akkup",
             "en": "Charjabug",
@@ -9581,7 +9581,7 @@
         "generation": 7
     },
     {
-        "numero": 738,
+        "number": 738,
         "name": {
             "de": "Donarion",
             "en": "Vikavolt",
@@ -9594,7 +9594,7 @@
         "generation": 7
     },
     {
-        "numero": 739,
+        "number": 739,
         "name": {
             "de": "Krabbox",
             "en": "Crabrawler",
@@ -9607,7 +9607,7 @@
         "generation": 7
     },
     {
-        "numero": 740,
+        "number": 740,
         "name": {
             "de": "Krawell",
             "en": "Crabominable",
@@ -9620,7 +9620,7 @@
         "generation": 7
     },
     {
-        "numero": 741,
+        "number": 741,
         "name": {
             "de": "Choreogel",
             "en": "Oricorio",
@@ -9633,7 +9633,7 @@
         "generation": 7
     },
     {
-        "numero": 742,
+        "number": 742,
         "name": {
             "de": "Wommel",
             "en": "Cutiefly",
@@ -9646,7 +9646,7 @@
         "generation": 7
     },
     {
-        "numero": 743,
+        "number": 743,
         "name": {
             "de": "Bandelby",
             "en": "Ribombee",
@@ -9659,7 +9659,7 @@
         "generation": 7
     },
     {
-        "numero": 744,
+        "number": 744,
         "name": {
             "de": "Wuffels",
             "en": "Rockruff",
@@ -9672,7 +9672,7 @@
         "generation": 7
     },
     {
-        "numero": 745,
+        "number": 745,
         "name": {
             "de": "Wolwerock",
             "en": "Lycanroc",
@@ -9685,7 +9685,7 @@
         "generation": 7
     },
     {
-        "numero": 746,
+        "number": 746,
         "name": {
             "de": "Lusardin",
             "en": "Wishiwashi",
@@ -9698,7 +9698,7 @@
         "generation": 7
     },
     {
-        "numero": 747,
+        "number": 747,
         "name": {
             "de": "Garstella",
             "en": "Mareanie",
@@ -9711,7 +9711,7 @@
         "generation": 7
     },
     {
-        "numero": 748,
+        "number": 748,
         "name": {
             "de": "Aggrostella",
             "en": "Toxapex",
@@ -9724,7 +9724,7 @@
         "generation": 7
     },
     {
-        "numero": 749,
+        "number": 749,
         "name": {
             "de": "Pampuli",
             "en": "Mudbray",
@@ -9737,7 +9737,7 @@
         "generation": 7
     },
     {
-        "numero": 750,
+        "number": 750,
         "name": {
             "de": "Pampross",
             "en": "Mudsdale",
@@ -9750,7 +9750,7 @@
         "generation": 7
     },
     {
-        "numero": 751,
+        "number": 751,
         "name": {
             "de": "Araqua",
             "en": "Dewpider",
@@ -9763,7 +9763,7 @@
         "generation": 7
     },
     {
-        "numero": 752,
+        "number": 752,
         "name": {
             "de": "Aranestro",
             "en": "Araquanid",
@@ -9776,7 +9776,7 @@
         "generation": 7
     },
     {
-        "numero": 753,
+        "number": 753,
         "name": {
             "de": "Imantis",
             "en": "Fomantis",
@@ -9789,7 +9789,7 @@
         "generation": 7
     },
     {
-        "numero": 754,
+        "number": 754,
         "name": {
             "de": "Mantidea",
             "en": "Lurantis",
@@ -9802,7 +9802,7 @@
         "generation": 7
     },
     {
-        "numero": 755,
+        "number": 755,
         "name": {
             "de": "Bubungus",
             "en": "Morelull",
@@ -9815,7 +9815,7 @@
         "generation": 7
     },
     {
-        "numero": 756,
+        "number": 756,
         "name": {
             "de": "Lamellux",
             "en": "Shiinotic",
@@ -9828,7 +9828,7 @@
         "generation": 7
     },
     {
-        "numero": 757,
+        "number": 757,
         "name": {
             "de": "Molunk",
             "en": "Salandit",
@@ -9841,7 +9841,7 @@
         "generation": 7
     },
     {
-        "numero": 758,
+        "number": 758,
         "name": {
             "de": "Amfira",
             "en": "Salazzle",
@@ -9854,7 +9854,7 @@
         "generation": 7
     },
     {
-        "numero": 759,
+        "number": 759,
         "name": {
             "de": "Velursi",
             "en": "Stufful",
@@ -9867,7 +9867,7 @@
         "generation": 7
     },
     {
-        "numero": 760,
+        "number": 760,
         "name": {
             "de": "Kosturso",
             "en": "Bewear",
@@ -9880,7 +9880,7 @@
         "generation": 7
     },
     {
-        "numero": 761,
+        "number": 761,
         "name": {
             "de": "Frubberl",
             "en": "Bounsweet",
@@ -9893,7 +9893,7 @@
         "generation": 7
     },
     {
-        "numero": 762,
+        "number": 762,
         "name": {
             "de": "Frubaila",
             "en": "Steenee",
@@ -9906,7 +9906,7 @@
         "generation": 7
     },
     {
-        "numero": 763,
+        "number": 763,
         "name": {
             "de": "Fruyal",
             "en": "Tsareena",
@@ -9919,7 +9919,7 @@
         "generation": 7
     },
     {
-        "numero": 764,
+        "number": 764,
         "name": {
             "de": "Curelei",
             "en": "Comfey",
@@ -9932,7 +9932,7 @@
         "generation": 7
     },
     {
-        "numero": 765,
+        "number": 765,
         "name": {
             "de": "Kommandutan",
             "en": "Oranguru",
@@ -9945,7 +9945,7 @@
         "generation": 7
     },
     {
-        "numero": 766,
+        "number": 766,
         "name": {
             "de": "Quartermak",
             "en": "Passimian",
@@ -9958,7 +9958,7 @@
         "generation": 7
     },
     {
-        "numero": 767,
+        "number": 767,
         "name": {
             "de": "Reißlaus",
             "en": "Wimpod",
@@ -9971,7 +9971,7 @@
         "generation": 7
     },
     {
-        "numero": 768,
+        "number": 768,
         "name": {
             "de": "Tectass",
             "en": "Golisopod",
@@ -9984,7 +9984,7 @@
         "generation": 7
     },
     {
-        "numero": 769,
+        "number": 769,
         "name": {
             "de": "Sankabuh",
             "en": "Sandygast",
@@ -9997,7 +9997,7 @@
         "generation": 7
     },
     {
-        "numero": 770,
+        "number": 770,
         "name": {
             "de": "Colossand",
             "en": "Palossand",
@@ -10010,7 +10010,7 @@
         "generation": 7
     },
     {
-        "numero": 771,
+        "number": 771,
         "name": {
             "de": "Gufa",
             "en": "Pyukumuku",
@@ -10023,7 +10023,7 @@
         "generation": 7
     },
     {
-        "numero": 772,
+        "number": 772,
         "name": {
             "de": "Typ:Null",
             "en": "Type: Null",
@@ -10036,7 +10036,7 @@
         "generation": 7
     },
     {
-        "numero": 773,
+        "number": 773,
         "name": {
             "de": "Amigento",
             "en": "Silvally",
@@ -10049,7 +10049,7 @@
         "generation": 7
     },
     {
-        "numero": 774,
+        "number": 774,
         "name": {
             "de": "Meteno",
             "en": "Minior",
@@ -10062,7 +10062,7 @@
         "generation": 7
     },
     {
-        "numero": 775,
+        "number": 775,
         "name": {
             "de": "Koalelu",
             "en": "Komala",
@@ -10075,7 +10075,7 @@
         "generation": 7
     },
     {
-        "numero": 776,
+        "number": 776,
         "name": {
             "de": "Tortunator",
             "en": "Turtonator",
@@ -10088,7 +10088,7 @@
         "generation": 7
     },
     {
-        "numero": 777,
+        "number": 777,
         "name": {
             "de": "Togedemaru",
             "en": "Togedemaru",
@@ -10101,7 +10101,7 @@
         "generation": 7
     },
     {
-        "numero": 778,
+        "number": 778,
         "name": {
             "de": "Mimigma",
             "en": "Mimikyu",
@@ -10114,7 +10114,7 @@
         "generation": 7
     },
     {
-        "numero": 779,
+        "number": 779,
         "name": {
             "de": "Knirfish",
             "en": "Bruxish",
@@ -10127,7 +10127,7 @@
         "generation": 7
     },
     {
-        "numero": 780,
+        "number": 780,
         "name": {
             "de": "Sen-Long",
             "en": "Drampa",
@@ -10140,7 +10140,7 @@
         "generation": 7
     },
     {
-        "numero": 781,
+        "number": 781,
         "name": {
             "de": "Moruda",
             "en": "Dhelmise",
@@ -10153,7 +10153,7 @@
         "generation": 7
     },
     {
-        "numero": 782,
+        "number": 782,
         "name": {
             "de": "Miniras",
             "en": "Jangmo-o",
@@ -10166,7 +10166,7 @@
         "generation": 7
     },
     {
-        "numero": 783,
+        "number": 783,
         "name": {
             "de": "Mediras",
             "en": "Hakamo-o",
@@ -10179,7 +10179,7 @@
         "generation": 7
     },
     {
-        "numero": 784,
+        "number": 784,
         "name": {
             "de": "Grandiras",
             "en": "Kommo-o",
@@ -10192,7 +10192,7 @@
         "generation": 7
     },
     {
-        "numero": 785,
+        "number": 785,
         "name": {
             "de": "Kapu-Riki",
             "en": "Tapu Koko",
@@ -10205,7 +10205,7 @@
         "generation": 7
     },
     {
-        "numero": 786,
+        "number": 786,
         "name": {
             "de": "Kapu-Fala",
             "en": "Tapu Lele",
@@ -10218,7 +10218,7 @@
         "generation": 7
     },
     {
-        "numero": 787,
+        "number": 787,
         "name": {
             "de": "Kapu-Toro",
             "en": "Tapu Bulu",
@@ -10231,7 +10231,7 @@
         "generation": 7
     },
     {
-        "numero": 788,
+        "number": 788,
         "name": {
             "de": "Kapu-Kime",
             "en": "Tapu Fini",
@@ -10244,7 +10244,7 @@
         "generation": 7
     },
     {
-        "numero": 789,
+        "number": 789,
         "name": {
             "de": "Cosmog",
             "en": "Cosmog",
@@ -10257,7 +10257,7 @@
         "generation": 7
     },
     {
-        "numero": 790,
+        "number": 790,
         "name": {
             "de": "Cosmovum",
             "en": "Cosmoem",
@@ -10270,7 +10270,7 @@
         "generation": 7
     },
     {
-        "numero": 791,
+        "number": 791,
         "name": {
             "de": "Solgaleo",
             "en": "Solgaleo",
@@ -10283,7 +10283,7 @@
         "generation": 7
     },
     {
-        "numero": 792,
+        "number": 792,
         "name": {
             "de": "Lunala",
             "en": "Lunala",
@@ -10296,7 +10296,7 @@
         "generation": 7
     },
     {
-        "numero": 793,
+        "number": 793,
         "name": {
             "de": "Anego",
             "en": "Nihilego",
@@ -10309,7 +10309,7 @@
         "generation": 7
     },
     {
-        "numero": 794,
+        "number": 794,
         "name": {
             "de": "Masskito",
             "en": "Buzzwole",
@@ -10322,7 +10322,7 @@
         "generation": 7
     },
     {
-        "numero": 795,
+        "number": 795,
         "name": {
             "de": "Schabelle",
             "en": "Pheromosa",
@@ -10335,7 +10335,7 @@
         "generation": 7
     },
     {
-        "numero": 796,
+        "number": 796,
         "name": {
             "de": "Voltriant",
             "en": "Xurkitree",
@@ -10348,7 +10348,7 @@
         "generation": 7
     },
     {
-        "numero": 797,
+        "number": 797,
         "name": {
             "de": "Kaguron",
             "en": "Celesteela",
@@ -10361,7 +10361,7 @@
         "generation": 7
     },
     {
-        "numero": 798,
+        "number": 798,
         "name": {
             "de": "Katagami",
             "en": "Kartana",
@@ -10374,7 +10374,7 @@
         "generation": 7
     },
     {
-        "numero": 799,
+        "number": 799,
         "name": {
             "de": "Schlingking",
             "en": "Guzzlord",
@@ -10387,7 +10387,7 @@
         "generation": 7
     },
     {
-        "numero": 800,
+        "number": 800,
         "name": {
             "de": "Necrozma",
             "en": "Necrozma",
@@ -10400,7 +10400,7 @@
         "generation": 7
     },
     {
-        "numero": 801,
+        "number": 801,
         "name": {
             "de": "Magearna",
             "en": "Magearna",
@@ -10413,7 +10413,7 @@
         "generation": 7
     },
     {
-        "numero": 802,
+        "number": 802,
         "name": {
             "de": "Marshadow",
             "en": "Marshadow",
@@ -10426,7 +10426,7 @@
         "generation": 7
     },
     {
-        "numero": 803,
+        "number": 803,
         "name": {
             "de": "Venicro",
             "en": "Poipole",
@@ -10439,7 +10439,7 @@
         "generation": 7
     },
     {
-        "numero": 804,
+        "number": 804,
         "name": {
             "de": "Agoyon",
             "en": "Naganadel",
@@ -10452,7 +10452,7 @@
         "generation": 7
     },
     {
-        "numero": 805,
+        "number": 805,
         "name": {
             "de": "Muramura",
             "en": "Stakataka",
@@ -10465,7 +10465,7 @@
         "generation": 7
     },
     {
-        "numero": 806,
+        "number": 806,
         "name": {
             "de": "Kopplosio",
             "en": "Blacephalon",
@@ -10478,7 +10478,7 @@
         "generation": 7
     },
     {
-        "numero": 807,
+        "number": 807,
         "name": {
             "de": "Zeraora",
             "en": "Zeraora",
@@ -10491,7 +10491,7 @@
         "generation": 7
     },
     {
-        "numero": 808,
+        "number": 808,
         "name": {
             "de": "Meltan",
             "en": "Meltan",
@@ -10504,7 +10504,7 @@
         "generation": 7
     },
     {
-        "numero": 809,
+        "number": 809,
         "name": {
             "de": "Melmetal",
             "en": "Melmetal",

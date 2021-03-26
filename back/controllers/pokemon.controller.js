@@ -1,33 +1,43 @@
-const Pokemon = require('../models/pokemon.model.js');
-
+const { Request, Response } = require("express")
+const Pokemon = require('../models/pokemon.model.js')
 
 module.exports = class PokemonController {
+    /**
+     * Get a random pokemon
+     * @param {Request} req 
+     * @param {Response} res 
+     */
+    static async getRandomPkmn(req, res) {
+        try {
+            const a = req.query.generations
+            // @ts-ignore
+            const pokemons = await Pokemon.find({ generation: { $in: req.query.generations ?? [] } })
 
-    create(req, res) {
-        // Validate request
-        if (!req.body.content) {
+            const pokemon = pokemons[Math.floor(Math.random() * pokemons.length)]
+
+            res.send({
+                "data": {
+                    "type": "pokemons",
+                    "id": pokemon.id,
+                    "attributes": {
+                        number: pokemon.number,
+                        name: pokemon.name,
+                        generation: pokemon.generation,
+                    }
+                }
+            })
+        } catch (error) {
             return res.status(400).send({
-                message: "Pokemon content can not be empty"
-            });
+                "errors": [
+                    {
+                        "status": "400",
+                        "source": {},
+                        "title": error?.message,
+                        "detail": error?.message,
+                    }
+                ]
+            })
         }
-
-        // Create a Pokemon
-        const pokemon = new Pokemon({
-            numero: req.body.numero,
-            name: req.body.name,
-            generation: req.body.generation,
-        });
-
-        // Save Pokemon in the database
-        pokemon.save()
-            .then(data => {
-                res.send(data);
-            }).catch(err => {
-                res.status(500).send({
-                    message: err.message || "Some error occurred while creating the HighScore."
-                });
-            });
     }
-
 }
 

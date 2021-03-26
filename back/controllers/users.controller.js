@@ -1,6 +1,6 @@
 const { Request, Response } = require("express")
 const jwt = require('jwt-simple')
-const Joi = require('joi')
+// const Joi = require('joi')
 const UserModel = require("../models/user.model")
 const bcrypt = require('bcrypt')
 
@@ -36,11 +36,11 @@ module.exports = class UsersController {
                         ]
                     })
 
-                const exp = Math.round(Date.now() / 1000) + EXP_SECONDS
+                const exp = Math.floor(Date.now() / 1000) + EXP_SECONDS
 
                 const token = jwt.encode({
                     ...payload,
-                    nbf: Math.round(Date.now() / 1000),
+                    nbf: Math.floor(Date.now() / 1000),
                     exp: exp
                 }, process.env.SECRET_KEY)
 

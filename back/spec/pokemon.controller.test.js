@@ -1,9 +1,9 @@
 const request = require('supertest')
 const app = require('../index')
-const CompanyModel = require('../models/company.model')
-const UserModel = require('../models/user.model')
+const PokemonModel = require('../models/pokemon.model')
 const faker = require('faker')
 const jwt = require('jwt-simple')
+const { populatedb } = require('../utils/populatedb')
 
 describe('Company Controller', () => {
     /** @type {string} Id of the item created */
@@ -11,23 +11,27 @@ describe('Company Controller', () => {
 
     /** @type {string} Token */
     const token = jwt.encode({
-        nbf: Math.round(Date.now() / 1000),
-        exp: Math.round(Date.now() / 1000) + 86400
+        nbf: Math.floor(Date.now() / 1000),
+        exp: Math.floor(Date.now() / 1000) + 86400
     }, process.env.SECRET_KEY)
 
-    const company = {
+    const pokemon = {
         data: {
-            type: "companies",
+            type: "pokemons",
             attributes: {
-                name: faker.company.companyName()
+                name: {
+                    fr: faker.lorem.word()
+                },
+                number: faker.random.number({ min: 1000, max: 2000 }),
+                generation: 1
             }
         }
     }
 
     test('It should post', async (done) => {
         const res = await request(app)
-            .post('/api/companies')
-            .send(company)
+            .post('/api/pokemons')
+            .send(pokemon)
             .set("Content-Type", "application/vnd.api+json")
             .set("Authorization", `Bearer ${token}`)
 
@@ -39,7 +43,7 @@ describe('Company Controller', () => {
 
     test('It should not post', async (done) => {
         const res = await request(app)
-            .post('/api/companies')
+            .post('/api/pokemons')
             .send({ data: {} })
             .set("Content-Type", "application/vnd.api+json")
             .set("Authorization", `Bearer ${token}`)
@@ -50,7 +54,7 @@ describe('Company Controller', () => {
 
     test('It should get data', async (done) => {
         const res = await request(app)
-            .get('/api/companies')
+            .get('/api/pokemons')
             .set("Authorization", `Bearer ${token}`)
 
         expect(res.status).toEqual(200)
@@ -58,9 +62,28 @@ describe('Company Controller', () => {
         done()
     })
 
+    test('It should get random', async (done) => {
+        const res = await request(app)
+            .get('/api/pokemons/random?generations[]=1')
+            .set("Authorization", `Bearer ${token}`)
+
+        expect(res.status).toEqual(200)
+        expect(res.body?.data?.attributes?.generation).toBe(1)
+        done()
+    })
+
+    test('It should not get random', async (done) => {
+        const res = await request(app)
+            .get('/api/pokemons/random')
+            .set("Authorization", `Bearer ${token}`)
+
+        expect(res.status).toEqual(400)
+        done()
+    })
+
     test('It should get by id', async (done) => {
         const res = await request(app)
-            .get(`/api/companies/${id}`)
+            .get(`/api/pokemons/${id}`)
             .set("Authorization", `Bearer ${token}`)
 
         expect(res.status).toEqual(200)
@@ -70,7 +93,7 @@ describe('Company Controller', () => {
 
     test('It should not get by id', async (done) => {
         const res = await request(app)
-            .get(`/api/companies/123`)
+            .get(`/api/pokemons/123`)
             .set("Authorization", `Bearer ${token}`)
 
         expect(res.status).toEqual(404)
@@ -79,8 +102,8 @@ describe('Company Controller', () => {
 
     test('It should patch by id', async (done) => {
         const res = await request(app)
-            .patch(`/api/companies/${id}`)
-            .send({ data: { ...company.data, id } })
+            .patch(`/api/pokemons/${id}`)
+            .send({ data: { ...pokemon.data, id } })
             .set("Content-Type", "application/vnd.api+json")
             .set("Authorization", `Bearer ${token}`)
 
@@ -91,7 +114,7 @@ describe('Company Controller', () => {
 
     test('It should not patch by id', async (done) => {
         const res = await request(app)
-            .patch(`/api/companies/${id}`)
+            .patch(`/api/pokemons/${id}`)
             .send({ data: {} })
             .set("Content-Type", "application/vnd.api+json")
             .set("Authorization", `Bearer ${token}`)
@@ -102,7 +125,7 @@ describe('Company Controller', () => {
 
     test('It should delete by id', async (done) => {
         const res = await request(app)
-            .delete(`/api/companies/${id}`)
+            .delete(`/api/pokemons/${id}`)
             .set("Authorization", `Bearer ${token}`)
 
         expect(res.status).toEqual(204)
@@ -110,7 +133,7 @@ describe('Company Controller', () => {
     })
 
     beforeAll(async () => {
-        await UserModel.deleteMany({})
-        await CompanyModel.deleteMany({})
+        // await populatedb()
+        await PokemonModel.deleteMany({})
     })
 })

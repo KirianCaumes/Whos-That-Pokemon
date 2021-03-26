@@ -1,6 +1,6 @@
 
 import React, { useCallback, useEffect, useState } from "react"
-import { AppProps } from "App"// eslint-disable-line
+import { AppProps } from "app"// eslint-disable-line
 import { useMutation } from "jsonapi-react"
 // @ts-ignore
 import { Columns, Heading, Box } from 'react-bulma-components'
@@ -91,7 +91,7 @@ export default function Login({ signIn, signOut }) {
                                     </div>
                                 </div>
                                 <button
-                                    className={classNames("button", "is-primary",{ "is-loading": status === Status.PENDING })}
+                                    className={classNames("button", "is-primary", { "is-loading": status === Status.PENDING })}
                                     data-test-cypress="submit"
                                     type="submit"
                                 >

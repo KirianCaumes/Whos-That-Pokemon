@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose
 
-const HighScoreSchema = new Schema(
+const HighscoreSchema = new Schema(
     {
-        userId: {
+        user: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
         },
@@ -19,6 +19,6 @@ const HighScoreSchema = new Schema(
     { timestamps: true }
 )
 
-var HighScoreModel = mongoose.model('HighScore', HighScoreSchema)
+var HighscoreModel = mongoose.model('Highscore', HighscoreSchema)
 
-module.exports = HighScoreModel
+module.exports = HighscoreModel

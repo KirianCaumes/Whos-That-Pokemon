@@ -86,20 +86,27 @@ export function makeServer({ environment = "test" } = {}) {
                 }
             })
 
-            this.get("/highscores")
-            this.get("/highscores/:id")
-            this.post("/highscores")
-            this.delete("/highscores/:id")
+            // this.get("/highscores")
+            // this.get("/highscores/:id")
+            // this.post("/highscores")
+            // this.delete("/highscores/:id")
 
-            this.get("/pokemons")
-            this.get("/pokemons/random", (schema, request) => {
-                // console.log(request.queryParams)
-                // @ts-ignore
-                return schema.pokemons.findBy({})
-            })
-            this.get("/pokemons/:id")
-            this.post("/pokemons")
-            this.delete("/pokemons/:id")
+            this.passthrough("/highscores")
+            this.passthrough("/highscores/:id")
+
+            // this.get("/pokemons")
+            // this.get("/pokemons/random", (schema, request) => {
+            //     // console.log(request.queryParams)
+            //     // @ts-ignore
+            //     return schema.pokemons.findBy({})
+            // })
+            // this.get("/pokemons/:id")
+            // this.post("/pokemons")
+            // this.delete("/pokemons/:id")
+
+            this.passthrough("/pokemons")
+            this.passthrough("/pokemons/:id")
+            this.passthrough("/pokemons/random")
         }
     })
 
