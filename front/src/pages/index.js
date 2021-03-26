@@ -287,7 +287,7 @@ export default function Index({ example }) {
                         <h1 className="title has-text-centered">
                             <span>
                                 {isAnswerDisplayed ?
-                                    <><span data-test-id="answer-text">{pokemon?.name?.[settings?.lang]}</span> - N°<span>{pokemon.number}</span></> :
+                                    <><span data-test-id="answer-text" data-test-cypress="pkmn-answer">{pokemon?.name?.[settings?.lang]}</span> - N°<span>{pokemon.number}</span></> :
                                     <>&nbsp;</>
                                 }
                             </span>
@@ -323,6 +323,7 @@ export default function Index({ example }) {
                                             value={value}
                                             onChange={ev => setValue(ev.target.value)}
                                             data-test-id="input-pkmn-name"
+                                            data-test-cypress="pkmn-name"
                                             disabled={status === Status.PENDING}
                                             ref={inputRef}
                                         />
@@ -336,6 +337,7 @@ export default function Index({ example }) {
                                         className="button is-success is-outlined"
                                         onClick={() => check()}
                                         data-test-id="check-button"
+                                        data-test-cypress="check"
                                         disabled={status === Status.PENDING}
                                     >
                                         <span className="icon">
@@ -349,6 +351,7 @@ export default function Index({ example }) {
                                 className="button is-primary"
                                 onClick={() => refresh()}
                                 disabled={status === Status.PENDING}
+                                data-test-cypress="refresh"
                             >
                                 <span className="icon">
                                     <FontAwesomeIcon icon={faSync} />
@@ -360,6 +363,7 @@ export default function Index({ example }) {
                                 onClick={() => showResponse()}
                                 disabled={status === Status.PENDING || isGameRunning}
                                 data-test-id="answer-button"
+                                data-test-cypress="answer"
                             >
                                 <span className="icon">
                                     <FontAwesomeIcon icon={faEye} />
@@ -370,6 +374,7 @@ export default function Index({ example }) {
                                 className="button is-link"
                                 onClick={() => setModalSettings(currentModalSettings => ({ ...currentModalSettings, isDisplay: true }))}
                                 disabled={status === Status.PENDING || isGameRunning}
+                                data-test-cypress="settings"
                             >
                                 <span className="icon">
                                     <FontAwesomeIcon icon={faCog} />
@@ -382,6 +387,7 @@ export default function Index({ example }) {
                                     onClick={() => play()}
                                     data-test-id="play-timer-button"
                                     disabled={status === Status.PENDING}
+                                    data-test-cypress="play"
                                 >
                                     <span className="icon">
                                         <FontAwesomeIcon icon={faPlay} />
@@ -393,6 +399,7 @@ export default function Index({ example }) {
                                     onClick={() => stop()}
                                     data-test-id="close-timer-button"
                                     disabled={status === Status.PENDING}
+                                    data-test-cypress="stop"
                                 >
                                     <span className="icon">
                                         <FontAwesomeIcon icon={faStop} />
@@ -404,6 +411,7 @@ export default function Index({ example }) {
                                 className="button is-light"
                                 onClick={() => showHighScore()}
                                 disabled={status === Status.PENDING || isGameRunning}
+                                data-test-cypress="scores"
                             >
                                 <span className="icon">
                                     <FontAwesomeIcon icon={faStar} />

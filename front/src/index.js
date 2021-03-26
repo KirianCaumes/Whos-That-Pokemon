@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'styles/index.scss'
-import App from 'App'
+import App from 'app'
 import { Provider } from 'react-redux'
 import store from 'redux/store'
 import { makeServer } from './server'
 import { ApiClient, ApiProvider } from 'jsonapi-react'
 
+console.log(process.env)
 if (process.env.NODE_ENV === 'development')
     makeServer({ environment: process.env.NODE_ENV })
 

@@ -68,6 +68,7 @@ function Modal({ isDisplay, title, children, onClickYes, onClickNo, isFormDisabl
                                 "button is-success",
                                 { "is-loading": status === Status.PENDING }
                             )}
+                            data-test-cypress="save"
                             type={isFormDisable ? 'button' : 'submit'}
                             onClick={() => isFormDisable ? onSubmit() : null}
                             disabled={status === Status.PENDING}

@@ -1,6 +1,6 @@
 
 import React, { useCallback, useEffect, useState } from "react"
-import { AppProps } from "App"// eslint-disable-line
+import { AppProps } from "app"// eslint-disable-line
 import { useMutation } from "jsonapi-react"
 // @ts-ignore
 import { Columns, Heading, Box } from 'react-bulma-components'
