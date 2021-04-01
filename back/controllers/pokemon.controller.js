@@ -9,9 +9,8 @@ module.exports = class PokemonController {
      */
     static async getRandomPkmn(req, res) {
         try {
-            const a = req.query.generations
             // @ts-ignore
-            const pokemons = await Pokemon.find({ generation: { $in: req.query.generations ?? [] } })
+            const pokemons = await Pokemon.find({ generation: { $in: req.query.generations ?? [1] } })
 
             const pokemon = pokemons[Math.floor(Math.random() * pokemons.length)]
 

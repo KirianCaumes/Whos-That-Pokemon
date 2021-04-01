@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const API = require('json-api')
+const path = require("path")
 const UsersController = require('./controllers/users.controller')
 const checkToken = require('./middleware/token.middleware')
 const PokemonController = require('./controllers/pokemon.controller')
@@ -11,7 +12,11 @@ const HighScoreController = require('./controllers/highscore.controller')
 require('dotenv').config({ path: process.env.NODE_ENV === "test" ? ".env.test" : undefined })
 
 const app = express()
-const port = 5000
+/** @type {object} Express config */
+const CONFIG = {
+    PORT: process.env.PORT || 5000,
+    HOST: process.env.HOST || '127.0.0.1'
+}
 
 /** Setup app */
 app.use(cors())
@@ -48,7 +53,7 @@ const expressStrategy = new API.httpStrategies.Express(
 )
 
 // Render the docs at /
-app.get("/", expressStrategy.docsRequest)
+app.get("/doc", expressStrategy.docsRequest)
 
 //Users 
 app.post("/api/users/login", UsersController.loginUsers)
@@ -76,9 +81,13 @@ app.delete("/api/:type(users|pokemons|highscores)/:id/relationships/:relationshi
 /** Connect to db */
 mongoose.connect(process.env.DB_URI, { user: process.env.DB_USER, pass: process.env.DB_PASSWORD, useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false, bufferCommands: true })
 
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, '/client')))
+app.get('*', (req, res) => res.sendFile(path.join(__dirname + '/client/index.html')))
+
 if (process.env.NODE_ENV !== "test")
-    app.listen(port, () =>
-        console.log(`Example app listening at http://localhost:${port}`)
+    app.listen(CONFIG.PORT, () =>
+        console.log(`App listening at http://${CONFIG.HOST}:${CONFIG.PORT}`)
     )
 
 module.exports = app

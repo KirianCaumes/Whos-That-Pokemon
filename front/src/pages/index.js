@@ -13,6 +13,7 @@ import { IResult, StringMap } from 'jsonapi-react'// eslint-disable-line
 import usePrevious from "utils/hooks/usePrevious"
 import Modal from "components/commons/modal"
 import { ModalType } from "components/commons/modal"// eslint-disable-line
+import { history } from "utils/history"
 
 /** @type {Pokemon} */
 const EMPTY_PKMN = { number: null, name: { fr: null }, generation: 1 }
@@ -25,7 +26,7 @@ const MESSAGES = {
     empty: "You must write something!"
 }
 
-const TIME_MAX = 10
+const TIME_MAX = 60
 
 const LANGS = {
     de: "German",
@@ -141,6 +142,8 @@ export default function Index({ example }) {
             console.error(error)
             if (error.title !== "Aborted")
                 setStatus(Status.REJECTED)
+            if (error.status === "401")
+                history.push("/login")
         }
     }, [client, inputRef, settings])
 
@@ -201,6 +204,8 @@ export default function Index({ example }) {
                     console.error(error)
                     if (error.title !== "Aborted")
                         setStatus(Status.REJECTED)
+                    if (error.status === "401")
+                        history.push("/login")
                 }
                 setModal({ isDisplay: false })
                 refresh()
@@ -240,6 +245,8 @@ export default function Index({ example }) {
             console.error(error)
             if (error.title !== "Aborted")
                 setStatus(Status.REJECTED)
+            if (error.status === "401")
+                history.push("/login")
         }
     }, [client])
 
@@ -283,6 +290,10 @@ export default function Index({ example }) {
             getHighScoresRequest.current?.abort()
         }
     }, [])
+
+    useEffect(() => {
+        console.log(settings)
+    }, [settings])
 
 
     return (
@@ -463,12 +474,13 @@ export default function Index({ example }) {
                                 type="checkbox"
                                 defaultChecked={settings.generations.indexOf(GENERATIONS[x]) > -1}
                                 onChange={ev => setSettings(currentSettings => {
+                                    const data = JSON.parse(JSON.stringify(currentSettings))
                                     if (ev.target.checked) {
-                                        currentSettings.generations.push(GENERATIONS[x])
+                                        data.generations.push(GENERATIONS[x])
                                     } else {
-                                        currentSettings.generations = currentSettings.generations.filter(y => y !== GENERATIONS[x])
+                                        data.generations = data.generations.filter(y => y !== GENERATIONS[x])
                                     }
-                                    return { ...currentSettings }
+                                    return data
                                 })}
                             />
                             Gen. {GENERATIONS[x]}
@@ -489,9 +501,10 @@ export default function Index({ example }) {
                                 name="lang"
                                 defaultChecked={settings.lang === x}
                                 onChange={ev => {
-                                    setSettings(settings => {
-                                        settings.lang = x
-                                        return { ...settings }
+                                    setSettings(currentSettings => {
+                                        const data = JSON.parse(JSON.stringify(currentSettings))
+                                        data.lang = x
+                                        return data
                                     })
                                 }}
                             />

@@ -76,7 +76,7 @@ module.exports = class UsersController {
             //  Now find the user by their username address
             const userDb = await UserModel.findOne({
                 username: req.body?.data?.attributes?.username,
-            });
+            })
 
             if (userDb)
                 return res.status(401).send({
@@ -88,22 +88,22 @@ module.exports = class UsersController {
                             "detail": "User already exist",
                         }
                     ]
-                });
+                })
 
             // salt password
-            const salt = await bcrypt.genSalt(10);
+            const salt = await bcrypt.genSalt(10)
 
             const hash_password = await bcrypt.hash(
                 req.body?.data?.attributes?.password,
                 salt
-            );
+            )
             // Insert the new user if they do not exist yet
             const user = new UserModel({
                 username: req.body?.data?.attributes?.username,
                 password: hash_password
-            });
+            })
 
-            await user.save();
+            await user.save()
 
             const token = jwt.encode({
                 user: {
@@ -121,7 +121,7 @@ module.exports = class UsersController {
                         token: token,
                     }
                 }
-            });
+            })
         } catch (error) {
             return res.status(401).send({
                 "errors": [
