@@ -516,7 +516,7 @@ export default function Index({ example }) {
                 title="Highscores"
                 validateText="Ok"
             >
-                <table className="table is-fullwidth">
+                <table className="table is-fullwidth" data-test-cypress="scores-array">
                     <thead>
                         <tr>
                             <th>Position</th>
