@@ -2,6 +2,8 @@
 
 It's Pikachu!
 
+Play [here](https://who-s-that-pokemon.herokuapp.com/)!
+
 ## Credit
 
 Made by:
