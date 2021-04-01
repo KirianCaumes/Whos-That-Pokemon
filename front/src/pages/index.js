@@ -291,11 +291,6 @@ export default function Index({ example }) {
         }
     }, [])
 
-    useEffect(() => {
-        console.log(settings)
-    }, [settings])
-
-
     return (
         <>
             <main className="app-index game-board">
